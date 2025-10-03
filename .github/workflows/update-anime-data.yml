@@ -1,0 +1,62 @@
+name: Update Anime Data
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC (6 PM PST / 7 PM PDT)
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch and update anime data
+        id: update
+        env:
+          CRUNCHYROLL_USERNAME: ${{ secrets.CRUNCHYROLL_USERNAME }}
+          CRUNCHYROLL_PASSWORD: ${{ secrets.CRUNCHYROLL_PASSWORD }}
+        run: |
+          python update_anime_data.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code frontend/public/anime.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add frontend/public/anime.json data_change_logs/
+          git commit -m "Update anime data - Added: ${{ steps.update.outputs.added }}, Removed: ${{ steps.update.outputs.removed }}, Status changes: ${{ steps.update.outputs.status_changes }}"
+          git push
+
+      - name: No changes detected
+        if: steps.git-check.outputs.changed != 'true'
+        run: |
+          echo "No changes detected in anime data"
+
+      - name: Upload change logs as artifact
+        if: steps.git-check.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: change-logs
+          path: data_change_logs/
+          retention-days: 90

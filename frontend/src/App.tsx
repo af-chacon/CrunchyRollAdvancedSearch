@@ -49,8 +49,10 @@ function App() {
       ? `?v=${Date.now()}`
       : `?v=${import.meta.env.VITE_BUILD_TIME || Date.now()}`
 
+    const animeJsonUrl = `${import.meta.env.BASE_URL}anime.json`
+
     // Fetch anime data
-    fetch(`/anime.json${cacheBuster}`)
+    fetch(`${animeJsonUrl}${cacheBuster}`)
       .then(res => res.json())
       .then(data => {
         setAnime(data)
@@ -62,7 +64,7 @@ function App() {
       })
 
     // Fetch file timestamp
-    fetch(`/anime.json`, { method: 'HEAD' })
+    fetch(animeJsonUrl, { method: 'HEAD' })
       .then(res => {
         const lastModified = res.headers.get('Last-Modified')
         if (lastModified) {

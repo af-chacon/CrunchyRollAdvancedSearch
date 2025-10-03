@@ -15,10 +15,38 @@ export interface Anime {
   content_descriptors: string[]
   tenant_categories: string[]
   poster: string | null
+  anilist?: {
+    anilist_id: number
+    mal_id: number
+    matched_title: string
+    match_score: number
+    start_date: { year: number; month: number; day: number }
+    end_date: { year: number; month: number; day: number }
+    format: string
+    status: string
+    episodes: number
+    duration: number
+    genres: string[]
+    tags: string[]
+    popularity: number
+    average_score: number
+    mean_score: number
+    studios: string[]
+    season: string
+    season_year: number
+  }
 }
 
+export type FilterValue = 'include' | 'exclude' | 'default'
+
 export interface FilterState {
-  mature: boolean
-  dubbed: boolean
-  subbed: boolean
+  mature: FilterValue
+  dubbed: FilterValue
+  subbed: FilterValue
+  minRating: number
+  contentDescriptors: Record<string, FilterValue>
+  genres: Record<string, FilterValue>
+  tags: Record<string, FilterValue>
+  status: Record<string, FilterValue>
+  studios: Record<string, FilterValue>
 }

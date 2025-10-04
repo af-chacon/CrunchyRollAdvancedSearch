@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
 """
-Fetch anime data from Crunchyroll, enhance with AniList data, and track changes.
-Designed to run in GitHub Actions with credentials from secrets.
+Fetch anime data from Crunchyroll (anonymous API), enhance with AniList data, and track changes.
+Designed to run in GitHub Actions.
 """
 
 import json
 import os
 import sys
 from datetime import datetime
-from typing import Dict, List, Set
+from typing import Dict, List
 import requests
 
 
-def authenticate_crunchyroll(username: str, password: str) -> str:
-    """Authenticate with Crunchyroll and return access token."""
-    print("Authenticating with Crunchyroll...")
+def get_anonymous_token() -> str:
+    """Get an anonymous access token from Crunchyroll."""
+    print("Getting anonymous access token from Crunchyroll...")
 
-    # Crunchyroll authentication endpoint
+    # Crunchyroll's public OAuth client credentials for anonymous access
+    auth_header = "Basic Y3Jfd2ViOg=="
+
     auth_url = "https://www.crunchyroll.com/auth/v1/token"
 
     headers = {
-        "Authorization": "Basic aHJobzlxM2F3dnNrMjJ1LXRzNWE6cHROOURteXRBU2Z6QjZvbTVTMzGJzb04WVZEaHdCR",
-        "Content-Type": "application/x-www-form-urlencoded"
+        "Authorization": auth_header,
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
     }
 
     data = {
-        "username": username,
-        "password": password,
-        "grant_type": "password",
-        "scope": "offline_access"
+        "grant_type": "client_id"
     }
 
     try:
@@ -42,11 +42,11 @@ def authenticate_crunchyroll(username: str, password: str) -> str:
             print("ERROR: No access token in response")
             sys.exit(1)
 
-        print("✓ Authentication successful")
+        print("✓ Got anonymous access token")
         return access_token
 
     except requests.exceptions.RequestException as e:
-        print(f"ERROR: Authentication failed: {e}")
+        print(f"ERROR: Failed to get token: {e}")
         sys.exit(1)
 
 
@@ -54,31 +54,35 @@ def fetch_crunchyroll_anime(access_token: str) -> List[Dict]:
     """Fetch all anime series from Crunchyroll."""
     print("Fetching anime catalog from Crunchyroll...")
 
-    # This is the browse endpoint for all series
     url = "https://www.crunchyroll.com/content/v2/discover/browse"
 
     headers = {
         "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/json"
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0",
+        "Accept": "application/json, text/plain, */*"
     }
 
     params = {
-        "n": 1000,  # Max items per page
+        "n": 2000,  # Fetch up to 2000 items
         "type": "series",
-        "locale": "en-US"
+        "locale": "en-US",
+        "sort_by": "alphabetical",
+        "ratings": "true",
+        "preferred_audio_language": "ja-JP"
     }
 
     all_items = []
 
     try:
-        response = requests.get(url, headers=headers, params=params, timeout=30)
+        response = requests.get(url, headers=headers, params=params, timeout=60)
         response.raise_for_status()
 
         data = response.json()
         items = data.get("data", [])
+        total = data.get("total", 0)
         all_items.extend(items)
 
-        print(f"✓ Fetched {len(all_items)} anime series")
+        print(f"✓ Fetched {len(all_items)} of {total} anime series")
         return all_items
 
     except requests.exceptions.RequestException as e:
@@ -112,9 +116,12 @@ def compare_datasets(old_data: List[Dict], new_data: List[Dict]) -> Dict:
         old_item = old_ids[anime_id]
         new_item = new_ids[anime_id]
 
-        # Check for AniList status changes
-        old_status = old_item.get('anilist', {}).get('status', '')
-        new_status = new_item.get('anilist', {}).get('status', '')
+        # Check for AniList status changes (only if anilist data exists)
+        old_anilist = old_item.get('anilist') if old_item.get('anilist') is not None else {}
+        new_anilist = new_item.get('anilist') if new_item.get('anilist') is not None else {}
+
+        old_status = old_anilist.get('status', '')
+        new_status = new_anilist.get('status', '')
 
         if old_status and new_status and old_status != new_status:
             status_changes.append({
@@ -176,14 +183,6 @@ def print_summary(diff_summary: Dict):
 
 def main():
     """Main execution function."""
-    # Get credentials from environment variables (set by GitHub Secrets)
-    username = os.getenv('CRUNCHYROLL_USERNAME')
-    password = os.getenv('CRUNCHYROLL_PASSWORD')
-
-    if not username or not password:
-        print("ERROR: CRUNCHYROLL_USERNAME and CRUNCHYROLL_PASSWORD must be set")
-        sys.exit(1)
-
     # Paths
     anime_json_path = 'frontend/public/anime.json'
     log_dir = 'data_change_logs'
@@ -193,13 +192,9 @@ def main():
     old_data = load_previous_data(anime_json_path)
     print(f"✓ Loaded {len(old_data)} previous entries")
 
-    # Authenticate and fetch new data
-    access_token = authenticate_crunchyroll(username, password)
+    # Get anonymous token and fetch new data
+    access_token = get_anonymous_token()
     new_raw_data = fetch_crunchyroll_anime(access_token)
-
-    # TODO: Here we would enhance with AniList data
-    # For now, we'll use the raw Crunchyroll data
-    # In production, you'd call enhance_anime.py here
 
     # Compare datasets
     print("\nComparing datasets...")

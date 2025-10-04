@@ -5,8 +5,8 @@ This project includes automated daily updates of the anime catalog from Crunchyr
 ## How It Works
 
 1. **Daily Schedule**: The GitHub Action runs every day at 2 AM UTC (6 PM PST / 7 PM PDT)
-2. **Authentication**: Uses Crunchyroll credentials stored in GitHub Secrets
-3. **Data Fetch**: Fetches the latest anime catalog from Crunchyroll's API
+2. **Anonymous Access**: Uses Crunchyroll's public anonymous API (no login required!)
+3. **Data Fetch**: Fetches the latest anime catalog from Crunchyroll's browse API
 4. **Change Tracking**: Compares with previous data and logs:
    - New anime added
    - Anime removed
@@ -16,19 +16,7 @@ This project includes automated daily updates of the anime catalog from Crunchyr
 
 ## Setup Instructions
 
-### 1. Add GitHub Secrets
-
-Go to your repository settings → Secrets and variables → Actions → New repository secret
-
-Add two secrets:
-
-- **Name**: `CRUNCHYROLL_USERNAME`
-  - **Value**: Your Crunchyroll email/username
-
-- **Name**: `CRUNCHYROLL_PASSWORD`
-  - **Value**: Your Crunchyroll password
-
-### 2. Enable Workflow
+### Enable Workflow
 
 The workflow file is located at `.github/workflows/update-anime-data.yml`
 
@@ -36,7 +24,9 @@ It's enabled by default and will run:
 - Automatically every day at 2 AM UTC
 - Manually from the Actions tab (click "Run workflow")
 
-### 3. Monitor Updates
+**No credentials required!** The script uses Crunchyroll's anonymous public API.
+
+### Monitor Updates
 
 **View Change Logs:**
 - Change logs are saved to `data_change_logs/` directory
@@ -59,13 +49,6 @@ Update anime data - Added: 5, Removed: 2, Status changes: 3
 ```
 
 ## Maintenance
-
-### Token Expiration
-
-If authentication fails:
-1. Check the workflow run logs in the Actions tab
-2. You may need to update the credentials in GitHub Secrets
-3. Crunchyroll passwords typically last much longer than API tokens
 
 ### Manual Run
 
@@ -97,17 +80,22 @@ Change logs are stored as JSON and can be analyzed to determine optimal update f
 Example log structure:
 ```json
 {
-  "timestamp": "2025-10-03T02:00:00",
+  "timestamp": "2025-10-04T13:38:41",
   "summary": {
-    "total_old": 1234,
-    "total_new": 1237,
-    "added_count": 5,
-    "removed_count": 2,
-    "status_changes_count": 3
+    "total_old": 1909,
+    "total_new": 1919,
+    "added_count": 10,
+    "removed_count": 0,
+    "status_changes_count": 0
   },
-  "added": [...],
-  "removed": [...],
-  "status_changes": [...]
+  "added": [
+    {
+      "id": "GW4HM7WQ5",
+      "title": "May I Ask for One Final Thing?"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
 }
 ```
 
@@ -116,19 +104,34 @@ After a few weeks, review the logs to see:
 - Whether daily updates are necessary
 - Optimal update frequency for your needs
 
+## Local Testing
+
+You can test the update script locally:
+
+```bash
+python update_anime_data.py
+```
+
+This will:
+1. Get an anonymous token from Crunchyroll
+2. Fetch the current anime catalog
+3. Compare with your existing data
+4. Save a change log
+5. Update `frontend/public/anime.json`
+
 ## Troubleshooting
-
-**Workflow fails with authentication error:**
-- Verify credentials in GitHub Secrets are correct
-- Try logging into Crunchyroll manually with the same credentials
-- Check if Crunchyroll has rate limits or security measures
-
-**No changes detected but you expect changes:**
-- The Crunchyroll API may have rate limiting
-- Check the workflow logs for any errors
-- Try running the update script locally first
 
 **Workflow doesn't trigger:**
 - Ensure the workflow file has no syntax errors
 - Check that GitHub Actions are enabled for your repository
 - Verify the cron schedule is correct (uses UTC timezone)
+
+**API rate limiting:**
+- Crunchyroll may rate limit anonymous requests
+- The script includes reasonable timeouts
+- Daily updates should be well within limits
+
+**No changes detected but you expect changes:**
+- Crunchyroll may not have updated their catalog
+- Check the workflow logs for any errors
+- Try running the update script locally first

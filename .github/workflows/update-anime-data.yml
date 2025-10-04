@@ -28,9 +28,6 @@ jobs:
 
       - name: Fetch and update anime data
         id: update
-        env:
-          CRUNCHYROLL_USERNAME: ${{ secrets.CRUNCHYROLL_USERNAME }}
-          CRUNCHYROLL_PASSWORD: ${{ secrets.CRUNCHYROLL_PASSWORD }}
         run: |
           python update_anime_data.py
 

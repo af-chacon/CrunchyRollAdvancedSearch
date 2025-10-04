@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-04T13:38:41.035341",
+  "summary": {
+    "total_old": 1909,
+    "total_new": 1919,
+    "added_count": 10,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GW4HM7WQ5",
+      "title": "May I Ask for One Final Thing?"
+    },
+    {
+      "id": "GT00362195",
+      "title": "Shabake"
+    },
+    {
+      "id": "GT00364756",
+      "title": "My Friend's Little Sister Has It In for Me!"
+    },
+    {
+      "id": "GT00362007",
+      "title": "Inexpressive Kashiwada and Expressive Oota"
+    },
+    {
+      "id": "GT00364667",
+      "title": "Touring After the Apocalypse"
+    },
+    {
+      "id": "GT00364918",
+      "title": "The Banished Court Magician Aims to Become the Strongest"
+    },
+    {
+      "id": "GT00365233",
+      "title": "My Awkward Senpai"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00362279",
+      "title": "This Monster Wants to Eat Me"
+    },
+    {
+      "id": "GT00364840",
+      "title": "Pass the Monster Meat, Milady!"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

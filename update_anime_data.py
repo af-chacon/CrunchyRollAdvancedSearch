@@ -7,8 +7,10 @@ Designed to run in GitHub Actions.
 import json
 import os
 import sys
+import time
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Optional
+from difflib import SequenceMatcher
 import requests
 
 
@@ -50,6 +52,174 @@ def get_anonymous_token() -> str:
         sys.exit(1)
 
 
+def similarity(a: str, b: str) -> float:
+    """Calculate similarity between two strings."""
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+
+def get_anilist_data_batch(titles: List[str]) -> Dict[str, Optional[Dict]]:
+    """Query AniList API for multiple anime in a single request."""
+    query_parts = []
+    for i, title in enumerate(titles):
+        alias = f"anime{i}"
+        safe_title = title.replace('"', '\\"')
+        query_parts.append(f'''
+        {alias}: Page(page: 1, perPage: 3) {{
+          media(search: "{safe_title}", type: ANIME, sort: SEARCH_MATCH) {{
+            id
+            idMal
+            title {{
+              romaji
+              english
+              native
+            }}
+            startDate {{
+              year
+              month
+              day
+            }}
+            endDate {{
+              year
+              month
+              day
+            }}
+            format
+            status
+            episodes
+            duration
+            genres
+            tags {{
+              name
+              rank
+              isMediaSpoiler
+            }}
+            popularity
+            averageScore
+            meanScore
+            studios {{
+              nodes {{
+                name
+                isAnimationStudio
+              }}
+            }}
+            season
+            seasonYear
+          }}
+        }}
+        ''')
+
+    query = "query {\n" + "\n".join(query_parts) + "\n}"
+    results = {}
+
+    try:
+        response = requests.post(
+            'https://graphql.anilist.co',
+            json={'query': query},
+            timeout=30
+        )
+
+        if response.status_code == 200:
+            data = response.json().get('data', {})
+
+            for i, title in enumerate(titles):
+                alias = f"anime{i}"
+                media_list = data.get(alias, {}).get('media', [])
+
+                if not media_list:
+                    results[title] = None
+                    continue
+
+                # Find best match using fuzzy matching
+                best_match = None
+                best_score = 0.0
+
+                for media in media_list:
+                    anime_titles = [
+                        media.get('title', {}).get('romaji'),
+                        media.get('title', {}).get('english'),
+                        media.get('title', {}).get('native')
+                    ]
+
+                    for anime_title in anime_titles:
+                        if anime_title:
+                            score = similarity(title, anime_title)
+                            if score > best_score:
+                                best_score = score
+                                best_match = media
+
+                # Only accept matches with similarity > 0.6
+                if best_match and best_score > 0.6:
+                    # Extract non-spoiler tags with rank >= 60
+                    tags = best_match.get('tags', []) or []
+                    filtered_tags = [
+                        tag['name'] for tag in tags
+                        if not tag.get('isMediaSpoiler', False) and tag.get('rank', 0) >= 60
+                    ]
+
+                    # Get animation studios only
+                    studios = best_match.get('studios', {}).get('nodes', []) or []
+                    animation_studios = [
+                        studio['name'] for studio in studios
+                        if studio.get('isAnimationStudio', False)
+                    ]
+
+                    matched_title = (
+                        best_match.get('title', {}).get('english') or
+                        best_match.get('title', {}).get('romaji')
+                    )
+
+                    results[title] = {
+                        'anilist_id': best_match.get('id'),
+                        'mal_id': best_match.get('idMal'),
+                        'matched_title': matched_title,
+                        'match_score': round(best_score, 3),
+                        'start_date': best_match.get('startDate'),
+                        'end_date': best_match.get('endDate'),
+                        'format': best_match.get('format'),
+                        'status': best_match.get('status'),
+                        'episodes': best_match.get('episodes'),
+                        'duration': best_match.get('duration'),
+                        'genres': best_match.get('genres', []) or [],
+                        'tags': filtered_tags,
+                        'popularity': best_match.get('popularity'),
+                        'average_score': best_match.get('averageScore'),
+                        'mean_score': best_match.get('meanScore'),
+                        'studios': animation_studios,
+                        'season': best_match.get('season'),
+                        'season_year': best_match.get('seasonYear'),
+                    }
+                else:
+                    results[title] = None
+
+        elif response.status_code == 429:
+            print("  Rate limited, waiting 60s...")
+            time.sleep(60)
+            return get_anilist_data_batch(titles)
+        else:
+            print(f"  API error: {response.status_code}")
+            return {title: None for title in titles}
+
+    except Exception as e:
+        print(f"  Error fetching batch: {e}")
+        return {title: None for title in titles}
+
+    return results
+
+
+def validate_crunchyroll_format(item: Dict) -> bool:
+    """Validate that a Crunchyroll item has the expected format."""
+    required_fields = ['id', 'title', 'type', 'description']
+    return all(field in item for field in required_fields)
+
+
+def validate_anilist_format(item: Dict) -> bool:
+    """Validate that an AniList item has the expected format."""
+    if not item:
+        return True  # None is acceptable for no match
+    required_fields = ['anilist_id', 'matched_title', 'match_score']
+    return all(field in item for field in required_fields)
+
+
 def fetch_crunchyroll_anime(access_token: str) -> List[Dict]:
     """Fetch all anime series from Crunchyroll."""
     print("Fetching anime catalog from Crunchyroll...")
@@ -81,6 +251,13 @@ def fetch_crunchyroll_anime(access_token: str) -> List[Dict]:
         items = data.get("data", [])
         total = data.get("total", 0)
         all_items.extend(items)
+
+        # Validate format of first item
+        if all_items and not validate_crunchyroll_format(all_items[0]):
+            print("ERROR: Crunchyroll API format has changed!")
+            print(f"Expected fields: id, title, type, description")
+            print(f"Received fields: {list(all_items[0].keys())}")
+            sys.exit(1)
 
         print(f"✓ Fetched {len(all_items)} of {total} anime series")
         return all_items
@@ -181,6 +358,54 @@ def print_summary(diff_summary: Dict):
     print("="*60 + "\n")
 
 
+def enhance_with_anilist(anime_data: List[Dict], batch_size: int = 10) -> tuple[int, int]:
+    """Enhance anime data with AniList information."""
+    print("\nEnhancing with AniList data...")
+
+    all_results = {}
+    total_batches = (len(anime_data) + batch_size - 1) // batch_size
+
+    for i in range(0, len(anime_data), batch_size):
+        batch = anime_data[i:i + batch_size]
+        titles = [item['title'] for item in batch]
+        batch_num = i // batch_size + 1
+
+        print(f"  Batch {batch_num}/{total_batches} ({len(titles)} titles)...")
+        batch_results = get_anilist_data_batch(titles)
+        all_results.update(batch_results)
+
+        # Validate format of first non-None result
+        if i == 0:
+            first_valid_result = next((v for v in batch_results.values() if v is not None), None)
+            if first_valid_result and not validate_anilist_format(first_valid_result):
+                print("ERROR: AniList API format has changed!")
+                print(f"Expected fields: anilist_id, matched_title, match_score")
+                print(f"Received fields: {list(first_valid_result.keys())}")
+                sys.exit(1)
+
+        # Rate limiting between batches
+        if i + batch_size < len(anime_data):
+            time.sleep(1.5)  # Be nice to the API
+
+    # Enhance the anime data
+    enhanced_count = 0
+    not_found_count = 0
+
+    for anime in anime_data:
+        title = anime['title']
+        anilist_data = all_results.get(title)
+
+        if anilist_data:
+            anime['anilist'] = anilist_data
+            enhanced_count += 1
+        else:
+            anime['anilist'] = None
+            not_found_count += 1
+
+    print(f"✓ Enhanced {enhanced_count} entries, {not_found_count} not found")
+    return enhanced_count, not_found_count
+
+
 def main():
     """Main execution function."""
     # Paths
@@ -195,6 +420,9 @@ def main():
     # Get anonymous token and fetch new data
     access_token = get_anonymous_token()
     new_raw_data = fetch_crunchyroll_anime(access_token)
+
+    # Enhance new data with AniList
+    enhanced_count, not_found_count = enhance_with_anilist(new_raw_data)
 
     # Compare datasets
     print("\nComparing datasets...")
@@ -218,6 +446,8 @@ def main():
             f.write(f"added={log_data['summary']['added_count']}\n")
             f.write(f"removed={log_data['summary']['removed_count']}\n")
             f.write(f"status_changes={log_data['summary']['status_changes_count']}\n")
+            f.write(f"enhanced={enhanced_count}\n")
+            f.write(f"not_found={not_found_count}\n")
 
 
 if __name__ == '__main__':

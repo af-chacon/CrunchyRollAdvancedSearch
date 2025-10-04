@@ -194,7 +194,9 @@ This showcases how AI can be used as a powerful development tool while maintaini
 
 ## 📄 License
 
-This project is open source and available for personal use. The anime data belongs to Crunchyroll and AniList respectively.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Note**: The anime data used by this application is owned by Crunchyroll and AniList respectively and is subject to their respective terms of service.
 
 ## 🙏 Acknowledgments
 

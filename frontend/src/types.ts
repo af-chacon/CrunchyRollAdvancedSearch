@@ -2,19 +2,35 @@ export interface Anime {
   id: string
   title: string
   description: string
-  rating: string
-  total_ratings: number
-  episode_count: number
-  season_count: number
-  series_launch_year: number
-  is_mature: boolean
-  is_dubbed: boolean
-  is_subbed: boolean
-  audio_locales: string[]
-  subtitle_locales: string[]
-  content_descriptors: string[]
-  tenant_categories: string[]
-  poster: string | null
+  rating?: {
+    average: string
+    total: number
+    '1s': { displayed: string; percentage: number; unit: string }
+    '2s': { displayed: string; percentage: number; unit: string }
+    '3s': { displayed: string; percentage: number; unit: string }
+    '4s': { displayed: string; percentage: number; unit: string }
+    '5s': { displayed: string; percentage: number; unit: string }
+  }
+  series_metadata?: {
+    episode_count: number
+    season_count: number
+    series_launch_year: number
+    is_mature: boolean
+    is_dubbed: boolean
+    is_subbed: boolean
+    audio_locales: string[]
+    subtitle_locales: string[]
+    content_descriptors: string[]
+    tenant_categories: string[]
+  }
+  images?: {
+    poster_tall?: Array<Array<{
+      height: number
+      source: string
+      type: string
+      width: number
+    }>>
+  }
   anilist?: {
     anilist_id: number
     mal_id: number

@@ -11,6 +11,17 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
   const [tagsExpanded, setTagsExpanded] = useState(false)
   const crunchyrollUrl = `https://www.crunchyroll.com/series/${anime.id}`
 
+  // Extract poster URL from images.poster_tall array (use 480x720 size)
+  const getPosterUrl = () => {
+    const posterTall = anime.images?.poster_tall?.[0]
+    if (!posterTall || posterTall.length === 0) return null
+    // Try to find 480x720, or fallback to any available size
+    const preferred = posterTall.find(img => img.width === 480 && img.height === 720)
+    return preferred?.source || posterTall[posterTall.length - 1]?.source || null
+  }
+
+  const posterUrl = getPosterUrl()
+
   const handleTagClick = (tag: string, e: React.MouseEvent) => {
     e.preventDefault()
     e.stopPropagation()
@@ -53,9 +64,9 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
   return (
     <div className="anime-card">
       <a href={crunchyrollUrl} target="_blank" rel="noopener noreferrer" className="anime-card-link">
-        {anime.poster && (
+        {posterUrl && (
           <img
-            src={anime.poster}
+            src={posterUrl}
             alt={anime.title}
             className="anime-poster"
             loading="lazy"
@@ -72,8 +83,8 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
         <div className="anime-meta-container">
           <div className="anime-meta crunchyroll">
             <span className="meta-source">Crunchyroll:</span>
-            <span className="rating">⭐ {anime.rating}</span>
-            <span className="year">📺 {anime.series_launch_year}</span>
+            <span className="rating">⭐ {anime.rating?.average || 'N/A'}</span>
+            <span className="year">📺 {anime.series_metadata?.series_launch_year || 'N/A'}</span>
           </div>
           {anime.anilist && (
             <div className="anime-meta anilist">
@@ -88,26 +99,26 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
           )}
         </div>
         <div className="anime-episodes">
-          <span>{anime.episode_count} eps</span>
+          <span>{anime.series_metadata?.episode_count || 0} eps</span>
         </div>
         <p className="description">{anime.description}</p>
         <div className="tags">
-          {anime.is_mature && (
+          {anime.series_metadata?.is_mature && (
             <span className="tag mature clickable" onClick={handleMatureClick}>
               Mature
             </span>
           )}
-          {anime.is_dubbed && (
+          {anime.series_metadata?.is_dubbed && (
             <span className="tag clickable" onClick={handleDubbedClick}>
               Dubbed
             </span>
           )}
-          {anime.is_subbed && (
+          {anime.series_metadata?.is_subbed && (
             <span className="tag clickable" onClick={handleSubbedClick}>
               Subbed
             </span>
           )}
-          {anime.content_descriptors?.map(desc => (
+          {anime.series_metadata?.content_descriptors?.map(desc => (
             <span
               key={desc}
               className="tag descriptor clickable"

@@ -92,7 +92,7 @@ export function FilterControls({
   }, [anime])
 
   const getCountForContentDescriptor = useMemo(() => (descriptor: string) => {
-    return anime.filter(item => item.content_descriptors?.includes(descriptor)).length
+    return anime.filter(item => item.series_metadata?.content_descriptors?.includes(descriptor)).length
   }, [anime])
 
   const handleContentDescriptorChange = (descriptor: string, value: FilterValue) => {

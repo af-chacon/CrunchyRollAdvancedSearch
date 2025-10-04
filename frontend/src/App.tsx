@@ -86,7 +86,7 @@ function App() {
 
   const availableContentDescriptors = Array.from(
     new Set(
-      anime.flatMap(item => item.content_descriptors || [])
+      anime.flatMap(item => item.series_metadata?.content_descriptors || [])
     )
   ).sort()
 
@@ -114,23 +114,23 @@ function App() {
 
     // Tri-state filter logic: default = any, include = must have, exclude = must not have
     const matchesMature = filter.mature === 'default' ||
-                         (filter.mature === 'include' && item.is_mature) ||
-                         (filter.mature === 'exclude' && !item.is_mature)
+                         (filter.mature === 'include' && item.series_metadata?.is_mature) ||
+                         (filter.mature === 'exclude' && !item.series_metadata?.is_mature)
 
     const matchesDubbed = filter.dubbed === 'default' ||
-                         (filter.dubbed === 'include' && item.is_dubbed) ||
-                         (filter.dubbed === 'exclude' && !item.is_dubbed)
+                         (filter.dubbed === 'include' && item.series_metadata?.is_dubbed) ||
+                         (filter.dubbed === 'exclude' && !item.series_metadata?.is_dubbed)
 
     const matchesSubbed = filter.subbed === 'default' ||
-                         (filter.subbed === 'include' && item.is_subbed) ||
-                         (filter.subbed === 'exclude' && !item.is_subbed)
+                         (filter.subbed === 'include' && item.series_metadata?.is_subbed) ||
+                         (filter.subbed === 'exclude' && !item.series_metadata?.is_subbed)
 
-    const matchesRating = parseFloat(item.rating) >= filter.minRating
+    const matchesRating = parseFloat(item.rating?.average || '0') >= filter.minRating
 
     // Content descriptor filters
     const matchesContentDescriptors = Object.entries(filter.contentDescriptors).every(([descriptor, filterValue]) => {
       if (filterValue === 'default') return true
-      const hasDescriptor = item.content_descriptors.includes(descriptor)
+      const hasDescriptor = item.series_metadata?.content_descriptors?.includes(descriptor) || false
       if (filterValue === 'include') return hasDescriptor
       if (filterValue === 'exclude') return !hasDescriptor
       return true

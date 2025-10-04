@@ -170,12 +170,36 @@ pip install requests
 python update_anime_data.py
 ```
 
+## 🤖 Built with AI
+
+This project was developed primarily using **Claude Code** (Anthropic's Claude AI) and **Playwright MCP** (Model Context Protocol).
+
+### Development Process
+
+- **AI-Powered Development**: Most of the code, architecture, and features were created through conversations with Claude Code
+- **Playwright MCP**: Used for browser automation and testing during development
+- **Iterative Refinement**: UI/UX improvements were guided by real-time testing and feedback
+- **Human-AI Collaboration**: Project direction and decisions made collaboratively
+
+### What Claude Built
+
+- Complete React/TypeScript frontend with tri-state filtering system
+- Extensible component architecture that auto-updates with new data
+- Python scripts for data fetching and AniList enhancement
+- GitHub Actions workflows for automated updates and deployment
+- Comprehensive documentation and contribution guidelines
+- UI/UX design with responsive layouts and dark theme
+
+This showcases how AI can be used as a powerful development tool while maintaining high code quality and following best practices.
+
 ## 📄 License
 
 This project is open source and available for personal use. The anime data belongs to Crunchyroll and AniList respectively.
 
 ## 🙏 Acknowledgments
 
+- **Anthropic Claude** for AI-assisted development
+- **Playwright MCP** for browser automation tooling
 - **Crunchyroll** for the anime catalog API
 - **AniList** for comprehensive anime metadata
 - **GitHub Pages** for free hosting

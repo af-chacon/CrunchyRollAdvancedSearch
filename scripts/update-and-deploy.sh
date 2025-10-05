@@ -27,7 +27,16 @@ git checkout -b "$BRANCH_NAME"
 
 # Run the update script
 log "Running update script..."
-python3 update_anime_data.py
+# Capture Python output and redirect to both log and stdout
+python3 update_anime_data.py 2>&1 | while IFS= read -r line; do
+    echo "$line" | tee -a "$LOG_FILE"
+done
+
+# Check if Python script succeeded
+if [ ${PIPESTATUS[0]} -ne 0 ]; then
+    log "ERROR: update_anime_data.py failed"
+    exit 1
+fi
 
 # Check if there are changes
 if ! git diff --quiet frontend/public/anime.json; then

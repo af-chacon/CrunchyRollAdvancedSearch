@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix --max-warnings=0",
+    "lint:report": "eslint . --max-warnings=0 --format=json --output-file=eslint-report.json && echo 'Report saved to eslint-report.json'",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },

@@ -19,7 +19,7 @@ cd "$REPO_DIR" || exit 1
 # Ensure we're on main and up to date
 log "Updating local repository..."
 git checkout main
-git pull origin main
+git pull --ff-only origin main
 
 # Create new branch for updates
 log "Creating branch: $BRANCH_NAME"
@@ -87,7 +87,7 @@ EOF
 
         # Return to main and pull the merged changes
         git checkout main
-        git pull origin main
+        git pull --ff-only origin main
     else
         log "ERROR: Could not extract PR number"
         exit 1

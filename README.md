@@ -176,10 +176,10 @@ npm run build
 
 ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r scripts/python/requirements.txt
 
 # Run update script (includes Crunchyroll + AniList enhancement)
-python update_anime_data.py
+python scripts/python/update_anime_data.py
 ```
 
 ### Code Quality Checks

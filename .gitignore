@@ -1,21 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-*.egg-info/
-.pytest_cache/
-
 # Logs
 *.log
-data_change_logs/
 
 # Environment
 .env
-.venv
 
 # IDE
 .vscode/
@@ -29,11 +16,3 @@ Thumbs.db
 
 # Playwright MCP screenshots
 .playwright-mcp/
-
-# ESLint reports
-frontend/eslint-report.json
-
-# Test files
-test_*.py
-test_*.json
-.vscode/

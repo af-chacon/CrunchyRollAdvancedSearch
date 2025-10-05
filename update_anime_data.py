@@ -405,6 +405,7 @@ def print_summary(diff_summary: Dict):
 def enhance_with_anilist(anime_data: List[Dict], batch_size: int = 10) -> tuple[int, int]:
     """Enhance anime data with AniList information."""
     print("\nEnhancing with AniList data...")
+    print(f"Total anime entries to enhance: {len(anime_data)}")
 
     all_results = {}
     total_batches = (len(anime_data) + batch_size - 1) // batch_size
@@ -414,9 +415,14 @@ def enhance_with_anilist(anime_data: List[Dict], batch_size: int = 10) -> tuple[
         titles = [item['title'] for item in batch]
         batch_num = i // batch_size + 1
 
-        print(f"  Batch {batch_num}/{total_batches} ({len(titles)} titles)...")
+        progress_pct = (batch_num / total_batches) * 100
+        print(f"  Batch {batch_num}/{total_batches} ({progress_pct:.1f}% complete) - Processing {len(titles)} titles...")
         batch_results = get_anilist_data_batch(titles)
         all_results.update(batch_results)
+
+        # Log some successful matches from this batch
+        matches_in_batch = sum(1 for v in batch_results.values() if v is not None)
+        print(f"    Found {matches_in_batch}/{len(titles)} AniList matches in this batch")
 
         # Validate format of first non-None result
         if i == 0:
@@ -452,24 +458,33 @@ def enhance_with_anilist(anime_data: List[Dict], batch_size: int = 10) -> tuple[
 
 def main():
     """Main execution function."""
+    print("="*70)
+    print("CRUNCHYROLL ANIME DATA UPDATE SCRIPT")
+    print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("="*70)
+
     # Paths
     anime_json_path = 'frontend/public/anime.json'
     log_dir = 'data_change_logs'
 
     # Load previous data
-    print("Loading previous anime data...")
+    print("\n[1/6] Loading previous anime data...")
     old_data = load_previous_data(anime_json_path)
     print(f"✓ Loaded {len(old_data)} previous entries")
 
     # Get anonymous token and fetch new data
+    print("\n[2/6] Getting anonymous access token...")
     access_token = get_anonymous_token()
+
+    print("\n[3/6] Fetching anime catalog from Crunchyroll...")
     new_raw_data = fetch_crunchyroll_anime(access_token)
 
     # Enhance new data with AniList
+    print("\n[4/6] Enhancing data with AniList metadata...")
     enhanced_count, not_found_count = enhance_with_anilist(new_raw_data)
 
     # Compare datasets
-    print("\nComparing datasets...")
+    print("\n[5/6] Comparing datasets and generating change log...")
     diff = compare_datasets(old_data, new_raw_data)
 
     # Save change log
@@ -479,10 +494,14 @@ def main():
     print_summary(log_data['summary'])
 
     # Save new data
-    print(f"Saving new data to {anime_json_path}...")
+    print(f"[6/6] Saving new data to {anime_json_path}...")
     with open(anime_json_path, 'w', encoding='utf-8') as f:
         json.dump(new_raw_data, f, indent=2, ensure_ascii=False)
     print("✓ Data saved successfully")
+
+    print("\n" + "="*70)
+    print(f"UPDATE COMPLETED at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("="*70)
 
     # Set GitHub Actions output for use in commit message
     if os.getenv('GITHUB_OUTPUT'):

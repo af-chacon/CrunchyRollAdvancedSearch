@@ -7,22 +7,32 @@ __pycache__/
 env/
 venv/
 *.egg-info/
+.pytest_cache/
 
-# Local data files
-output.txt
-*.backup
+# Logs
+*.log
+data_change_logs/
 
-# Change logs are tracked
-# data_change_logs/
+# Environment
+.env
+.venv
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.log
-*.tmp
+# Playwright MCP screenshots
+.playwright-mcp/
+
+# ESLint reports
+frontend/eslint-report.json
+
+# Test files
+test_*.py
+test_*.json

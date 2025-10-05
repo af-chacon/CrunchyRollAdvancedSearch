@@ -61,7 +61,8 @@ Visit the live application: [https://af-chacon.github.io/CrunchyRollAdvancedSear
 - **Styling**: Custom CSS with dark theme
 - **Data Sources**: Crunchyroll API + AniList GraphQL API
 - **Deployment**: GitHub Pages
-- **Automation**: GitHub Actions for daily updates
+- **Automation**: Systemd timers + GitHub Actions
+- **Code Quality**: ESLint + SonarJS (strict mode)
 
 ## 📖 How to Use
 
@@ -101,8 +102,10 @@ The `main` branch is protected:
 - All changes must go through **pull requests**
 - Pull requests must be from **forks** (not branches)
 - Only **squash merges** are permitted
+- **ESLint must pass** (strict mode, zero warnings tolerated)
+- Commits must have **verified signatures**
 
-This keeps the commit history clean and ensures all changes are reviewed.
+This keeps the commit history clean and ensures all changes are reviewed and meet quality standards.
 
 ## 📁 Project Structure
 
@@ -123,11 +126,14 @@ This keeps the commit history clean and ensures all changes are reviewed.
 
 ## 🔄 Automated Updates
 
-The anime catalog updates automatically every day at 2 AM UTC:
+The anime catalog updates automatically every day at 1:00 AM EDT via systemd timer:
 
 - Fetches latest data from Crunchyroll
+- Enhances with AniList metadata using fuzzy matching
+- Validates API format changes (fails safely)
+- Creates pull requests automatically
+- Auto-merges after validation
 - Tracks additions, removals, and changes
-- Auto-commits and triggers redeployment
 - Maintains change logs for analysis
 
 See [DATA_UPDATE_SETUP.md](DATA_UPDATE_SETUP.md) for details.
@@ -164,10 +170,25 @@ npm run build
 
 ```bash
 # Install Python dependencies
-pip install requests
+pip install -r requirements.txt
 
-# Run update script
+# Run update script (includes Crunchyroll + AniList enhancement)
 python update_anime_data.py
+```
+
+### Code Quality Checks
+
+```bash
+cd frontend
+
+# Run linter
+npm run lint
+
+# Auto-fix issues
+npm run lint:fix
+
+# Generate detailed report
+npm run lint:report
 ```
 
 ## 🤖 Built with AI

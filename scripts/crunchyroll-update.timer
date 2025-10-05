@@ -1,0 +1,15 @@
+[Unit]
+Description=Daily Crunchyroll Anime Data Update Timer
+Requires=crunchyroll-update.service
+
+[Timer]
+# Run daily at 1:00 AM
+OnCalendar=daily
+OnCalendar=*-*-* 01:00:00
+Persistent=true
+
+# Run 5 minutes after boot if missed
+OnBootSec=5min
+
+[Install]
+WantedBy=timers.target

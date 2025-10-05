@@ -1,0 +1,24 @@
+[Unit]
+Description=Crunchyroll Anime Data Update Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=aedis
+Group=aedis
+WorkingDirectory=/home/aedis/source/CrunchyRollAdvancedSearch
+ExecStart=/home/aedis/source/CrunchyRollAdvancedSearch/scripts/update-and-deploy.sh
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+Environment="HOME=/home/aedis"
+
+# Security settings
+PrivateTmp=yes
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target

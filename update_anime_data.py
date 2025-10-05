@@ -14,8 +14,8 @@ from difflib import SequenceMatcher
 import requests
 
 
-def get_anonymous_token() -> str:
-    """Get an anonymous access token from Crunchyroll."""
+def get_anonymous_token(max_retries: int = 3) -> str:
+    """Get an anonymous access token from Crunchyroll with retry logic."""
     print("Getting anonymous access token from Crunchyroll...")
 
     # Crunchyroll's public OAuth client credentials for anonymous access
@@ -43,23 +43,49 @@ def get_anonymous_token() -> str:
         "grant_type": "client_id"
     }
 
-    try:
-        response = requests.post(auth_url, headers=headers, data=data, timeout=30)
-        response.raise_for_status()
+    for attempt in range(max_retries):
+        try:
+            # Add delay between retries (exponential backoff)
+            if attempt > 0:
+                delay = 2 ** attempt  # 2, 4, 8 seconds
+                print(f"Retry attempt {attempt + 1}/{max_retries} after {delay}s delay...")
+                time.sleep(delay)
 
-        token_data = response.json()
-        access_token = token_data.get("access_token")
+            response = requests.post(auth_url, headers=headers, data=data, timeout=30)
+            response.raise_for_status()
 
-        if not access_token:
-            print("ERROR: No access token in response")
-            sys.exit(1)
+            token_data = response.json()
+            access_token = token_data.get("access_token")
 
-        print("✓ Got anonymous access token")
-        return access_token
+            if not access_token:
+                print("ERROR: No access token in response")
+                continue
 
-    except requests.exceptions.RequestException as e:
-        print(f"ERROR: Failed to get token: {e}")
-        sys.exit(1)
+            print("✓ Got anonymous access token")
+            return access_token
+
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 403:
+                print(f"WARNING: 403 Forbidden (attempt {attempt + 1}/{max_retries})")
+                print("This may indicate that Crunchyroll is blocking automated requests from this IP")
+                if attempt == max_retries - 1:
+                    print("\nERROR: Crunchyroll API is blocking requests after multiple retries.")
+                    print("This is common with GitHub Actions. Consider:")
+                    print("  1. Running the script manually and committing the data")
+                    print("  2. Using a different hosting service for automation")
+                    print("  3. Setting up a proxy or VPN")
+                    sys.exit(1)
+            else:
+                print(f"ERROR: HTTP {e.response.status_code}: {e}")
+                if attempt == max_retries - 1:
+                    sys.exit(1)
+        except requests.exceptions.RequestException as e:
+            print(f"ERROR: Request failed: {e}")
+            if attempt == max_retries - 1:
+                sys.exit(1)
+
+    print("ERROR: Failed to get token after all retries")
+    sys.exit(1)
 
 
 def similarity(a: str, b: str) -> float:

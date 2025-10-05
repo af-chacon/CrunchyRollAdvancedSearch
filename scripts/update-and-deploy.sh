@@ -28,7 +28,7 @@ git checkout -b "$BRANCH_NAME"
 # Run the update script
 log "Running update script..."
 # Capture Python output and redirect to both log and stdout
-python3 update_anime_data.py 2>&1 | while IFS= read -r line; do
+python3 scripts/python/update_anime_data.py 2>&1 | while IFS= read -r line; do
     echo "$line" | tee -a "$LOG_FILE"
 done
 

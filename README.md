@@ -118,9 +118,15 @@ This keeps the commit history clean and ensures all changes are reviewed and mee
 │   │   └── App.css        # Styles
 │   └── public/
 │       └── anime.json     # Anime catalog data
-├── update_anime_data.py   # Daily update script
-├── enhance_anime.py       # AniList data enhancement
-├── .github/workflows/     # GitHub Actions
+├── scripts/
+│   ├── python/            # Python automation scripts
+│   │   ├── update_anime_data.py  # Daily update script
+│   │   ├── enhance_anime.py      # AniList enhancement
+│   │   └── requirements.txt      # Python dependencies
+│   ├── update-and-deploy.sh      # Systemd automation
+│   ├── crunchyroll-update.service
+│   └── crunchyroll-update.timer
+├── .github/workflows/     # GitHub Actions (deploy, lint, update)
 └── data_change_logs/      # Change tracking logs
 ```
 

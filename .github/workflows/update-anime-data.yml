@@ -24,12 +24,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r scripts/python/requirements.txt
 
       - name: Fetch and update anime data
         id: update
         run: |
-          python update_anime_data.py
+          python scripts/python/update_anime_data.py
 
       - name: Check for changes
         id: git-check

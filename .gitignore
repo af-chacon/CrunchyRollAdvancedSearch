@@ -36,3 +36,4 @@ frontend/eslint-report.json
 # Test files
 test_*.py
 test_*.json
+.vscode/

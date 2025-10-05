@@ -1,9 +1,10 @@
 name: Update Anime Data
 
 on:
-  schedule:
-    # Run daily at 2 AM UTC (6 PM PST / 7 PM PDT)
-    - cron: '0 2 * * *'
+  # schedule:
+  #   # Run daily at 2 AM UTC (6 PM PST / 7 PM PDT)
+  #   # Disabled due to Crunchyroll blocking GitHub Actions IPs
+  #   - cron: '0 2 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:

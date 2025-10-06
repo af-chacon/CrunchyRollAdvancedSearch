@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-10-06T00:10:37.789107",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1925,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "GXJHM3GZJ",
+      "title": "Alma-chan Wants to Be a Family!"
+    },
+    {
+      "id": "GT00365079",
+      "title": "Hands off: Sawaranaide Kotesashi-kun"
+    },
+    {
+      "id": "GT00364479",
+      "title": "Dad is a hero, Mom is a spirit, I'm a reincarnator"
+    },
+    {
+      "id": "G79H23ZJ9",
+      "title": "Mechanical Marie"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "G5PHNM9P0",
+      "title": "WITCH WATCH",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

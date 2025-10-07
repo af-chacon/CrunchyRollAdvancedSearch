@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-10-07T00:09:04.652572",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1930,
+    "added_count": 5,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G0XHWM1JP",
+      "title": "My Status as an Assassin Obviously Exceeds the Hero's"
+    },
+    {
+      "id": "G9VHN9QGG",
+      "title": "Plus-sized Misadventures in Love!"
+    },
+    {
+      "id": "GT00361926",
+      "title": "A Mangaka’s Weirdly Wonderful Workplace"
+    },
+    {
+      "id": "GT00365105",
+      "title": "Gintama: Mr. Ginpachi's Zany Class"
+    },
+    {
+      "id": "GT00354409",
+      "title": "T00354409"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-10-09T00:08:31.427266",
+  "summary": {
+    "total_old": 1932,
+    "total_new": 1933,
+    "added_count": 2,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GG5H5XQZQ",
+      "title": "The Dark History of the Reincarnated Villainess"
+    },
+    {
+      "id": "GMTE00192533",
+      "title": "Sin The Movie"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00354409",
+      "title": "T00354409"
+    }
+  ],
+  "status_changes": []
+}

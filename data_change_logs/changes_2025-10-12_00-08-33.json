@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-12T00:08:33.575949",
+  "summary": {
+    "total_old": 1933,
+    "total_new": 1934,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

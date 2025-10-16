@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-16T00:09:25.698271",
+  "summary": {
+    "total_old": 1936,
+    "total_new": 1935,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYVN38JP6",
+      "title": "BONJOUR♪Sweet Love Patisserie"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

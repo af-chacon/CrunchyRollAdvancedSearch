@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-10-21T00:24:25.845955",
+  "summary": {
+    "total_old": 1935,
+    "total_new": 1930,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GR19G2W26",
+      "title": "Seiren"
+    },
+    {
+      "id": "GRMEKVG8Y",
+      "title": "Claymore"
+    },
+    {
+      "id": "GRGGVZ0DR",
+      "title": "Servant x Service"
+    },
+    {
+      "id": "GYJQ2WVD6",
+      "title": "WWW.WAGNARIA!!"
+    },
+    {
+      "id": "G649GP1JY",
+      "title": "Blast of Tempest"
+    }
+  ],
+  "status_changes": []
+}

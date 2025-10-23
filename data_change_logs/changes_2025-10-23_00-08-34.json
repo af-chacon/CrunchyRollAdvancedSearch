@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-23T00:08:34.736636",
+  "summary": {
+    "total_old": 1929,
+    "total_new": 1920,
+    "added_count": 0,
+    "removed_count": 9,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GDKHZEJ9G",
+      "title": "Pani Poni Dash!"
+    },
+    {
+      "id": "GR8DM280R",
+      "title": "Between the Sky and Sea"
+    },
+    {
+      "id": "G68DM2316",
+      "title": "Run with the Wind"
+    },
+    {
+      "id": "GRZJXWD36",
+      "title": "Mr. TONEGAWA Middle Management Blues"
+    },
+    {
+      "id": "GYNVQZK8R",
+      "title": "We Rent Tsukumogami"
+    },
+    {
+      "id": "G6K53VGGY",
+      "title": "Parasyte -the maxim-"
+    },
+    {
+      "id": "G649D0KPY",
+      "title": "Endride"
+    },
+    {
+      "id": "GRMG1EP8R",
+      "title": "Poco's Udon World"
+    },
+    {
+      "id": "GVDHX09WV",
+      "title": "Handa-kun"
+    }
+  ],
+  "status_changes": []
+}

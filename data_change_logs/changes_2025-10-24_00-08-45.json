@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-24T00:08:45.746791",
+  "summary": {
+    "total_old": 1920,
+    "total_new": 1919,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRK5ZZGW6",
+      "title": "Sasami Magical Girls Club"
+    }
+  ],
+  "status_changes": []
+}

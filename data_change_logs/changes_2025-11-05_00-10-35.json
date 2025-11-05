@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-05T00:10:35.981241",
+  "summary": {
+    "total_old": 1919,
+    "total_new": 1920,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GMTE00258378",
+      "title": "Another World"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-13T01:08:02.367847",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1922,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GMTE00335490",
+      "title": "SPY x FAMILY CODE: White"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GYW4MG9G6",
+      "title": "Rascal Does Not Dream Series",
+      "old_status": "FINISHED",
+      "new_status": "NOT_YET_RELEASED"
+    }
+  ]
+}

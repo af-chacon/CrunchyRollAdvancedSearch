@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-11-16T00:08:17.177511",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1924,
+    "added_count": 3,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00354838",
+      "title": "TOUGEN ANKI"
+    },
+    {
+      "id": "GMTE00355226",
+      "title": "Fuuto PI: The Portrait of Kamen Rider Skull"
+    },
+    {
+      "id": "GMTE00335490",
+      "title": "SPY x FAMILY CODE: White"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GYW4MG9G6",
+      "title": "Rascal Does Not Dream Series",
+      "old_status": "FINISHED",
+      "new_status": "NOT_YET_RELEASED"
+    }
+  ]
+}

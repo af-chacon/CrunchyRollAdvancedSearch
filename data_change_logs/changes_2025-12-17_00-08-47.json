@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-12-17T00:08:47.089321",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1923,
+    "added_count": 2,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "G6E5K32QY",
+      "title": "Shiratori Reiko"
+    },
+    {
+      "id": "G6E51Q71Y",
+      "title": "Mischievous Kiss 2 - Love in Tokyo"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00362335",
+      "title": "Yano-kun's Ordinary Days",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

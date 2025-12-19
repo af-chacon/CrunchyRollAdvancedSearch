@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-12-19T00:10:22.674168",
+  "summary": {
+    "total_old": 1923,
+    "total_new": 1918,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 4
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G6P84X3K6",
+      "title": "Maerchen Maedchen"
+    },
+    {
+      "id": "GRE5PPNP6",
+      "title": "Trickster"
+    },
+    {
+      "id": "G649G581Y",
+      "title": "Gingitsune: Messenger Fox of the Gods"
+    },
+    {
+      "id": "G63VP0DWY",
+      "title": "The World YAMIZUKAN"
+    },
+    {
+      "id": "G63KN0DZ6",
+      "title": "Days of Urashimasakatasen"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "G3KHEVDZ8",
+      "title": "Solo Camping for Two",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GEXH3W2N9",
+      "title": "Let's Play",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00365233",
+      "title": "My Awkward Senpai",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00364840",
+      "title": "Pass the Monster Meat, Milady!",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

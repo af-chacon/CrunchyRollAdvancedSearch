@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-12-20T00:08:35.849073",
+  "summary": {
+    "total_old": 1918,
+    "total_new": 1924,
+    "added_count": 6,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GY8VX2G9YG",
+      "title": "009-1: The End of the Beginning"
+    },
+    {
+      "id": "GMTE00002104",
+      "title": "BAYONETTA: Bloody Fate"
+    },
+    {
+      "id": "GMTE00169710",
+      "title": "Kite Liberator"
+    },
+    {
+      "id": "GMTE00002351",
+      "title": "Origin: Spirits of the Past"
+    },
+    {
+      "id": "GMTE00170280",
+      "title": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE"
+    },
+    {
+      "id": "GMTE00169838",
+      "title": "Tokyo Gore Police"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GW4HM7WQ5",
+      "title": "May I Ask for One Final Thing?",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-21T00:08:12.521120",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1925,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 4
+  },
+  "added": [
+    {
+      "id": "GMTE00194450",
+      "title": "JUJUTSU KAISEN: JUJUTSU KAISEN 0"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00364756",
+      "title": "My Friend's Little Sister Has It In for Me!",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00362007",
+      "title": "Inexpressive Kashiwada and Expressive Oota",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00364667",
+      "title": "Touring After the Apocalypse",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00364918",
+      "title": "The Banished Court Magician Aims to Become the Strongest",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

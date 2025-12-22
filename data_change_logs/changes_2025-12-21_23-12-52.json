@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-12-21T23:12:52.030052",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1925,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 5
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GP5HJ84P7",
+      "title": "Gachiakuta",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00365079",
+      "title": "Hands off: Sawaranaide Kotesashi-kun",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "G79H23ZJ9",
+      "title": "Mechanical Marie",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00364479",
+      "title": "Dad is a hero, Mom is a spirit, I'm a reincarnator",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

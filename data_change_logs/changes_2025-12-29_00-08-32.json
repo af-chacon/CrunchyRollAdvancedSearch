@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-12-29T00:08:32.379469",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1925,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 2
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00364694",
+      "title": "The Fated Magical Princess: Who Made Me a Princess",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00362058",
+      "title": "Li'l Miss Vampire Can't Suck Right",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

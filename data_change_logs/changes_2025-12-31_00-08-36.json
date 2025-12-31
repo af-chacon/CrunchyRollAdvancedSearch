@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-12-31T00:08:36.377616",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1925,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00362308",
+      "title": "With You, Our Love Will Make It Through",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

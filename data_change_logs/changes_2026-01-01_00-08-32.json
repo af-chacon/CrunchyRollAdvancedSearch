@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-01T00:08:32.160413",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1927,
+    "added_count": 2,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

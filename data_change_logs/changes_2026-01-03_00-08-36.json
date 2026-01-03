@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-01-03T00:08:36.138779",
+  "summary": {
+    "total_old": 1927,
+    "total_new": 1927,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00364529",
+      "title": "So You're Raising a Warrior",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

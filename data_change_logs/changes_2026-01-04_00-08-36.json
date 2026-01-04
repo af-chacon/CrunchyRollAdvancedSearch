@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-04T00:08:36.919366",
+  "summary": {
+    "total_old": 1927,
+    "total_new": 1928,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "G4PH0WJQZ",
+      "title": "Fate/strange Fake",
+      "old_status": "NOT_YET_RELEASED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

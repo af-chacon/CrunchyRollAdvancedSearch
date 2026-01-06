@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-06T00:08:44.953399",
+  "summary": {
+    "total_old": 1933,
+    "total_new": 1935,
+    "added_count": 2,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

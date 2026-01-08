@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-08T00:08:35.699697",
+  "summary": {
+    "total_old": 1941,
+    "total_new": 1945,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

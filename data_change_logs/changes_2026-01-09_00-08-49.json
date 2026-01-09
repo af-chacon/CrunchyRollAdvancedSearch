@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-09T00:08:49.907160",
+  "summary": {
+    "total_old": 1945,
+    "total_new": 1949,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

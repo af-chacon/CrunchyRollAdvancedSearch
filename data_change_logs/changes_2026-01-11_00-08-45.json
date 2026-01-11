@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-11T00:08:45.564407",
+  "summary": {
+    "total_old": 1950,
+    "total_new": 1953,
+    "added_count": 3,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

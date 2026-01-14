@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-14T00:08:47.050508",
+  "summary": {
+    "total_old": 1958,
+    "total_new": 1955,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    }
+  ],
+  "status_changes": []
+}

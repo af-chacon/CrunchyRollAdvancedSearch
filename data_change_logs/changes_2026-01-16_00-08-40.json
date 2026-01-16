@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-01-16T00:08:40.153997",
+  "summary": {
+    "total_old": 1952,
+    "total_new": 1952,
+    "added_count": 7,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    },
+    {
+      "id": "GMTE00348901",
+      "title": "Fureru"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GYG5V5Z4Y",
+      "title": "Merc StoriA: The Apathetic Boy and the Girl in a Bottle"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GYQW9J0ZY",
+      "title": "Ms. Vampire who lives in my neighborhood."
+    },
+    {
+      "id": "GY2PQNPMY",
+      "title": "TWOCAR"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    },
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    }
+  ],
+  "status_changes": []
+}

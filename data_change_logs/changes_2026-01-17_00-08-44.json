@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-01-17T00:08:44.708603",
+  "summary": {
+    "total_old": 1952,
+    "total_new": 1947,
+    "added_count": 3,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365604",
+      "title": "The Daily Life of a Part-time Torturer"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-18T01:08:30.577009",
+  "summary": {
+    "total_old": 1944,
+    "total_new": 1943,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00364783",
+      "title": "Chitose Is in the Ramune Bottle"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-01-20T00:08:44.349434",
+  "summary": {
+    "total_old": 1943,
+    "total_new": 1938,
+    "added_count": 7,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GR8DN7N7R",
+      "title": "Isekai Quartet"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00362308",
+      "title": "With You, Our Love Will Make It Through"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    }
+  ],
+  "status_changes": []
+}

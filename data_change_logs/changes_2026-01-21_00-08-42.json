@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-01-21T00:08:42.328748",
+  "summary": {
+    "total_old": 1938,
+    "total_new": 1944,
+    "added_count": 10,
+    "removed_count": 4,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00364783",
+      "title": "Chitose Is in the Ramune Bottle"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GT00362308",
+      "title": "With You, Our Love Will Make It Through"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "G6MEK1ZGR",
+      "title": "Kakuriyo - Bed & Breakfast for Spirits"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

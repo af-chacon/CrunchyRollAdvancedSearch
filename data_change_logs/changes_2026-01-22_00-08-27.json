@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-01-22T00:08:27.617768",
+  "summary": {
+    "total_old": 1944,
+    "total_new": 1949,
+    "added_count": 10,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "G6MEK1ZGR",
+      "title": "Kakuriyo - Bed & Breakfast for Spirits"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GG5H5XQZQ",
+      "title": "The Dark History of the Reincarnated Villainess"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G4PH0WXVJ",
+      "title": "SPY x FAMILY"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    },
+    {
+      "id": "G79H23ZGP",
+      "title": "Tales of Wedding Rings"
+    }
+  ],
+  "status_changes": []
+}

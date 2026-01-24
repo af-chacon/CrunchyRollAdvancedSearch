@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-01-24T00:08:35.742023",
+  "summary": {
+    "total_old": 1946,
+    "total_new": 1951,
+    "added_count": 11,
+    "removed_count": 6,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G0XHWM18X",
+      "title": "Watari-kun's ****** Is about to Collapse"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GZJH3D7G9",
+      "title": "Captain Tsubasa"
+    },
+    {
+      "id": "G79H23ZGP",
+      "title": "Tales of Wedding Rings"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "G4PH0WXVJ",
+      "title": "SPY x FAMILY"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "G65VGZZ76",
+      "title": "Time Travel Girl"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00365604",
+      "title": "The Daily Life of a Part-time Torturer"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    }
+  ],
+  "status_changes": []
+}

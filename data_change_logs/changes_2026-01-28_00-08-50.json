@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-01-28T00:08:50.737585",
+  "summary": {
+    "total_old": 1942,
+    "total_new": 1944,
+    "added_count": 7,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GMEHME7QX",
+      "title": "Honkai: Star Rail Featured Videos"
+    },
+    {
+      "id": "GRNQP873R",
+      "title": "Cardcaptor Sakura"
+    }
+  ],
+  "status_changes": []
+}

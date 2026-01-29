@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-01-29T00:08:34.581184",
+  "summary": {
+    "total_old": 1944,
+    "total_new": 1937,
+    "added_count": 6,
+    "removed_count": 13,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365568",
+      "title": "Hana-Kimi"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GG5H5XMWV",
+      "title": "To Your Eternity"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

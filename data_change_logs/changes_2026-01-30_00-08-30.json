@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-01-30T00:08:30.384976",
+  "summary": {
+    "total_old": 1937,
+    "total_new": 1935,
+    "added_count": 8,
+    "removed_count": 10,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GT00365724",
+      "title": "Oedo Fire Slayer -The Legend of Phoenix-"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GP5HJ84D2",
+      "title": "TOUGEN ANKI"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    },
+    {
+      "id": "GT00364378",
+      "title": "Digimon Beatbreak"
+    }
+  ],
+  "status_changes": []
+}

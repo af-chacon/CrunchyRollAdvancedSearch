@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-30T01:08:28.461512",
+  "summary": {
+    "total_old": 1935,
+    "total_new": 1934,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    }
+  ],
+  "status_changes": []
+}

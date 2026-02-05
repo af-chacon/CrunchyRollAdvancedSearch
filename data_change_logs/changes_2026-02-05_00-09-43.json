@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-05T00:09:43.156662",
+  "summary": {
+    "total_old": 1941,
+    "total_new": 1938,
+    "added_count": 8,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GY2PEJ0MY",
+      "title": "Yuri!!! on ICE"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GQWH0M1P3",
+      "title": "Possibly the Greatest Alchemist of All Time"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365568",
+      "title": "Hana-Kimi"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    }
+  ],
+  "status_changes": []
+}

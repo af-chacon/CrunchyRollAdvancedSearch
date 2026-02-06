@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-02-06T00:08:37.537437",
+  "summary": {
+    "total_old": 1938,
+    "total_new": 1929,
+    "added_count": 4,
+    "removed_count": 13,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GT00365604",
+      "title": "The Daily Life of a Part-Time Torturer"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "G4PH0WXVJ",
+      "title": "SPY x FAMILY"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "G24H1N8P8",
+      "title": "Shinobi"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    }
+  ],
+  "status_changes": []
+}

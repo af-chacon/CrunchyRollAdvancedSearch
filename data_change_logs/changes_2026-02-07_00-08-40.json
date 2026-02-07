@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-07T00:08:40.023117",
+  "summary": {
+    "total_old": 1929,
+    "total_new": 1930,
+    "added_count": 3,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GY2PEJ0MY",
+      "title": "Yuri!!! on ICE"
+    },
+    {
+      "id": "GQWH0M1P3",
+      "title": "Possibly the Greatest Alchemist of All Time"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GDKHZEJ0K",
+      "title": "Solo Leveling"
+    }
+  ],
+  "status_changes": []
+}

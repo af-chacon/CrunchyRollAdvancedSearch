@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-13T01:08:40.861770",
+  "summary": {
+    "total_old": 1933,
+    "total_new": 1929,
+    "added_count": 0,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    }
+  ],
+  "status_changes": []
+}

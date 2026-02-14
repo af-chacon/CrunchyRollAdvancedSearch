@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-02-14T00:08:59.055817",
+  "summary": {
+    "total_old": 1929,
+    "total_new": 1928,
+    "added_count": 1,
+    "removed_count": 2,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

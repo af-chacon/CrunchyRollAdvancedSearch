@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-02-15T00:08:28.369228",
+  "summary": {
+    "total_old": 1928,
+    "total_new": 1928,
+    "added_count": 7,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G5PHNM731",
+      "title": "Maquia: When the Promised Flower Blooms"
+    },
+    {
+      "id": "G0XHWM5E2",
+      "title": "Liz and the Blue Bird"
+    },
+    {
+      "id": "G9VHN91V2",
+      "title": "Sound! Euphonium (Movies)"
+    },
+    {
+      "id": "G79H23XN2",
+      "title": "Haikara-san: Here Comes Miss Modern"
+    },
+    {
+      "id": "G79H235NJ",
+      "title": "Penguin Highway"
+    },
+    {
+      "id": "GMEHME8NZ",
+      "title": "The Wonderland"
+    },
+    {
+      "id": "GDKHZEP05",
+      "title": "Millennium Actress"
+    }
+  ],
+  "status_changes": []
+}

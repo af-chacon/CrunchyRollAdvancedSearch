@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-02-18T00:09:03.748259",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1927,
+    "added_count": 8,
+    "removed_count": 6,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GG5H5X3EE",
+      "title": "Campfire Cooking in Another World with My Absurd Skill"
+    },
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "G6NQ5DWZ6",
+      "title": "My Hero Academia"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GEXH3W2EZ",
+      "title": "Lord of Mysteries"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    }
+  ],
+  "status_changes": []
+}

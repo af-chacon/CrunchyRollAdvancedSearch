@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-02-20T00:08:42.927063",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1917,
+    "added_count": 7,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "GT00365604",
+      "title": "The Daily Life of a Part-Time Torturer"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    }
+  ],
+  "status_changes": []
+}

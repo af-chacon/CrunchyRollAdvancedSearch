@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-21T00:08:49.478567",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1916,
+    "added_count": 3,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GY8DWQN5Y",
+      "title": "Golden Kamuy"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    }
+  ],
+  "status_changes": []
+}

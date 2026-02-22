@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-02-22T00:08:41.351184",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1915,
+    "added_count": 6,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GG5H5X3EE",
+      "title": "Campfire Cooking in Another World with My Absurd Skill"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    }
+  ],
+  "status_changes": []
+}

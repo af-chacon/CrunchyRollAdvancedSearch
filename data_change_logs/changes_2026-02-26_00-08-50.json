@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-02-26T00:08:50.998972",
+  "summary": {
+    "total_old": 1923,
+    "total_new": 1927,
+    "added_count": 10,
+    "removed_count": 6,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "G6752ZK3R",
+      "title": "Fist of the North Star"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "G3KHEVDPE",
+      "title": "WIND BREAKER"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GJ0H7QGME",
+      "title": "Viral Hit"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-28T00:08:47.669889",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1917,
+    "added_count": 2,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "G4PH0WXVJ",
+      "title": "SPY x FAMILY"
+    }
+  ],
+  "status_changes": []
+}

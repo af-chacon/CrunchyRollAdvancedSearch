@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-02-28T01:08:37.821521",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1916,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    }
+  ],
+  "status_changes": []
+}

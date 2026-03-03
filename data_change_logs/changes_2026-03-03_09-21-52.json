@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-03T09:21:52.384158",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1927,
+    "added_count": 5,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G4PH0WJJG",
+      "title": "Medaka Kuroiwa is Impervious to My Charms"
+    },
+    {
+      "id": "GEXH3W2EZ",
+      "title": "Lord of Mysteries"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "G1XHJV0XM",
+      "title": "Alya Sometimes Hides Her Feelings in Russian"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    }
+  ],
+  "status_changes": []
+}

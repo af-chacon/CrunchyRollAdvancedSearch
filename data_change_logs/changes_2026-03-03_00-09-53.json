@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-03-03T00:09:53.261391",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1925,
+    "added_count": 6,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "G1XHJV0XM",
+      "title": "Alya Sometimes Hides Her Feelings in Russian"
+    }
+  ],
+  "status_changes": []
+}

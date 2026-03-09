@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-09T01:09:06.550540",
+  "summary": {
+    "total_old": 1923,
+    "total_new": 1921,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    }
+  ],
+  "status_changes": []
+}

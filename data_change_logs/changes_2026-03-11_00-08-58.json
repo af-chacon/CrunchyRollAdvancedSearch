@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-03-11T00:08:58.563914",
+  "summary": {
+    "total_old": 1913,
+    "total_new": 1922,
+    "added_count": 12,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "G6WEV3WM6",
+      "title": "Noragami"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GQWH0MPQ7",
+      "title": "The Café Terrace and Its Goddesses"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GZJH3D801",
+      "title": "Bogus Skill <<Fruitmaster>> ~About that time I became able to eat unlimited numbers of Skill Fruits (that kill you)~"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GJ0H7QGME",
+      "title": "Viral Hit"
+    },
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GT00364783",
+      "title": "Chitose Is in the Ramune Bottle"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    }
+  ],
+  "status_changes": []
+}

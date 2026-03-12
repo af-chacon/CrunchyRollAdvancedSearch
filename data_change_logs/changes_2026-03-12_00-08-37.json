@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-03-12T00:08:37.968018",
+  "summary": {
+    "total_old": 1922,
+    "total_new": 1918,
+    "added_count": 8,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GQWH0M17X",
+      "title": "I'll Become a Villainess Who Goes Down in History"
+    },
+    {
+      "id": "GKEH2G0J4",
+      "title": "The Unaware Atelier Meister"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GG5H5XMWV",
+      "title": "To Your Eternity"
+    },
+    {
+      "id": "GVDHX855Q",
+      "title": "The Daily Life of a Middle-Aged Online Shopper in Another World"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    }
+  ],
+  "status_changes": []
+}

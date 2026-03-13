@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-13T00:08:41.337374",
+  "summary": {
+    "total_old": 1918,
+    "total_new": 1914,
+    "added_count": 7,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365721",
+      "title": "Noble Reincarnation: Born Blessed, So I’ll Obtain Ultimate Power"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GT00365604",
+      "title": "The Daily Life of a Part-Time Torturer"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365724",
+      "title": "Oedo Fire Slayer -The Legend of Phoenix-"
+    },
+    {
+      "id": "GT00365568",
+      "title": "Hana-Kimi"
+    },
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    }
+  ],
+  "status_changes": []
+}

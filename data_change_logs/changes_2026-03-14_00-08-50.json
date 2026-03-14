@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-03-14T00:08:50.759384",
+  "summary": {
+    "total_old": 1914,
+    "total_new": 1911,
+    "added_count": 4,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GMTE00256631",
+      "title": "That Time I Got Reincarnated as a Slime: Scarlet Bond"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    }
+  ],
+  "status_changes": []
+}

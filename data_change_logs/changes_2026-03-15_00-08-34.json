@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-15T00:08:34.492394",
+  "summary": {
+    "total_old": 1911,
+    "total_new": 1919,
+    "added_count": 8,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GG5H5XMWV",
+      "title": "To Your Eternity"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

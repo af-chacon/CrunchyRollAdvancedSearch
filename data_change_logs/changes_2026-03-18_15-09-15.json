@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-03-18T15:09:15.948190",
+  "summary": {
+    "total_old": 1922,
+    "total_new": 1926,
+    "added_count": 8,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GJ0H7QGPK",
+      "title": "Hokkaido Gals Are Super Adorable!"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE"
+    }
+  ],
+  "status_changes": []
+}

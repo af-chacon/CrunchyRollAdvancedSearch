@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-03-18T00:08:08.277445",
+  "summary": {
+    "total_old": 1922,
+    "total_new": 1922,
+    "added_count": 8,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GR24GNVM6",
+      "title": "Vampire Knight"
+    },
+    {
+      "id": "GXJHM3G7X",
+      "title": "No Longer Allowed in Another World"
+    },
+    {
+      "id": "GR09G73ER",
+      "title": "Hackadoll the Animation"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GQWH0M17X",
+      "title": "I’ll Become a Villainess Who Goes Down in History"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00365553",
+      "title": "Champignon Witch"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    }
+  ],
+  "status_changes": []
+}

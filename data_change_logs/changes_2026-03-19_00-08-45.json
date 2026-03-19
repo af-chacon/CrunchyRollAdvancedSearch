@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-03-19T00:08:45.193118",
+  "summary": {
+    "total_old": 1926,
+    "total_new": 1924,
+    "added_count": 1,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365592",
+      "title": "ROLL OVER AND DIE"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    }
+  ],
+  "status_changes": []
+}

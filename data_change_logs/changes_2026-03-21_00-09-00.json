@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-03-21T00:09:00.562416",
+  "summary": {
+    "total_old": 1922,
+    "total_new": 1911,
+    "added_count": 2,
+    "removed_count": 13,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "G6W4QKX0R",
+      "title": "The Rising of the Shield Hero"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GY8VM8MWY",
+      "title": "Haikyu!!"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GJ0H7QGPK",
+      "title": "Hokkaido Gals Are Super Adorable!"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    }
+  ],
+  "status_changes": []
+}

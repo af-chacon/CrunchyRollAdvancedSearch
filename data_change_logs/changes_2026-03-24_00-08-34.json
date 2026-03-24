@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-24T00:08:34.852177",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1918,
+    "added_count": 8,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "G6W4QKX0R",
+      "title": "The Rising of the Shield Hero"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GT00365775",
+      "title": "Wash It All Away"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    }
+  ],
+  "status_changes": []
+}

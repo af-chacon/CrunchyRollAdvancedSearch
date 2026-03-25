@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-25T00:08:26.612731",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1919,
+    "added_count": 10,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GVDHX855Q",
+      "title": "The Daily Life of a Middle-Aged Online Shopper in Another World"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00365733",
+      "title": "The Casebook of Arne"
+    },
+    {
+      "id": "GT00367517",
+      "title": "Yoroi-Shinden Samurai Troopers"
+    },
+    {
+      "id": "GY8VM8MWY",
+      "title": "Haikyu!!"
+    },
+    {
+      "id": "GKEH2G0J4",
+      "title": "The Unaware Atelier Meister"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GYP8PPDGY",
+      "title": "GJ CLUB"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GG5H5XMWV",
+      "title": "To Your Eternity"
+    },
+    {
+      "id": "GRZX45ZVY",
+      "title": "Akagi"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GY3VKX1MR",
+      "title": "Hunter x Hunter"
+    },
+    {
+      "id": "G6GGV5WW6",
+      "title": "Kaiji"
+    }
+  ],
+  "status_changes": []
+}

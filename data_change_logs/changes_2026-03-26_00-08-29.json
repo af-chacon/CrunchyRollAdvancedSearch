@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-03-26T00:08:29.529589",
+  "summary": {
+    "total_old": 1919,
+    "total_new": 1915,
+    "added_count": 8,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GMTE00192589",
+      "title": "Street Fighter II The Animated Movie"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GDKHZEJN0",
+      "title": "Dragon Raja"
+    },
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00366764",
+      "title": "Jack-of-All-Trades, Party of None"
+    },
+    {
+      "id": "GT00365550",
+      "title": "A Gentle Noble's Vacation Recommendation"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GG5H5XQZQ",
+      "title": "The Dark History of the Reincarnated Villainess"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00364783",
+      "title": "Chitose Is in the Ramune Bottle"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GG5H5X3VN",
+      "title": "Arknights"
+    }
+  ],
+  "status_changes": []
+}

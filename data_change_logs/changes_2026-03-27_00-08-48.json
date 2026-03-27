@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-03-27T00:08:48.744611",
+  "summary": {
+    "total_old": 1915,
+    "total_new": 1915,
+    "added_count": 7,
+    "removed_count": 7,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00365781",
+      "title": "The Holy Grail of Eris"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00365610",
+      "title": "The Invisible Man and His Soon-to-Be Wife"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "GT00365724",
+      "title": "Oedo Fire Slayer -The Legend of Phoenix-"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GT00365571",
+      "title": "Journal with Witch"
+    },
+    {
+      "id": "G4PH0WJQZ",
+      "title": "Fate/strange Fake"
+    },
+    {
+      "id": "G6DK9M29R",
+      "title": "Caligula"
+    },
+    {
+      "id": "GYNQZQ3XY",
+      "title": "Clean Freak! Aoyama kun"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

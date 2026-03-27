@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-03-27T11:53:44.556840",
+  "summary": {
+    "total_old": 1914,
+    "total_new": 1901,
+    "added_count": 1,
+    "removed_count": 14,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "GRVNEXKXY",
+      "title": "Rokka -Braves of the Six Flowers-"
+    },
+    {
+      "id": "GYX040PKR",
+      "title": "DAYS"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "G67529WMR",
+      "title": "Looking Up at the Half-Moon"
+    },
+    {
+      "id": "GR79P2NJ6",
+      "title": "Fist of the Blue Sky: Regenesis"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "G6Q4MKD4R",
+      "title": "Magic-Kyun! Renaissance"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GYMGPQ3ZY",
+      "title": "Lance N' Masques"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GKEH23WZM",
+      "title": "Garakowa -Restore the World-"
+    },
+    {
+      "id": "GT00365583",
+      "title": "Kaya-chan Isn't Scary"
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    }
+  ],
+  "status_changes": []
+}

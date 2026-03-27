@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-03-27T01:08:43.244511",
+  "summary": {
+    "total_old": 1915,
+    "total_new": 1914,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-28T00:08:29.226020",
+  "summary": {
+    "total_old": 1901,
+    "total_new": 1903,
+    "added_count": 5,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00365132",
+      "title": "GNOSIA"
+    },
+    {
+      "id": "G24H1NW4M",
+      "title": "That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea | Trailer"
+    },
+    {
+      "id": "GT00365556",
+      "title": "DARK MOON: THE BLOOD ALTAR"
+    },
+    {
+      "id": "GP5HJ84Z2",
+      "title": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond | Trailer"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GY8VEQ95Y",
+      "title": "Darling in the FRANXX"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    }
+  ],
+  "status_changes": []
+}

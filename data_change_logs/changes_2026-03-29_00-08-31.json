@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-03-29T00:08:31.383758",
+  "summary": {
+    "total_old": 1903,
+    "total_new": 1910,
+    "added_count": 10,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00376507",
+      "title": "AnimeJapan Awards"
+    },
+    {
+      "id": "G4PH0WJQZ",
+      "title": "Fate/strange Fake"
+    },
+    {
+      "id": "GT00364945",
+      "title": "Tojima Wants to Be a Kamen Rider"
+    },
+    {
+      "id": "G4PH0WJ8V",
+      "title": "SI-VIS: The Sound of Heroes"
+    },
+    {
+      "id": "GG5H5XMWV",
+      "title": "To Your Eternity"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "G60X7D34R",
+      "title": "Hinomaru Sumo"
+    }
+  ],
+  "status_changes": []
+}

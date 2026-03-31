@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-03-31T00:08:38.251757",
+  "summary": {
+    "total_old": 1918,
+    "total_new": 1915,
+    "added_count": 5,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "G1XHJV0KV",
+      "title": "Tis Time for \"Torture,\" Princess"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GT00371893",
+      "title": "Dorohedoro"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-01T01:08:46.766159",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1914,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    }
+  ],
+  "status_changes": []
+}

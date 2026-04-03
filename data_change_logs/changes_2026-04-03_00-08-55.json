@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-03T00:08:55.605976",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1916,
+    "added_count": 1,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    }
+  ],
+  "status_changes": []
+}

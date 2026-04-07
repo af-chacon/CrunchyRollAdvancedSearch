@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-04-07T00:08:54.895588",
+  "summary": {
+    "total_old": 1927,
+    "total_new": 1935,
+    "added_count": 16,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "GMTE00129209",
+      "title": "Mobile Suit Gundam Wing ENDLESS WALTZ"
+    },
+    {
+      "id": "GMTE00192596",
+      "title": "Aachi & Ssipak"
+    },
+    {
+      "id": "GMTE00116631",
+      "title": "Cardcaptor Sakura the Movie 2: The Sealed Card"
+    },
+    {
+      "id": "GMTE00116643",
+      "title": "The Princess and the Pilot"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GMTE00192514",
+      "title": "Yonna in the Solitary Fortress"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "GMTE00102662",
+      "title": "Little Nemo: Adventures in Slumberland"
+    },
+    {
+      "id": "GT00365622",
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!"
+    },
+    {
+      "id": "GMTE00192523",
+      "title": "Kaede New Town"
+    },
+    {
+      "id": "GMTE00192773",
+      "title": "Onimusha: Dawn of Dreams"
+    },
+    {
+      "id": "GMTE00192527",
+      "title": "Lady Death"
+    },
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "G68VJ2046",
+      "title": "Miss Machiko"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    }
+  ],
+  "status_changes": []
+}

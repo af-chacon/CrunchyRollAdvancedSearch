@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-08T01:08:58.180673",
+  "summary": {
+    "total_old": 1940,
+    "total_new": 1938,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00371860",
+      "title": "Mistress Kanan is Devilishly Easy"
+    }
+  ],
+  "status_changes": []
+}

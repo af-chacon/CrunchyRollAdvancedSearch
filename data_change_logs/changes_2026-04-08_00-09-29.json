@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-04-08T00:09:29.442615",
+  "summary": {
+    "total_old": 1935,
+    "total_new": 1940,
+    "added_count": 19,
+    "removed_count": 14,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GMTE00111913",
+      "title": "Jin Roh"
+    },
+    {
+      "id": "GMTE00192518",
+      "title": "Fantastic Adventures of Unico"
+    },
+    {
+      "id": "GT00365772",
+      "title": "Tune In to the Midnight Heart"
+    },
+    {
+      "id": "GMTE00192519",
+      "title": "Unico In the Island of Magic"
+    },
+    {
+      "id": "GMTE00000017",
+      "title": "King of Thorn"
+    },
+    {
+      "id": "GMTE00193062",
+      "title": "Black Jack The Movie"
+    },
+    {
+      "id": "GMTE00192845",
+      "title": "Robot Carnival"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class"
+    },
+    {
+      "id": "GMTE00115365",
+      "title": "Cardcaptor Sakura: The Movie"
+    },
+    {
+      "id": "GMTE00192689",
+      "title": "Hansel and Gretel"
+    },
+    {
+      "id": "GT00365778",
+      "title": "The Demon King's Daughter is Too Kind!!"
+    },
+    {
+      "id": "GMTE00002888",
+      "title": "Dragon Age: Dawn of the Seeker"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00365787",
+      "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GMTE00347067",
+      "title": "BLUE LOCK: BLUE LOCK THE MOVIE -EPISODE NAGI- "
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00371875",
+      "title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GY8VX2G9YG",
+      "title": "009-1: The End of the Beginning"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

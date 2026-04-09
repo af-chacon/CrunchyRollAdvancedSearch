@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-04-09T18:53:37.958037",
+  "summary": {
+    "total_old": 1940,
+    "total_new": 1943,
+    "added_count": 13,
+    "removed_count": 10,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GY8VX2G9YG",
+      "title": "009-1: The End of the Beginning"
+    },
+    {
+      "id": "GMTE00019934",
+      "title": "My Hero Academia Movies: My Hero Academia: Two Heroes"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GMTE00350182",
+      "title": "My Hero Academia Movies: My Hero Academia: You're Next"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GMTE00094107",
+      "title": "My Hero Academia Movies: My Hero Academia: Heroes Rising"
+    },
+    {
+      "id": "GJ0H7QGGM",
+      "title": "Anyway, I'm Falling in Love with You."
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "G6793XKZY",
+      "title": "Ascendance of a Bookworm"
+    },
+    {
+      "id": "GMEHME5WK",
+      "title": "My Hero Academia Movies"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00364378",
+      "title": "Digimon Beatbreak"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

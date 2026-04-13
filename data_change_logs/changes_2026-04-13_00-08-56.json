@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-04-13T00:08:56.057283",
+  "summary": {
+    "total_old": 1955,
+    "total_new": 1961,
+    "added_count": 10,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GW4HM7WK9",
+      "title": "Wistoria: Wand and Sword"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GT00371893",
+      "title": "Dorohedoro"
+    }
+  ],
+  "status_changes": []
+}

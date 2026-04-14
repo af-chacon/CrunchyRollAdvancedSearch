@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-04-14T00:08:49.974974",
+  "summary": {
+    "total_old": 1961,
+    "total_new": 1949,
+    "added_count": 6,
+    "removed_count": 18,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "G79H23ZQ3",
+      "title": "My Hero Academia: Vigilantes"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00365607",
+      "title": "An Adventurer's Daily Grind at Age 29"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    }
+  ],
+  "status_changes": []
+}

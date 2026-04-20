@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-04-20T00:08:45.799453",
+  "summary": {
+    "total_old": 1956,
+    "total_new": 1952,
+    "added_count": 10,
+    "removed_count": 14,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00365586",
+      "title": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    },
+    {
+      "id": "GW4HM7WK9",
+      "title": "Wistoria: Wand and Sword"
+    },
+    {
+      "id": "GT00334040",
+      "title": "In the Clear Moonlit Dusk"
+    },
+    {
+      "id": "GT00365624",
+      "title": "You and I Are Polar Opposites"
+    },
+    {
+      "id": "GJ0H7Q5ZJ",
+      "title": "Hell's Paradise"
+    },
+    {
+      "id": "GT00365613",
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00366791",
+      "title": "【OSHI NO KO】"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    },
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "GT00355229",
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    },
+    {
+      "id": "GT00371893",
+      "title": "Dorohedoro"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN"
+    }
+  ],
+  "status_changes": []
+}

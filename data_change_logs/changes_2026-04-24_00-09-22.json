@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-04-24T00:09:22.234391",
+  "summary": {
+    "total_old": 1949,
+    "total_new": 1948,
+    "added_count": 9,
+    "removed_count": 10,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00356809",
+      "title": "Sentenced to Be a Hero"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G5PHNM77K",
+      "title": "Donten: Laughing Under The Clouds - Gaiden"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00365542",
+      "title": "A Misanthrope Teaches a Class for Demi-Humans"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    },
+    {
+      "id": "GNVHKN92K",
+      "title": "Chainsaw Man - The Movie: Reze Arc"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    }
+  ],
+  "status_changes": []
+}

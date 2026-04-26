@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-26T01:09:02.756276",
+  "summary": {
+    "total_old": 1955,
+    "total_new": 1954,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

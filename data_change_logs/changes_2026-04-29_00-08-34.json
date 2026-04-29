@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-04-29T00:08:34.586477",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1944,
+    "added_count": 9,
+    "removed_count": 12,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class"
+    },
+    {
+      "id": "GMTE00002920",
+      "title": "Dragon Ball Movies: Dragon Ball Z: Resurrection 'F'"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    },
+    {
+      "id": "G6793XKZY",
+      "title": "Ascendance of a Bookworm"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GRE50KV36",
+      "title": "Black Clover"
+    },
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

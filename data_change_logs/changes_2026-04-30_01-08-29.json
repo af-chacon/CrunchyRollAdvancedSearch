@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-04-30T01:08:29.537466",
+  "summary": {
+    "total_old": 1943,
+    "total_new": 1942,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    }
+  ],
+  "status_changes": []
+}

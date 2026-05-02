@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-05-02T00:08:32.523934",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1946,
+    "added_count": 8,
+    "removed_count": 9,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    },
+    {
+      "id": "GDKHZEP8W",
+      "title": "MASHLE: MAGIC AND MUSCLES"
+    },
+    {
+      "id": "GT00365589",
+      "title": "Release that Witch"
+    },
+    {
+      "id": "GRDKVP34Y",
+      "title": "Tsurune"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GEXH3W49E",
+      "title": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too"
+    },
+    {
+      "id": "GZJH3D8J9",
+      "title": "Let This Grieving Soul Retire"
+    },
+    {
+      "id": "GR5VXM03R",
+      "title": "Tenjho Tenge"
+    }
+  ],
+  "status_changes": []
+}

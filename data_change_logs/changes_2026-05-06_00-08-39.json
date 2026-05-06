@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-05-06T00:08:39.033582",
+  "summary": {
+    "total_old": 1948,
+    "total_new": 1946,
+    "added_count": 9,
+    "removed_count": 11,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN"
+    },
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game"
+    },
+    {
+      "id": "GY8VEQ95Y",
+      "title": "Darling in the FRANXX"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G6793XKZY",
+      "title": "Ascendance of a Bookworm"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

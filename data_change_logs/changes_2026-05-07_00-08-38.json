@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-05-07T00:08:38.446237",
+  "summary": {
+    "total_old": 1946,
+    "total_new": 1947,
+    "added_count": 12,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GDKHZEP8W",
+      "title": "MASHLE: MAGIC AND MUSCLES"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GT00365565",
+      "title": "Easygoing Territory Defense by the Optimistic Lord"
+    },
+    {
+      "id": "GT00366791",
+      "title": "OSHI NO KO"
+    },
+    {
+      "id": "GT00371893",
+      "title": "Dorohedoro"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371875",
+      "title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!"
+    },
+    {
+      "id": "G649PJ0JY",
+      "title": "Blue Exorcist"
+    },
+    {
+      "id": "GT00371896",
+      "title": "KILL BLUE"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    },
+    {
+      "id": "GT00371860",
+      "title": "Mistress Kanan is Devilishly Easy"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GT00371630",
+      "title": "Daemons of the Shadow Realm"
+    },
+    {
+      "id": "GW4HM7WK9",
+      "title": "Wistoria: Wand and Sword"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    },
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk"
+    }
+  ],
+  "status_changes": []
+}

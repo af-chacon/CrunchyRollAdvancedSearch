@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-05-08T00:08:48.327854",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1949,
+    "added_count": 10,
+    "removed_count": 8,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "GT00374360",
+      "title": "Kusunoki's Garden of Gods"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

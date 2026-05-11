@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-05-11T00:11:47.491880",
+  "summary": {
+    "total_old": 1954,
+    "total_new": 1955,
+    "added_count": 5,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GW4HM7WK9",
+      "title": "Wistoria: Wand and Sword"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    },
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    }
+  ],
+  "status_changes": []
+}

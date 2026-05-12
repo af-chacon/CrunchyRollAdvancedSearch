@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-12T01:11:14.662810",
+  "summary": {
+    "total_old": 1946,
+    "total_new": 1944,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G79H23Z8P",
+      "title": "Shangri-La Frontier"
+    }
+  ],
+  "status_changes": []
+}

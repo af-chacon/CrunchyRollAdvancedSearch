@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-13T01:11:04.949208",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1945,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    },
+    {
+      "id": "GT00371630",
+      "title": "Daemons of the Shadow Realm"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-05-17T00:11:11.815588",
+  "summary": {
+    "total_old": 1960,
+    "total_new": 1968,
+    "added_count": 11,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    },
+    {
+      "id": "GT00371896",
+      "title": "KILL BLUE"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    },
+    {
+      "id": "GT00371860",
+      "title": "Mistress Kanan is Devilishly Easy"
+    },
+    {
+      "id": "G6793XKZY",
+      "title": "Ascendance of a Bookworm"
+    },
+    {
+      "id": "GT00371875",
+      "title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!"
+    },
+    {
+      "id": "GT00374360",
+      "title": "Kusunoki's Garden of Gods"
+    },
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    },
+    {
+      "id": "GT00371630",
+      "title": "Daemons of the Shadow Realm"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game"
+    },
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    }
+  ],
+  "status_changes": []
+}

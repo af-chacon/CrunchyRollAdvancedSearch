@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-19T00:11:11.725216",
+  "summary": {
+    "total_old": 1953,
+    "total_new": 1951,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GDKHZEP8W",
+      "title": "MASHLE: MAGIC AND MUSCLES"
+    },
+    {
+      "id": "G79H23VNQ",
+      "title": "Wandering Witch: The Journey of Elaina"
+    }
+  ],
+  "status_changes": []
+}

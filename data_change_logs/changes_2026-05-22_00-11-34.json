@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-05-22T00:11:34.259146",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1946,
+    "added_count": 11,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "Hitori No Shita - The Outcast"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "G6W4QKX0R",
+      "title": "The Rising of the Shield Hero"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    },
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "G61XWG4Z6",
+      "title": "Inuyasha the Movie 3: Swords of an Honorable Ruler"
+    },
+    {
+      "id": "GRW4WQ7NY",
+      "title": "Inuyasha the Movie 4: Fire On the Mystic Island"
+    },
+    {
+      "id": "GT00374360",
+      "title": "Kusunoki's Garden of Gods"
+    },
+    {
+      "id": "G24H1NWV7",
+      "title": "Chainsaw Man Festival"
+    },
+    {
+      "id": "GR79X4W46",
+      "title": "Inuyasha the Movie 2: The Castle Beyond the Looking Glass"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    }
+  ],
+  "status_changes": []
+}

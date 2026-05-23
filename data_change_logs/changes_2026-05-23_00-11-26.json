@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-05-23T00:11:26.904967",
+  "summary": {
+    "total_old": 1946,
+    "total_new": 1951,
+    "added_count": 7,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    }
+  ],
+  "status_changes": []
+}

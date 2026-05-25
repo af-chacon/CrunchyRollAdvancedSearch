@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-05-25T15:45:18.113542",
+  "summary": {
+    "total_old": 1950,
+    "total_new": 1950,
+    "added_count": 3,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    }
+  ],
+  "status_changes": []
+}

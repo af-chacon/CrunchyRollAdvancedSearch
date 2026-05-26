@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-26T00:10:32.712724",
+  "summary": {
+    "total_old": 1950,
+    "total_new": 1947,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    }
+  ],
+  "status_changes": []
+}

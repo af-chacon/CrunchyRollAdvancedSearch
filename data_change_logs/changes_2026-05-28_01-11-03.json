@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-05-28T01:11:03.290528",
+  "summary": {
+    "total_old": 1946,
+    "total_new": 1945,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    }
+  ],
+  "status_changes": []
+}

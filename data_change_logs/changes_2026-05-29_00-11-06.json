@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-05-29T00:11:06.179171",
+  "summary": {
+    "total_old": 1945,
+    "total_new": 1949,
+    "added_count": 10,
+    "removed_count": 6,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G63VMXEQY",
+      "title": "The Outcast"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    },
+    {
+      "id": "GR3K50PZR",
+      "title": "The Crunchyroll Anime Awards"
+    },
+    {
+      "id": "GT00364378",
+      "title": "Digimon Beatbreak"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    }
+  ],
+  "status_changes": []
+}

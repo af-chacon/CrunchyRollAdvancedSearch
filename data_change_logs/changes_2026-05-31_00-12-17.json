@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-05-31T00:12:17.668211",
+  "summary": {
+    "total_old": 1952,
+    "total_new": 1962,
+    "added_count": 13,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00365559",
+      "title": "Dead Account"
+    },
+    {
+      "id": "G6NVG970Y",
+      "title": "Welcome to Demon School! Iruma-kun"
+    },
+    {
+      "id": "G6NQ5DWZ6",
+      "title": "My Hero Academia"
+    },
+    {
+      "id": "GT00374360",
+      "title": "Kusunoki's Garden of Gods"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave"
+    },
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    },
+    {
+      "id": "GT00371896",
+      "title": "KILL BLUE"
+    },
+    {
+      "id": "GT00371875",
+      "title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!"
+    },
+    {
+      "id": "GT00371860",
+      "title": "Mistress Kanan is Devilishly Easy"
+    },
+    {
+      "id": "GT00371630",
+      "title": "Daemons of the Shadow Realm"
+    },
+    {
+      "id": "G6793XKZY",
+      "title": "Ascendance of a Bookworm"
+    },
+    {
+      "id": "GT00364378",
+      "title": "Digimon Beatbreak"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GT00376441",
+      "title": "Versatile Mage"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    }
+  ],
+  "status_changes": []
+}

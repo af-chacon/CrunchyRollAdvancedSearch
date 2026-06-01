@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-06-01T00:12:04.930753",
+  "summary": {
+    "total_old": 1961,
+    "total_new": 1953,
+    "added_count": 3,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GRMG8ZQZR",
+      "title": "One Piece"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GRG5WWD4R",
+      "title": "given"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GT00366791",
+      "title": "OSHI NO KO"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    },
+    {
+      "id": "G6NQ5DWZ6",
+      "title": "My Hero Academia"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    }
+  ],
+  "status_changes": []
+}

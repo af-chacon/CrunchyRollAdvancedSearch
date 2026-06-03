@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-06-03T01:10:33.775822",
+  "summary": {
+    "total_old": 1948,
+    "total_new": 1947,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring"
+    }
+  ],
+  "status_changes": []
+}

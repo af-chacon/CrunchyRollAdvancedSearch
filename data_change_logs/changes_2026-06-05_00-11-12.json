@@ -1,0 +1,143 @@
+{
+  "timestamp": "2026-06-05T00:11:12.321044",
+  "summary": {
+    "total_old": 1947,
+    "total_new": 1971,
+    "added_count": 28,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GMTE00002908",
+      "title": "Dragon Ball Z: Bio-Broly"
+    },
+    {
+      "id": "GMTE00002909",
+      "title": "Dragon Ball Z: Fusion Reborn"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GMTE00002911",
+      "title": "Dragon Ball Z: The World's Strongest"
+    },
+    {
+      "id": "GMTE00002906",
+      "title": "Dragon Ball Z: The Dead Zone"
+    },
+    {
+      "id": "GRG5WWD4R",
+      "title": "given"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "The Outcast"
+    },
+    {
+      "id": "GMTE00266946",
+      "title": "given The Movie: Hiiragi Mix"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "GMTE00002910",
+      "title": "Dragon Ball Z: Wrath of the Dragon"
+    },
+    {
+      "id": "GMTE00002918",
+      "title": "Dragon Ball Z: Bojack Unbound"
+    },
+    {
+      "id": "GMTE00002914",
+      "title": "Dragon Ball Z: Cooler's Revenge"
+    },
+    {
+      "id": "GMTE00266947",
+      "title": "given The Movie: To the Sea"
+    },
+    {
+      "id": "GMTE00002916",
+      "title": "Dragon Ball Z: Super Android 13"
+    },
+    {
+      "id": "G4PH0WEKE",
+      "title": "BLUE LOCK"
+    },
+    {
+      "id": "GMTE00002907",
+      "title": "Dragon Ball Z: Broly: Second Coming"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GMTE00002915",
+      "title": "Dragon Ball Z: Return of Cooler"
+    },
+    {
+      "id": "GMTE00019933",
+      "title": "Dragon Ball Super: Broly"
+    },
+    {
+      "id": "GMTE00002917",
+      "title": "Dragon Ball Z: Broly, the Legendary Super Saiyan"
+    },
+    {
+      "id": "GRDV0019R",
+      "title": "JUJUTSU KAISEN"
+    },
+    {
+      "id": "GMTE00199304",
+      "title": "Dragon Ball Super: Super Hero"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GMTE00002912",
+      "title": "Dragon Ball Z: The Tree of Might"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GY5P48XEY",
+      "title": "Demon Slayer: Kimetsu no Yaiba"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE"
+    }
+  ],
+  "status_changes": []
+}

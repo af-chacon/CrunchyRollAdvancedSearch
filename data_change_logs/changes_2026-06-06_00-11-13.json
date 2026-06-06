@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-06-06T00:11:13.027648",
+  "summary": {
+    "total_old": 1971,
+    "total_new": 1968,
+    "added_count": 7,
+    "removed_count": 10,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk"
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game"
+    },
+    {
+      "id": "G6NQ5DWZ6",
+      "title": "My Hero Academia"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "G4PH0WXD1",
+      "title": "Arifureta: From Commonplace to World's Strongest"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "G6W4QKX0R",
+      "title": "The Rising of the Shield Hero"
+    }
+  ],
+  "status_changes": []
+}

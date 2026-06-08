@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-06-08T00:12:01.596832",
+  "summary": {
+    "total_old": 1977,
+    "total_new": 1965,
+    "added_count": 6,
+    "removed_count": 18,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch"
+    },
+    {
+      "id": "G6NQ5DWZ6",
+      "title": "My Hero Academia"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs"
+    },
+    {
+      "id": "GW4HM7WK9",
+      "title": "Wistoria: Wand and Sword"
+    },
+    {
+      "id": "GYX0MZ58R",
+      "title": "Ace of the Diamond"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00366791",
+      "title": "OSHI NO KO"
+    },
+    {
+      "id": "GT00376441",
+      "title": "Versatile Mage"
+    },
+    {
+      "id": "GDKHZEJ0K",
+      "title": "Solo Leveling"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GVDHX8QNW",
+      "title": "Chainsaw Man"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    }
+  ],
+  "status_changes": []
+}

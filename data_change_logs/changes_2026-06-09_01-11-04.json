@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-09T01:11:04.408084",
+  "summary": {
+    "total_old": 1963,
+    "total_new": 1961,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-06-09T17:43:15.027947",
+  "summary": {
+    "total_old": 1961,
+    "total_new": 1963,
+    "added_count": 14,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GVDHX8QNW",
+      "title": "Chainsaw Man"
+    },
+    {
+      "id": "GG5H5XQX4",
+      "title": "Frieren: Beyond Journey's End"
+    },
+    {
+      "id": "GMTE00094107",
+      "title": "My Hero Academia: Heroes Rising"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw"
+    },
+    {
+      "id": "GZJH3DJ8E",
+      "title": "The Daily Life of the Immortal King"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!"
+    },
+    {
+      "id": "GY5P48XEY",
+      "title": "Demon Slayer: Kimetsu no Yaiba"
+    },
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class"
+    },
+    {
+      "id": "GT00365574",
+      "title": "Isekai Office Worker: The Other World's Books Depend on the Bean Counter"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation"
+    },
+    {
+      "id": "GDKHZEJ0K",
+      "title": "Solo Leveling"
+    },
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GRE50KV36",
+      "title": "Black Clover"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GY8VM8MWY",
+      "title": "Haikyu!!"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "G6NV7Z50Y",
+      "title": "Tokyo Ghoul"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "The Outcast"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-08T23:35:02.491024",
+  "summary": {
+    "total_old": 1965,
+    "total_new": 1963,
+    "added_count": 3,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    }
+  ],
+  "status_changes": []
+}

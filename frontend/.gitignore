@@ -18,6 +18,10 @@ lerna-debug.log*
 # ESLint reports
 eslint-report.json
 
+# Playwright test artifacts
+playwright-report/
+test-results/
+
 # TypeScript
 *.tsbuildinfo
 

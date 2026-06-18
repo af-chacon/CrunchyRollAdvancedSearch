@@ -14,7 +14,7 @@ Crunchyroll's built-in search is limited and lacks advanced filtering capabiliti
 
 Crunchyroll's metadata is often incomplete. We enhance it with data from AniList to give you:
 - Genre classifications
-- Detailed tags (900+ unique tags)
+- Detailed tags (350+ unique tags)
 - Studio information
 - Release status
 - Additional ratings and popularity metrics

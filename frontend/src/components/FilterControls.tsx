@@ -13,6 +13,7 @@ interface FilterControlsProps {
   availableTags: string[]
   availableStatuses: string[]
   availableStudios: string[]
+  availableMaturityRatings: string[]
   anime: Anime[]
 }
 
@@ -27,10 +28,12 @@ export function FilterControls({
   availableTags,
   availableStatuses,
   availableStudios,
+  availableMaturityRatings,
   anime
 }: FilterControlsProps) {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     basic: true,
+    maturityRatings: false,
     genres: false,
     contentWarnings: false,
     tags: false,
@@ -57,6 +60,12 @@ export function FilterControls({
       .split('_')
       .map(word => word.charAt(0) + word.slice(1).toLowerCase())
       .join(' ')
+  }
+
+  const formatMaturityRating = (rating: string) => {
+    if (rating === 'ALL') return 'All Ages'
+    if (/^\d+$/.test(rating)) return `${rating}+`
+    return rating
   }
 
   const getFilterCounts = (filterObj: Record<string, FilterValue>) => {
@@ -95,6 +104,10 @@ export function FilterControls({
     return anime.filter(item => item.series_metadata?.content_descriptors?.includes(descriptor)).length
   }, [anime])
 
+  const getCountForMaturityRating = useMemo(() => (rating: string) => {
+    return anime.filter(item => item.series_metadata?.extended_maturity_rating?.rating === rating).length
+  }, [anime])
+
   const handleContentDescriptorChange = (descriptor: string, value: FilterValue) => {
     const newDescriptors = { ...filter.contentDescriptors }
     if (value === 'default') {
@@ -103,6 +116,16 @@ export function FilterControls({
       newDescriptors[descriptor] = value
     }
     onFilterChange({ ...filter, contentDescriptors: newDescriptors })
+  }
+
+  const handleMaturityRatingChange = (rating: string, value: FilterValue) => {
+    const newMaturityRatings = { ...filter.maturityRatings }
+    if (value === 'default') {
+      delete newMaturityRatings[rating]
+    } else {
+      newMaturityRatings[rating] = value
+    }
+    onFilterChange({ ...filter, maturityRatings: newMaturityRatings })
   }
 
   const handleGenreChange = (genre: string, value: FilterValue) => {
@@ -200,6 +223,45 @@ export function FilterControls({
           </div>
         )}
       </div>
+      {availableMaturityRatings.length > 0 && (
+        <div className="filter-section">
+          <button
+            type="button"
+            className="section-toggle"
+            onClick={() => toggleSection('maturityRatings')}
+          >
+            <div className="section-header">
+              <span className="section-label">Maturity Rating ({availableMaturityRatings.length})</span>
+              {(() => {
+                const { included, excluded } = getFilterCounts(filter.maturityRatings)
+                if (included > 0 || excluded > 0) {
+                  return (
+                    <span className="filter-count">
+                      {included > 0 && `${included} inc`}
+                      {included > 0 && excluded > 0 && ', '}
+                      {excluded > 0 && `${excluded} exc`}
+                    </span>
+                  )
+                }
+                return null
+              })()}
+            </div>
+            <span className="toggle-icon">{expandedSections.maturityRatings ? '▼' : '▶'}</span>
+          </button>
+          {expandedSections.maturityRatings && (
+            <div className="content-descriptors">
+              {availableMaturityRatings.map(rating => (
+                <TriStateFilter
+                  key={rating}
+                  label={`${formatMaturityRating(rating)} (${getCountForMaturityRating(rating)})`}
+                  value={filter.maturityRatings[rating] || 'default'}
+                  onChange={(value) => handleMaturityRatingChange(rating, value)}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
       {availableGenres.length > 0 && (
         <div className="filter-section">
           <button

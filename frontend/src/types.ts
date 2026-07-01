@@ -22,6 +22,11 @@ export interface Anime {
     subtitle_locales: string[]
     content_descriptors: string[]
     tenant_categories: string[]
+    extended_maturity_rating?: {
+      level: string
+      rating: string
+      system: string
+    }
   }
   images?: {
     poster_tall?: Array<Array<{
@@ -63,6 +68,7 @@ export interface FilterState {
   dubbed: FilterValue
   subbed: FilterValue
   minRating: number
+  maturityRatings: Record<string, FilterValue>
   contentDescriptors: Record<string, FilterValue>
   genres: Record<string, FilterValue>
   tags: Record<string, FilterValue>

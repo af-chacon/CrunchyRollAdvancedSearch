@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import './App.css'
 import { Anime, FilterState, FilterValue } from './types'
+import { UNRATED_MATURITY } from './utils'
 import {
   Header,
   SearchBar,
@@ -131,6 +132,11 @@ function App() {
     return indexA - indexB
   })
 
+  // Offer an "Unrated" option last if any title lacks a maturity rating
+  if (anime.some(item => !item.series_metadata?.extended_maturity_rating?.rating)) {
+    availableMaturityRatings.push(UNRATED_MATURITY)
+  }
+
   const { filteredAnime, facetCounts } = useMemo(() => {
     const matchesSearch = (item: Anime) =>
       item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -148,17 +154,16 @@ function App() {
       return Boolean(matchesDubbed && matchesSubbed && matchesRating)
     }
 
-    // Maturity rating: each title has a single rating, so included levels use
-    // OR semantics (match any selected level) while excluded levels are removed.
+    // Maturity rating: each title has a single rating (unrated titles use the
+    // UNRATED_MATURITY key), so included levels use OR semantics (match any
+    // selected level) while excluded levels are removed.
     const matchesMaturity = (item: Anime) => {
-      const itemRating = item.series_metadata?.extended_maturity_rating?.rating
+      const itemKey = item.series_metadata?.extended_maturity_rating?.rating ?? UNRATED_MATURITY
       const included = Object.entries(filter.maturityRatings)
         .filter(([, value]) => value === 'include').map(([rating]) => rating)
       const excluded = Object.entries(filter.maturityRatings)
         .filter(([, value]) => value === 'exclude').map(([rating]) => rating)
-      return (included.length === 0 ||
-          (itemRating !== undefined && included.includes(itemRating))) &&
-        (itemRating === undefined || !excluded.includes(itemRating))
+      return (included.length === 0 || included.includes(itemKey)) && !excluded.includes(itemKey)
     }
 
     // Generic tri-state matcher for the multi-value record filters
@@ -209,10 +214,9 @@ function App() {
     // ignoring that section's own selections, so its counts always sum to the
     // funnel total entering the section.
     const counts = {
-      maturityRatingCounts: countValues(afterBasic, item => {
-        const rating = item.series_metadata?.extended_maturity_rating?.rating
-        return rating ? [rating] : []
-      }),
+      maturityRatingCounts: countValues(afterBasic, item => [
+        item.series_metadata?.extended_maturity_rating?.rating ?? UNRATED_MATURITY,
+      ]),
       genreCounts: countValues(afterMaturity, item => item.anilist?.genres || []),
       contentDescriptorCounts: countValues(afterGenres, item => item.series_metadata?.content_descriptors || []),
       tagCounts: countValues(afterContentDescriptors, item => item.anilist?.tags || []),

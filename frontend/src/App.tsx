@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import './App.css'
-import { Anime, FilterState } from './types'
+import { Anime, FilterState, FilterValue } from './types'
+import { UNRATED_MATURITY } from './utils'
 import {
   Header,
   SearchBar,
@@ -35,7 +36,6 @@ function App() {
 
   const clearFilters = () => {
     setFilter({
-      mature: 'default',
       dubbed: 'default',
       subbed: 'default',
       minRating: 0,
@@ -132,114 +132,127 @@ function App() {
     return indexA - indexB
   })
 
-  const filteredAnime = anime.filter(item => {
-    const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         item.description.toLowerCase().includes(searchTerm.toLowerCase())
+  // Offer an "Unrated" option last if any title lacks a maturity rating
+  if (anime.some(item => !item.series_metadata?.extended_maturity_rating?.rating)) {
+    availableMaturityRatings.push(UNRATED_MATURITY)
+  }
 
-    // Tri-state filter logic: default = any, include = must have, exclude = must not have
-    const matchesDubbed = filter.dubbed === 'default' ||
-                         (filter.dubbed === 'include' && item.series_metadata?.is_dubbed) ||
-                         (filter.dubbed === 'exclude' && !item.series_metadata?.is_dubbed)
+  const { filteredAnime, facetCounts } = useMemo(() => {
+    const matchesSearch = (item: Anime) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.description.toLowerCase().includes(searchTerm.toLowerCase())
 
-    const matchesSubbed = filter.subbed === 'default' ||
-                         (filter.subbed === 'include' && item.series_metadata?.is_subbed) ||
-                         (filter.subbed === 'exclude' && !item.series_metadata?.is_subbed)
-
-    const matchesRating = parseFloat(item.rating?.average || '0') >= filter.minRating
-
-    // Maturity rating filter. Each title has a single rating, so included
-    // levels use OR semantics (match any selected level) while excluded
-    // levels are always removed.
-    const itemMaturityRating = item.series_metadata?.extended_maturity_rating?.rating
-    const includedMaturityRatings = Object.entries(filter.maturityRatings)
-      .filter(([, value]) => value === 'include')
-      .map(([rating]) => rating)
-    const excludedMaturityRatings = Object.entries(filter.maturityRatings)
-      .filter(([, value]) => value === 'exclude')
-      .map(([rating]) => rating)
-    const matchesMaturityRatings =
-      (includedMaturityRatings.length === 0 ||
-        (itemMaturityRating !== undefined && includedMaturityRatings.includes(itemMaturityRating))) &&
-      (itemMaturityRating === undefined || !excludedMaturityRatings.includes(itemMaturityRating))
-
-    // Content descriptor filters
-    const matchesContentDescriptors = Object.entries(filter.contentDescriptors).every(([descriptor, filterValue]) => {
-      if (filterValue === 'default') return true
-      const hasDescriptor = item.series_metadata?.content_descriptors?.includes(descriptor) || false
-      if (filterValue === 'include') return hasDescriptor
-      if (filterValue === 'exclude') return !hasDescriptor
-      return true
-    })
-
-    // Genre filters
-    const matchesGenres = Object.entries(filter.genres).every(([genre, filterValue]) => {
-      if (filterValue === 'default') return true
-      const hasGenre = item.anilist?.genres?.includes(genre) || false
-      if (filterValue === 'include') return hasGenre
-      if (filterValue === 'exclude') return !hasGenre
-      return true
-    })
-
-    // Tag filters
-    const matchesTags = Object.entries(filter.tags).every(([tag, filterValue]) => {
-      if (filterValue === 'default') return true
-      const hasTag = item.anilist?.tags?.includes(tag) || false
-      if (filterValue === 'include') return hasTag
-      if (filterValue === 'exclude') return !hasTag
-      return true
-    })
-
-    // Status filters
-    const matchesStatus = Object.entries(filter.status).every(([status, filterValue]) => {
-      if (filterValue === 'default') return true
-      const hasStatus = item.anilist?.status === status
-      if (filterValue === 'include') return hasStatus
-      if (filterValue === 'exclude') return !hasStatus
-      return true
-    })
-
-    // Studio filters
-    const matchesStudios = Object.entries(filter.studios).every(([studio, filterValue]) => {
-      if (filterValue === 'default') return true
-      const hasStudio = item.anilist?.studios?.includes(studio) || false
-      if (filterValue === 'include') return hasStudio
-      if (filterValue === 'exclude') return !hasStudio
-      return true
-    })
-
-    return matchesSearch && matchesDubbed && matchesSubbed && matchesRating && matchesMaturityRatings && matchesContentDescriptors && matchesGenres && matchesTags && matchesStatus && matchesStudios
-  }).sort((a, b) => {
-    const direction = filter.sortDirection === 'asc' ? 1 : -1
-    
-    let comparison = 0
-    switch (filter.sortBy) {
-      case 'alphabetical':
-        comparison = a.title.localeCompare(b.title)
-        break
-      case 'year':
-        const yearA = a.series_metadata?.series_launch_year || 0
-        const yearB = b.series_metadata?.series_launch_year || 0
-        comparison = yearA - yearB
-        break
-      case 'rating':
-        const ratingA = parseFloat(a.rating?.average || '0')
-        const ratingB = parseFloat(b.rating?.average || '0')
-        comparison = ratingA - ratingB
-        break
-      case 'anilist_rating':
-        const anilistA = a.anilist?.average_score || 0
-        const anilistB = b.anilist?.average_score || 0
-        comparison = anilistA - anilistB
-        break
+    // Basic filters: dubbed/subbed tri-state + minimum star rating
+    const matchesBasic = (item: Anime) => {
+      const matchesDubbed = filter.dubbed === 'default' ||
+        (filter.dubbed === 'include' && item.series_metadata?.is_dubbed) ||
+        (filter.dubbed === 'exclude' && !item.series_metadata?.is_dubbed)
+      const matchesSubbed = filter.subbed === 'default' ||
+        (filter.subbed === 'include' && item.series_metadata?.is_subbed) ||
+        (filter.subbed === 'exclude' && !item.series_metadata?.is_subbed)
+      const matchesRating = parseFloat(item.rating?.average || '0') >= filter.minRating
+      return Boolean(matchesDubbed && matchesSubbed && matchesRating)
     }
 
-    // If values are equal (or for alphabetical), sort by title ascending (always)
-    if (comparison === 0) {
-      return a.title.localeCompare(b.title)
+    // Maturity rating: each title has a single rating (unrated titles use the
+    // UNRATED_MATURITY key), so included levels use OR semantics (match any
+    // selected level) while excluded levels are removed.
+    const matchesMaturity = (item: Anime) => {
+      const itemKey = item.series_metadata?.extended_maturity_rating?.rating ?? UNRATED_MATURITY
+      const included = Object.entries(filter.maturityRatings)
+        .filter(([, value]) => value === 'include').map(([rating]) => rating)
+      const excluded = Object.entries(filter.maturityRatings)
+        .filter(([, value]) => value === 'exclude').map(([rating]) => rating)
+      return (included.length === 0 || included.includes(itemKey)) && !excluded.includes(itemKey)
     }
 
-    return comparison * direction
-  })
+    // Generic tri-state matcher for the multi-value record filters
+    const matchesRecord = (
+      item: Anime,
+      filterObj: Record<string, FilterValue>,
+      has: (item: Anime, key: string) => boolean
+    ) => Object.entries(filterObj).every(([key, value]) => {
+      if (value === 'default') return true
+      return value === 'include' ? has(item, key) : !has(item, key)
+    })
+
+    const matchesGenres = (item: Anime) =>
+      matchesRecord(item, filter.genres, (i, k) => i.anilist?.genres?.includes(k) ?? false)
+    const matchesContentDescriptors = (item: Anime) =>
+      matchesRecord(item, filter.contentDescriptors, (i, k) => i.series_metadata?.content_descriptors?.includes(k) ?? false)
+    const matchesTags = (item: Anime) =>
+      matchesRecord(item, filter.tags, (i, k) => i.anilist?.tags?.includes(k) ?? false)
+    const matchesStatus = (item: Anime) =>
+      matchesRecord(item, filter.status, (i, k) => i.anilist?.status === k)
+    const matchesStudios = (item: Anime) =>
+      matchesRecord(item, filter.studios, (i, k) => i.anilist?.studios?.includes(k) ?? false)
+
+    // Tally how many of `items` carry each value, for the funnel facet counts
+    const countValues = (items: Anime[], getValues: (item: Anime) => string[]) => {
+      const counts: Record<string, number> = {}
+      for (const item of items) {
+        for (const value of getValues(item)) {
+          counts[value] = (counts[value] || 0) + 1
+        }
+      }
+      return counts
+    }
+
+    // Funnel: apply each filter section in the order it appears in the UI, so
+    // each section's option counts reflect the titles that survived every
+    // section above it (search + basic filters first, studios last).
+    const afterSearch = anime.filter(matchesSearch)
+    const afterBasic = afterSearch.filter(matchesBasic)
+    const afterMaturity = afterBasic.filter(matchesMaturity)
+    const afterGenres = afterMaturity.filter(matchesGenres)
+    const afterContentDescriptors = afterGenres.filter(matchesContentDescriptors)
+    const afterTags = afterContentDescriptors.filter(matchesTags)
+    const afterStatus = afterTags.filter(matchesStatus)
+    const afterStudios = afterStatus.filter(matchesStudios)
+
+    // Each facet is counted against its section's input (the set from above),
+    // ignoring that section's own selections, so its counts always sum to the
+    // funnel total entering the section.
+    const counts = {
+      maturityRatingCounts: countValues(afterBasic, item => [
+        item.series_metadata?.extended_maturity_rating?.rating ?? UNRATED_MATURITY,
+      ]),
+      genreCounts: countValues(afterMaturity, item => item.anilist?.genres || []),
+      contentDescriptorCounts: countValues(afterGenres, item => item.series_metadata?.content_descriptors || []),
+      tagCounts: countValues(afterContentDescriptors, item => item.anilist?.tags || []),
+      statusCounts: countValues(afterTags, item => (item.anilist?.status ? [item.anilist.status] : [])),
+      studioCounts: countValues(afterStatus, item => item.anilist?.studios || []),
+    }
+
+    const sorted = [...afterStudios].sort((a, b) => {
+      const direction = filter.sortDirection === 'asc' ? 1 : -1
+
+      let comparison = 0
+      switch (filter.sortBy) {
+        case 'alphabetical':
+          comparison = a.title.localeCompare(b.title)
+          break
+        case 'year':
+          comparison = (a.series_metadata?.series_launch_year || 0) - (b.series_metadata?.series_launch_year || 0)
+          break
+        case 'rating':
+          comparison = parseFloat(a.rating?.average || '0') - parseFloat(b.rating?.average || '0')
+          break
+        case 'anilist_rating':
+          comparison = (a.anilist?.average_score || 0) - (b.anilist?.average_score || 0)
+          break
+      }
+
+      // If values are equal (or for alphabetical), sort by title ascending (always)
+      if (comparison === 0) {
+        return a.title.localeCompare(b.title)
+      }
+
+      return comparison * direction
+    })
+
+    return { filteredAnime: sorted, facetCounts: counts }
+  }, [anime, filter, searchTerm])
 
   const totalPages = Math.ceil(filteredAnime.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
@@ -272,7 +285,12 @@ function App() {
           availableStatuses={availableStatuses}
           availableStudios={availableStudios}
           availableMaturityRatings={availableMaturityRatings}
-          anime={anime}
+          maturityRatingCounts={facetCounts.maturityRatingCounts}
+          genreCounts={facetCounts.genreCounts}
+          contentDescriptorCounts={facetCounts.contentDescriptorCounts}
+          tagCounts={facetCounts.tagCounts}
+          statusCounts={facetCounts.statusCounts}
+          studioCounts={facetCounts.studioCounts}
         />
       </div>
 

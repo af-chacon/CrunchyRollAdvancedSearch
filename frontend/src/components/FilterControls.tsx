@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react'
-import { FilterState, FilterValue, Anime, SortType, SortDirection } from '../types'
+import { useState } from 'react'
+import { FilterState, FilterValue, SortType, SortDirection } from '../types'
 import { TriStateFilter } from './TriStateFilter'
 import { formatMaturityRating } from '../utils'
 
@@ -15,7 +15,14 @@ interface FilterControlsProps {
   availableStatuses: string[]
   availableStudios: string[]
   availableMaturityRatings: string[]
-  anime: Anime[]
+  // Funnel facet counts: how many titles fit each option given the filters
+  // applied in the sections above it.
+  maturityRatingCounts: Record<string, number>
+  genreCounts: Record<string, number>
+  contentDescriptorCounts: Record<string, number>
+  tagCounts: Record<string, number>
+  statusCounts: Record<string, number>
+  studioCounts: Record<string, number>
 }
 
 export function FilterControls({
@@ -30,7 +37,12 @@ export function FilterControls({
   availableStatuses,
   availableStudios,
   availableMaturityRatings,
-  anime
+  maturityRatingCounts,
+  genreCounts,
+  contentDescriptorCounts,
+  tagCounts,
+  statusCounts,
+  studioCounts
 }: FilterControlsProps) {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     basic: true,
@@ -76,31 +88,6 @@ export function FilterControls({
     if (filter.minRating > 0) count++
     return count
   }
-
-  // Calculate count for a specific filter option
-  const getCountForTag = useMemo(() => (tag: string) => {
-    return anime.filter(item => item.anilist?.tags?.includes(tag)).length
-  }, [anime])
-
-  const getCountForGenre = useMemo(() => (genre: string) => {
-    return anime.filter(item => item.anilist?.genres?.includes(genre)).length
-  }, [anime])
-
-  const getCountForStudio = useMemo(() => (studio: string) => {
-    return anime.filter(item => item.anilist?.studios?.includes(studio)).length
-  }, [anime])
-
-  const getCountForStatus = useMemo(() => (status: string) => {
-    return anime.filter(item => item.anilist?.status === status).length
-  }, [anime])
-
-  const getCountForContentDescriptor = useMemo(() => (descriptor: string) => {
-    return anime.filter(item => item.series_metadata?.content_descriptors?.includes(descriptor)).length
-  }, [anime])
-
-  const getCountForMaturityRating = useMemo(() => (rating: string) => {
-    return anime.filter(item => item.series_metadata?.extended_maturity_rating?.rating === rating).length
-  }, [anime])
 
   const handleContentDescriptorChange = (descriptor: string, value: FilterValue) => {
     const newDescriptors = { ...filter.contentDescriptors }
@@ -242,7 +229,7 @@ export function FilterControls({
               {availableMaturityRatings.map(rating => (
                 <TriStateFilter
                   key={rating}
-                  label={`${formatMaturityRating(rating)} (${getCountForMaturityRating(rating)})`}
+                  label={`${formatMaturityRating(rating)} (${maturityRatingCounts[rating] || 0})`}
                   value={filter.maturityRatings[rating] || 'default'}
                   onChange={(value) => handleMaturityRatingChange(rating, value)}
                 />
@@ -281,7 +268,7 @@ export function FilterControls({
               {availableGenres.map(genre => (
                 <TriStateFilter
                   key={genre}
-                  label={`${genre} (${getCountForGenre(genre)})`}
+                  label={`${genre} (${genreCounts[genre] || 0})`}
                   value={filter.genres[genre] || 'default'}
                   onChange={(value) => handleGenreChange(genre, value)}
                 />
@@ -320,7 +307,7 @@ export function FilterControls({
               {availableContentDescriptors.map(descriptor => (
                 <TriStateFilter
                   key={descriptor}
-                  label={`${descriptor} (${getCountForContentDescriptor(descriptor)})`}
+                  label={`${descriptor} (${contentDescriptorCounts[descriptor] || 0})`}
                   value={filter.contentDescriptors[descriptor] || 'default'}
                   onChange={(value) => handleContentDescriptorChange(descriptor, value)}
                 />
@@ -367,7 +354,7 @@ export function FilterControls({
                 {filteredTags.map(tag => (
                   <TriStateFilter
                     key={tag}
-                    label={`${tag} (${getCountForTag(tag)})`}
+                    label={`${tag} (${tagCounts[tag] || 0})`}
                     value={filter.tags[tag] || 'default'}
                     onChange={(value) => handleTagChange(tag, value)}
                   />
@@ -408,7 +395,7 @@ export function FilterControls({
               {availableStatuses.map(status => (
                 <TriStateFilter
                   key={status}
-                  label={`${formatLabel(status)} (${getCountForStatus(status)})`}
+                  label={`${formatLabel(status)} (${statusCounts[status] || 0})`}
                   value={filter.status[status] || 'default'}
                   onChange={(value) => handleStatusChange(status, value)}
                 />
@@ -455,7 +442,7 @@ export function FilterControls({
                 {filteredStudios.map(studio => (
                   <TriStateFilter
                     key={studio}
-                    label={`${studio} (${getCountForStudio(studio)})`}
+                    label={`${studio} (${studioCounts[studio] || 0})`}
                     value={filter.studios[studio] || 'default'}
                     onChange={(value) => handleStudioChange(studio, value)}
                   />

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Anime, FilterState } from '../types'
+import { formatMaturityRating, maturityRatingSlug } from '../utils'
 
 interface AnimeCardProps {
   anime: Anime
@@ -54,13 +55,6 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const handleMatureClick = (e: React.MouseEvent) => {
-    e.preventDefault()
-    e.stopPropagation()
-    onFilterChange({ ...currentFilter, mature: 'include' })
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
   return (
     <div className="anime-card">
       <a href={crunchyrollUrl} target="_blank" rel="noopener noreferrer" className="anime-card-link">
@@ -103,9 +97,9 @@ export function AnimeCard({ anime, onFilterChange, currentFilter }: AnimeCardPro
         </div>
         <p className="description">{anime.description}</p>
         <div className="tags">
-          {anime.series_metadata?.is_mature && (
-            <span className="tag mature clickable" onClick={handleMatureClick}>
-              Mature
+          {anime.series_metadata?.extended_maturity_rating?.rating && (
+            <span className={`tag rating rating-${maturityRatingSlug(anime.series_metadata.extended_maturity_rating.rating)}`}>
+              {formatMaturityRating(anime.series_metadata.extended_maturity_rating.rating)}
             </span>
           )}
           {anime.series_metadata?.is_dubbed && (

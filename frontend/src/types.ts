@@ -64,7 +64,6 @@ export type SortType = 'alphabetical' | 'year' | 'rating' | 'anilist_rating'
 export type SortDirection = 'asc' | 'desc'
 
 export interface FilterState {
-  mature: FilterValue
   dubbed: FilterValue
   subbed: FilterValue
   minRating: number

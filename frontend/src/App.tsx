@@ -20,7 +20,6 @@ function App() {
   const [itemsPerPage, setItemsPerPage] = useState<number>(16)
   const [dataTimestamp, setDataTimestamp] = useState<string>('')
   const [filter, setFilter] = useState<FilterState>({
-    mature: 'default',
     dubbed: 'default',
     subbed: 'default',
     minRating: 0,
@@ -138,10 +137,6 @@ function App() {
                          item.description.toLowerCase().includes(searchTerm.toLowerCase())
 
     // Tri-state filter logic: default = any, include = must have, exclude = must not have
-    const matchesMature = filter.mature === 'default' ||
-                         (filter.mature === 'include' && item.series_metadata?.is_mature) ||
-                         (filter.mature === 'exclude' && !item.series_metadata?.is_mature)
-
     const matchesDubbed = filter.dubbed === 'default' ||
                          (filter.dubbed === 'include' && item.series_metadata?.is_dubbed) ||
                          (filter.dubbed === 'exclude' && !item.series_metadata?.is_dubbed)
@@ -212,7 +207,7 @@ function App() {
       return true
     })
 
-    return matchesSearch && matchesMature && matchesDubbed && matchesSubbed && matchesRating && matchesMaturityRatings && matchesContentDescriptors && matchesGenres && matchesTags && matchesStatus && matchesStudios
+    return matchesSearch && matchesDubbed && matchesSubbed && matchesRating && matchesMaturityRatings && matchesContentDescriptors && matchesGenres && matchesTags && matchesStatus && matchesStudios
   }).sort((a, b) => {
     const direction = filter.sortDirection === 'asc' ? 1 : -1
     

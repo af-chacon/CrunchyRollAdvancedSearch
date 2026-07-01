@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { FilterState, FilterValue, Anime, SortType, SortDirection } from '../types'
 import { TriStateFilter } from './TriStateFilter'
+import { formatMaturityRating } from '../utils'
 
 interface FilterControlsProps {
   filter: FilterState
@@ -62,12 +63,6 @@ export function FilterControls({
       .join(' ')
   }
 
-  const formatMaturityRating = (rating: string) => {
-    if (rating === 'ALL') return 'All Ages'
-    if (/^\d+$/.test(rating)) return `${rating}+`
-    return rating
-  }
-
   const getFilterCounts = (filterObj: Record<string, FilterValue>) => {
     const included = Object.values(filterObj).filter(v => v === 'include').length
     const excluded = Object.values(filterObj).filter(v => v === 'exclude').length
@@ -76,7 +71,6 @@ export function FilterControls({
 
   const getBasicFilterCount = () => {
     let count = 0
-    if (filter.mature !== 'default') count++
     if (filter.dubbed !== 'default') count++
     if (filter.subbed !== 'default') count++
     if (filter.minRating > 0) count++
@@ -187,11 +181,6 @@ export function FilterControls({
         {expandedSections.basic && (
           <div className="basic-filters-content">
             <div className="filters">
-              <TriStateFilter
-                label="Mature"
-                value={filter.mature}
-                onChange={(value) => onFilterChange({ ...filter, mature: value })}
-              />
               <TriStateFilter
                 label="Dubbed"
                 value={filter.dubbed}

@@ -1,0 +1,918 @@
+{
+  "timestamp": "2026-07-01T14:36:49.746785",
+  "summary": {
+    "total_old": 1963,
+    "total_new": 1972,
+    "added_count": 103,
+    "removed_count": 94,
+    "status_changes_count": 19
+  },
+  "added": [
+    {
+      "id": "GY8VM8MWY",
+      "title": "Haikyu!!"
+    },
+    {
+      "id": "GDKHZEJ9G",
+      "title": "Pani Poni Dash!"
+    },
+    {
+      "id": "G24H118W1",
+      "title": "Panda Cubed"
+    },
+    {
+      "id": "GR4PHN9NM",
+      "title": "Erina Mano"
+    },
+    {
+      "id": "GRGG9798R",
+      "title": "Re:ZERO -Starting Life in Another World-"
+    },
+    {
+      "id": "GNVHKXZ71",
+      "title": "Def Tech"
+    },
+    {
+      "id": "GT00374493",
+      "title": "RILAKKUMA"
+    },
+    {
+      "id": "GYVD2XZXY",
+      "title": "Why Did You Come to Japan?"
+    },
+    {
+      "id": "GR49G9VP6",
+      "title": "Sword Art Online"
+    },
+    {
+      "id": "GT00376441",
+      "title": "Versatile Mage"
+    },
+    {
+      "id": "GR19MD406",
+      "title": "Anisong Station"
+    },
+    {
+      "id": "G3KHEEE52",
+      "title": "LiSA"
+    },
+    {
+      "id": "GT00371668",
+      "title": "Haibara's Teenage New Game+"
+    },
+    {
+      "id": "GT00366791",
+      "title": "OSHI NO KO"
+    },
+    {
+      "id": "GY79H7ZDP",
+      "title": "Culture Japan"
+    },
+    {
+      "id": "GRQWH14QV",
+      "title": "Adventures in Voice Acting"
+    },
+    {
+      "id": "G24H1VVJQ",
+      "title": "Fairy Tail Podcast"
+    },
+    {
+      "id": "GNVHKK7KJ",
+      "title": "Eyeshine"
+    },
+    {
+      "id": "G63VPE1XY",
+      "title": "Super Gals!"
+    },
+    {
+      "id": "GYWE4P1GY",
+      "title": "Tofugu"
+    },
+    {
+      "id": "GRJ0H419V",
+      "title": "Kalafina"
+    },
+    {
+      "id": "GYEXQKJG6",
+      "title": "Dr. STONE"
+    },
+    {
+      "id": "G79H23VNQ",
+      "title": "Wandering Witch: The Journey of Elaina"
+    },
+    {
+      "id": "GYQWNXPZY",
+      "title": "Fire Force"
+    },
+    {
+      "id": "GT00378069",
+      "title": "Heroine? Saint? No, I'm an All-Works Maid (And Proud of It)!"
+    },
+    {
+      "id": "GRVN8MNQY",
+      "title": "Classroom of the Elite"
+    },
+    {
+      "id": "GVDHXNGXN",
+      "title": "Miyavi"
+    },
+    {
+      "id": "G6NQK7Z36",
+      "title": "Banpresto World Figure Colosseum"
+    },
+    {
+      "id": "G649D0KPY",
+      "title": "Endride"
+    },
+    {
+      "id": "GT00371869",
+      "title": "SNOWBALL EARTH"
+    },
+    {
+      "id": "GYP81WDMY",
+      "title": "Lost Universe"
+    },
+    {
+      "id": "G4PH00N1X",
+      "title": "Fighting For Nippon"
+    },
+    {
+      "id": "G9VHN91DJ",
+      "title": "The Angel Next Door Spoils Me Rotten"
+    },
+    {
+      "id": "GXJHMMJEV",
+      "title": "BDUB The Anime Master"
+    },
+    {
+      "id": "GT00337506",
+      "title": "Go For It, Nakamura-kun!!"
+    },
+    {
+      "id": "GYVNX8JQ6",
+      "title": "The Tower of DRUAGA -the Aegis of URUK-"
+    },
+    {
+      "id": "GT00371849",
+      "title": "Kujima: Why Sing, When You Can Warble?"
+    },
+    {
+      "id": "GY3VKM44R",
+      "title": "The Tower of DRUAGA -the Sword of URUK-"
+    },
+    {
+      "id": "GT00365598",
+      "title": "Tamon's B-side"
+    },
+    {
+      "id": "GRWEQ4ZNR",
+      "title": "Japa Con Presents: Agent HaZAP"
+    },
+    {
+      "id": "G6GGXKNE6",
+      "title": "Death Parade"
+    },
+    {
+      "id": "GYEXHWK4D",
+      "title": "Chemistry"
+    },
+    {
+      "id": "G1XHJJZ1V",
+      "title": "The Anime Zone"
+    },
+    {
+      "id": "GVDHXX98M",
+      "title": "Ixogenesis"
+    },
+    {
+      "id": "G0XHWGMEM",
+      "title": "Kylee"
+    },
+    {
+      "id": "GQWH00V55",
+      "title": "Erin's Anime Review Show"
+    },
+    {
+      "id": "G65VKEXD6",
+      "title": "The Fruit of Grisaia"
+    },
+    {
+      "id": "GQWH0M19X",
+      "title": "The Elusive Samurai"
+    },
+    {
+      "id": "GT00371787",
+      "title": "Killed again, Mr. Detective."
+    },
+    {
+      "id": "G675KQ51R",
+      "title": "Iida Tokimeki Trip"
+    },
+    {
+      "id": "GR9VHDVQM",
+      "title": "Stereopony"
+    },
+    {
+      "id": "G6NV7Z50Y",
+      "title": "Tokyo Ghoul"
+    },
+    {
+      "id": "GNVHKXVE1",
+      "title": "SHOTanime"
+    },
+    {
+      "id": "G24H1NWKE",
+      "title": "The Beginning After the End"
+    },
+    {
+      "id": "GKEH2G7PG",
+      "title": "The Law of Ueki"
+    },
+    {
+      "id": "GT00351082",
+      "title": "Karna The Guardian"
+    },
+    {
+      "id": "GR79E1Z36",
+      "title": "Anime Say You Radio Ani Raji"
+    },
+    {
+      "id": "GQWH0NQ4M",
+      "title": "Baby Metal"
+    },
+    {
+      "id": "GY0XH21WK",
+      "title": "Berryz Kobo"
+    },
+    {
+      "id": "GMTE00107040",
+      "title": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE"
+    },
+    {
+      "id": "GT00371878",
+      "title": "The Villager of Level 999"
+    },
+    {
+      "id": "GMEHME89G",
+      "title": "xxxHOLiC"
+    },
+    {
+      "id": "GT00362253",
+      "title": "The Warrior Princess and the Barbaric King"
+    },
+    {
+      "id": "G6QWV3976",
+      "title": "Rent-a-Girlfriend"
+    },
+    {
+      "id": "G9VHNN0KX",
+      "title": "Maple Story"
+    },
+    {
+      "id": "GY2P14QEY",
+      "title": "Akame ga Kill!"
+    },
+    {
+      "id": "GT00371887",
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess"
+    },
+    {
+      "id": "G64PHWJD8",
+      "title": "Jin Akanishi"
+    },
+    {
+      "id": "GR9VHGDNP",
+      "title": "HANGRY AND ANGRY"
+    },
+    {
+      "id": "G5PHNDEGX",
+      "title": "Crunchyroll x Tokyo"
+    },
+    {
+      "id": "GZJH3DJ4X",
+      "title": "Peach Girl"
+    },
+    {
+      "id": "GRK5ZZGW6",
+      "title": "Sasami Magical Girls Club"
+    },
+    {
+      "id": "GYMEGQ9V6",
+      "title": "The Journey Home"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God"
+    },
+    {
+      "id": "G6XJHE8GZ",
+      "title": "Otaku No Video Podcast"
+    },
+    {
+      "id": "GT00374363",
+      "title": "A Hundred Scenes of AWAJIMA"
+    },
+    {
+      "id": "GT00378117",
+      "title": "The Cat and the Dragon"
+    },
+    {
+      "id": "GMEHMMMN9",
+      "title": "ANIMETAL USA"
+    },
+    {
+      "id": "GYKEHE5M1",
+      "title": "Gaiking: Legend of Daiku-Maryu"
+    },
+    {
+      "id": "GR19NK216",
+      "title": "Nisekoi"
+    },
+    {
+      "id": "GR1XQ92VR",
+      "title": "Conception"
+    },
+    {
+      "id": "GYNVHNP0X",
+      "title": "Pale Cocoon"
+    },
+    {
+      "id": "G4PH0WXD1",
+      "title": "Arifureta: From Commonplace to World's Strongest"
+    },
+    {
+      "id": "GYZJ43JMR",
+      "title": "That Time I Got Reincarnated as a Slime"
+    },
+    {
+      "id": "GT00371662",
+      "title": "Gals Can't be Kind to Otaku!?"
+    },
+    {
+      "id": "G9VHNN8W4",
+      "title": "Kimchi Chronicles"
+    },
+    {
+      "id": "G69PV5EVY",
+      "title": "Hikakin Beatbox"
+    },
+    {
+      "id": "G6ZJH93WZ",
+      "title": "Puffy AmiYumi"
+    },
+    {
+      "id": "G6W4QKX0R",
+      "title": "The Rising of the Shield Hero"
+    },
+    {
+      "id": "GREXHD7WJ",
+      "title": "Otaku-Verse Zero"
+    },
+    {
+      "id": "GYKEHW2EG",
+      "title": "Boom Boom Satellites"
+    },
+    {
+      "id": "G1XHJVW55",
+      "title": "Regalia: The Three Sacred Stars"
+    },
+    {
+      "id": "GVDHX8504",
+      "title": "Reborn as a Vending Machine, I Now Wander the Dungeon"
+    },
+    {
+      "id": "GZJH3MMJ2",
+      "title": "Konoha Corner"
+    },
+    {
+      "id": "GRE50KV36",
+      "title": "Black Clover"
+    },
+    {
+      "id": "GQWH0MPNM",
+      "title": "Mongolian Chop Squad"
+    },
+    {
+      "id": "GT00378125",
+      "title": "The Oblivious Saint Can't Contain Her Power"
+    },
+    {
+      "id": "GT00371642",
+      "title": "Always a Catch!"
+    },
+    {
+      "id": "G63VMXEQY",
+      "title": "The Outcast"
+    },
+    {
+      "id": "GRZJEQ3V6",
+      "title": "Accel World"
+    },
+    {
+      "id": "GT00378115",
+      "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage"
+    },
+    {
+      "id": "GR8VJVX7R",
+      "title": "ALL OUT!!"
+    },
+    {
+      "id": "GMTE107040",
+      "title": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GY75KE906",
+      "title": "Thunderbolt Fantasy"
+    },
+    {
+      "id": "GVDHX8J9G",
+      "title": "The Stranger by the Shore"
+    },
+    {
+      "id": "G0XHWM5PN",
+      "title": "Tokyo Revengers (Live Action)"
+    },
+    {
+      "id": "GMTE00002918",
+      "title": "Dragon Ball Z: Bojack Unbound"
+    },
+    {
+      "id": "GMTE00192589",
+      "title": "Street Fighter II The Animated Movie"
+    },
+    {
+      "id": "GMTE00114968",
+      "title": "Sword Art Online the Movie -Ordinal Scale-"
+    },
+    {
+      "id": "GZJH3D8D8",
+      "title": "Gunbuster"
+    },
+    {
+      "id": "GMEHME81V",
+      "title": "To Every You I've Loved Before"
+    },
+    {
+      "id": "GMTE00019934",
+      "title": "My Hero Academia: Two Heroes"
+    },
+    {
+      "id": "GMTE00019933",
+      "title": "Dragon Ball Super: Broly"
+    },
+    {
+      "id": "GY8VX2G9YG",
+      "title": "009-1: The End of the Beginning"
+    },
+    {
+      "id": "G649087WY",
+      "title": "The Machine Girl - Movie"
+    },
+    {
+      "id": "GMTE00348901",
+      "title": "Fureru"
+    },
+    {
+      "id": "GKEH2G8N4",
+      "title": "Monster Strike the Movie: Lucifer Dawn of Despair"
+    },
+    {
+      "id": "GEXH3W4VJ",
+      "title": "As the Gods Will"
+    },
+    {
+      "id": "GMTE00169838",
+      "title": "Tokyo Gore Police"
+    },
+    {
+      "id": "GNVHKN92K",
+      "title": "CHAINSAW MAN – THE MOVIE: REZE ARC"
+    },
+    {
+      "id": "GRMGE945R",
+      "title": "Traveling Daru"
+    },
+    {
+      "id": "GW4HM755M",
+      "title": "Gintama: The Very Final"
+    },
+    {
+      "id": "GRJ0HK77Z",
+      "title": "Mizu no Kotoba"
+    },
+    {
+      "id": "GZJH3DJ2X",
+      "title": "The Journey"
+    },
+    {
+      "id": "GMTE00192533",
+      "title": "Sin The Movie"
+    },
+    {
+      "id": "G79H23K5W",
+      "title": "Fatal Fury: The Motion Picture"
+    },
+    {
+      "id": "GMTE00258378",
+      "title": "Isekai Quartet The Movie: Another World"
+    },
+    {
+      "id": "GMTE00194450",
+      "title": "JUJUTSU KAISEN 0"
+    },
+    {
+      "id": "GMTE00002906",
+      "title": "Dragon Ball Z: The Dead Zone"
+    },
+    {
+      "id": "G24H1NJQ2",
+      "title": "Human Lost"
+    },
+    {
+      "id": "GMTE00002917",
+      "title": "Dragon Ball Z: Broly, the Legendary Super Saiyan"
+    },
+    {
+      "id": "GMTE00002909",
+      "title": "Dragon Ball Z: Fusion Reborn"
+    },
+    {
+      "id": "G24H1NWPJ",
+      "title": "PSYCHO-PASS: Providence"
+    },
+    {
+      "id": "GMTE00192773",
+      "title": "Onimusha: Dawn of Dreams"
+    },
+    {
+      "id": "GMTE00002912",
+      "title": "Dragon Ball Z: The Tree of Might"
+    },
+    {
+      "id": "G5PHNMWX9",
+      "title": "One Piece (Movies)"
+    },
+    {
+      "id": "GMTE00002916",
+      "title": "Dragon Ball Z: Super Android 13"
+    },
+    {
+      "id": "GMTE00094107",
+      "title": "My Hero Academia: Heroes Rising"
+    },
+    {
+      "id": "G4PH0WJ7Z",
+      "title": "The Legend Of Hei"
+    },
+    {
+      "id": "G79H23KWW",
+      "title": "Yes, No, or Maybe?"
+    },
+    {
+      "id": "GYNVQ5PZR",
+      "title": "Calamity of a Zombie Girl"
+    },
+    {
+      "id": "GMTE00002908",
+      "title": "Dragon Ball Z: Bio-Broly"
+    },
+    {
+      "id": "GP5HJ8WJG",
+      "title": "For Whom The Alchemist Exists The Movie"
+    },
+    {
+      "id": "GKEH2G597",
+      "title": "SHIROBAKO the Movie"
+    },
+    {
+      "id": "GVDHX8V05",
+      "title": "Psycho-Pass: Sinners of the System"
+    },
+    {
+      "id": "GRKE5428R",
+      "title": "Starlight Promises"
+    },
+    {
+      "id": "GMTE00258377",
+      "title": "The Quintessential Quintuplets Movie"
+    },
+    {
+      "id": "GMTE00002915",
+      "title": "Dragon Ball Z: Return of Cooler"
+    },
+    {
+      "id": "GMTE00002910",
+      "title": "Dragon Ball Z: Wrath of the Dragon"
+    },
+    {
+      "id": "GY79XX9MR",
+      "title": "The Island of Giant Insects"
+    },
+    {
+      "id": "GVDHX8QM4",
+      "title": "To Me, The One Who Loved You"
+    },
+    {
+      "id": "GMTE00002920",
+      "title": "Dragon Ball Z: Resurrection 'F'"
+    },
+    {
+      "id": "GR9PVW336",
+      "title": "Hanasaku Iroha"
+    },
+    {
+      "id": "GQWH0MP82",
+      "title": "Big Fish & Begonia"
+    },
+    {
+      "id": "GYZXWE596",
+      "title": "STARMYU"
+    },
+    {
+      "id": "GKEH2G7GG",
+      "title": "Hells"
+    },
+    {
+      "id": "GW4HM750E",
+      "title": "Mass Effect"
+    },
+    {
+      "id": "GMTE00002914",
+      "title": "Dragon Ball Z: Cooler's Revenge"
+    },
+    {
+      "id": "GMTE00266946",
+      "title": "given The Movie: Hiiragi Mix"
+    },
+    {
+      "id": "GRPP77VJR",
+      "title": "BURN THE WITCH"
+    },
+    {
+      "id": "GMTE00129209",
+      "title": "Mobile Suit Gundam Wing ENDLESS WALTZ"
+    },
+    {
+      "id": "GMTE00350182",
+      "title": "My Hero Academia: You're Next"
+    },
+    {
+      "id": "GP5HJ84XV",
+      "title": "A Silent Voice"
+    },
+    {
+      "id": "GRQWJWPGR",
+      "title": "Akira"
+    },
+    {
+      "id": "G60914JM6",
+      "title": "TRINITY SEVEN"
+    },
+    {
+      "id": "GMTE00192514",
+      "title": "Yonna in the Solitary Fortress"
+    },
+    {
+      "id": "G24H1N5JG",
+      "title": "Over the Sky"
+    },
+    {
+      "id": "GMTE00369364",
+      "title": "Me & Roboco: The Movie"
+    },
+    {
+      "id": "GMTE00116643",
+      "title": "The Princess and the Pilot"
+    },
+    {
+      "id": "GMTE00192521",
+      "title": "given the Movie"
+    },
+    {
+      "id": "GMTE00199304",
+      "title": "Dragon Ball Super: Super Hero"
+    },
+    {
+      "id": "G1XHJ45V4",
+      "title": "Shinobi Girl: The Movie"
+    },
+    {
+      "id": "GXJHM397N",
+      "title": "Fate/Grand Carnival"
+    },
+    {
+      "id": "GMTE00192519",
+      "title": "Unico In the Island of Magic"
+    },
+    {
+      "id": "G9VHN977K",
+      "title": "Sing a Bit of Harmony"
+    },
+    {
+      "id": "G6DK07N7R",
+      "title": "The Garden of Sinners"
+    },
+    {
+      "id": "GRVD1337R",
+      "title": "PEACE MAKER KUROGANE"
+    },
+    {
+      "id": "G3KHEVQ95",
+      "title": "Josee, the Tiger and the Fish"
+    },
+    {
+      "id": "GMTE00192845",
+      "title": "Robot Carnival"
+    },
+    {
+      "id": "GMTE00355226",
+      "title": "Fuuto PI: The Portrait of Kamen Rider Skull"
+    },
+    {
+      "id": "GYE5Z5JNR",
+      "title": "Elegant Yokai Apartment Life"
+    },
+    {
+      "id": "GMTE00335490",
+      "title": "SPY x FAMILY CODE: White"
+    },
+    {
+      "id": "GMTE00002919",
+      "title": "Dragon Ball Z: Battle of Gods"
+    },
+    {
+      "id": "GMTE00256631",
+      "title": "That Time I Got Reincarnated as a Slime The Movie: Scarlet Bond"
+    },
+    {
+      "id": "GQWH0M1GG",
+      "title": "Dragon Ball Movies"
+    },
+    {
+      "id": "GMTE00266947",
+      "title": "given The Movie: To the Sea"
+    },
+    {
+      "id": "GMTE00002911",
+      "title": "Dragon Ball Z: The World's Strongest"
+    },
+    {
+      "id": "G1XHJV29J",
+      "title": "The Boy and the Beast"
+    },
+    {
+      "id": "G68VDQ776",
+      "title": "Death Kappa"
+    },
+    {
+      "id": "GXJHM3G47",
+      "title": "ORGUSS"
+    },
+    {
+      "id": "GP5HJ8425",
+      "title": "Suzume"
+    },
+    {
+      "id": "G3KHEV0Q1",
+      "title": "Brave Father Online - Our Story of FINAL FANTASY XIV"
+    },
+    {
+      "id": "GMTE00115365",
+      "title": "Cardcaptor Sakura: The Movie"
+    },
+    {
+      "id": "GYP5E27KY",
+      "title": "Kizuna AI 1st Live \"hello, world\""
+    },
+    {
+      "id": "G63VWE19Y",
+      "title": "Steel Fisted Dragon"
+    },
+    {
+      "id": "GR9VG8KE6",
+      "title": "Night on the Galactic Railroad"
+    },
+    {
+      "id": "GMTE00002907",
+      "title": "Dragon Ball Z: Broly: Second Coming"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00371636",
+      "title": "Agents of the Four Seasons Dance of Spring",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00258001",
+      "title": "Witch Hat Atelier",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371857",
+      "title": "MARRIAGETOXIN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00375170",
+      "title": "The Food Diary of Miss Maid",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371775",
+      "title": "Pardon the Intrusion, I'm Home!",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371863",
+      "title": "NEEDY GIRL OVERDOSE",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00374796",
+      "title": "GHOST CONCERT : missing Songs",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371875",
+      "title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371896",
+      "title": "KILL BLUE",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371890",
+      "title": "Botan Kamiina Fully Blossoms When Drunk",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371779",
+      "title": "I Want to End this Love Game",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371673",
+      "title": "I Made Friends with the Second Prettiest Girl in My Class",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00374288",
+      "title": "Even a Replica Can Fall in Love",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00374360",
+      "title": "Kusunoki's Garden of Gods",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371659",
+      "title": "Eren the Southpaw",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371923",
+      "title": "The Klutzy Class Monitor and the Girl with the Short Skirt",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371665",
+      "title": "My Ribdiculous Reincarnation",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371860",
+      "title": "Mistress Kanan is Devilishly Easy",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00365730",
+      "title": "Scum of the Brave",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

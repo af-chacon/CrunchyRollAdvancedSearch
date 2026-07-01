@@ -639,9 +639,34 @@ header h1 {
   }
 }
 
-.tag.mature {
-  background: #dc2626;
+/* Maturity rating badge, color-coded from least to most restrictive */
+.tag.rating {
   color: white;
+  font-weight: 600;
+}
+
+.tag.rating-all {
+  background: #16a34a;
+}
+
+.tag.rating-pg {
+  background: #0d9488;
+}
+
+.tag.rating-12 {
+  background: #2563eb;
+}
+
+.tag.rating-14 {
+  background: #d97706;
+}
+
+.tag.rating-16 {
+  background: #ea580c;
+}
+
+.tag.rating-18 {
+  background: #dc2626;
 }
 
 .tag.descriptor {

@@ -9,6 +9,9 @@ import {
   AnimeCard
 } from './components'
 
+// Maturity ratings ordered from least to most restrictive (Crunchyroll cr-tv system)
+const MATURITY_RATING_ORDER = ['ALL', 'PG', '12', '14', '16', '18']
+
 function App() {
   const [anime, setAnime] = useState<Anime[]>([])
   const [loading, setLoading] = useState<boolean>(true)
@@ -17,10 +20,10 @@ function App() {
   const [itemsPerPage, setItemsPerPage] = useState<number>(16)
   const [dataTimestamp, setDataTimestamp] = useState<string>('')
   const [filter, setFilter] = useState<FilterState>({
-    mature: 'default',
     dubbed: 'default',
     subbed: 'default',
     minRating: 0,
+    maturityRatings: {},
     contentDescriptors: {},
     genres: {},
     tags: {},
@@ -36,6 +39,7 @@ function App() {
       dubbed: 'default',
       subbed: 'default',
       minRating: 0,
+      maturityRatings: {},
       contentDescriptors: {},
       genres: {},
       tags: {},
@@ -112,15 +116,27 @@ function App() {
     )
   ).sort()
 
+  const availableMaturityRatings = Array.from(
+    new Set(
+      anime
+        .map(item => item.series_metadata?.extended_maturity_rating?.rating)
+        .filter(Boolean) as string[]
+    )
+  ).sort((a, b) => {
+    const indexA = MATURITY_RATING_ORDER.indexOf(a)
+    const indexB = MATURITY_RATING_ORDER.indexOf(b)
+    // Unknown ratings sort after known ones, alphabetically
+    if (indexA === -1 && indexB === -1) return a.localeCompare(b)
+    if (indexA === -1) return 1
+    if (indexB === -1) return -1
+    return indexA - indexB
+  })
+
   const filteredAnime = anime.filter(item => {
     const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          item.description.toLowerCase().includes(searchTerm.toLowerCase())
 
     // Tri-state filter logic: default = any, include = must have, exclude = must not have
-    const matchesMature = filter.mature === 'default' ||
-                         (filter.mature === 'include' && item.series_metadata?.is_mature) ||
-                         (filter.mature === 'exclude' && !item.series_metadata?.is_mature)
-
     const matchesDubbed = filter.dubbed === 'default' ||
                          (filter.dubbed === 'include' && item.series_metadata?.is_dubbed) ||
                          (filter.dubbed === 'exclude' && !item.series_metadata?.is_dubbed)
@@ -130,6 +146,21 @@ function App() {
                          (filter.subbed === 'exclude' && !item.series_metadata?.is_subbed)
 
     const matchesRating = parseFloat(item.rating?.average || '0') >= filter.minRating
+
+    // Maturity rating filter. Each title has a single rating, so included
+    // levels use OR semantics (match any selected level) while excluded
+    // levels are always removed.
+    const itemMaturityRating = item.series_metadata?.extended_maturity_rating?.rating
+    const includedMaturityRatings = Object.entries(filter.maturityRatings)
+      .filter(([, value]) => value === 'include')
+      .map(([rating]) => rating)
+    const excludedMaturityRatings = Object.entries(filter.maturityRatings)
+      .filter(([, value]) => value === 'exclude')
+      .map(([rating]) => rating)
+    const matchesMaturityRatings =
+      (includedMaturityRatings.length === 0 ||
+        (itemMaturityRating !== undefined && includedMaturityRatings.includes(itemMaturityRating))) &&
+      (itemMaturityRating === undefined || !excludedMaturityRatings.includes(itemMaturityRating))
 
     // Content descriptor filters
     const matchesContentDescriptors = Object.entries(filter.contentDescriptors).every(([descriptor, filterValue]) => {
@@ -176,7 +207,7 @@ function App() {
       return true
     })
 
-    return matchesSearch && matchesMature && matchesDubbed && matchesSubbed && matchesRating && matchesContentDescriptors && matchesGenres && matchesTags && matchesStatus && matchesStudios
+    return matchesSearch && matchesDubbed && matchesSubbed && matchesRating && matchesMaturityRatings && matchesContentDescriptors && matchesGenres && matchesTags && matchesStatus && matchesStudios
   }).sort((a, b) => {
     const direction = filter.sortDirection === 'asc' ? 1 : -1
     
@@ -240,6 +271,7 @@ function App() {
           availableTags={availableTags}
           availableStatuses={availableStatuses}
           availableStudios={availableStudios}
+          availableMaturityRatings={availableMaturityRatings}
           anime={anime}
         />
       </div>

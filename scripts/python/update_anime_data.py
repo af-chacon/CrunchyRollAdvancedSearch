@@ -276,25 +276,42 @@ def fetch_crunchyroll_anime(access_token: str) -> List[Dict]:
         "Sec-Fetch-Site": "same-origin"
     }
 
-    params = {
-        "n": 2000,  # Fetch up to 2000 items
-        "type": "series",
-        "locale": "en-US",
-        "sort_by": "alphabetical",
-        "ratings": "true",
-        "preferred_audio_language": "ja-JP"
-    }
+    # Crunchyroll caps the page size at 100 per request, so we paginate
+    # using the `start` offset until the full catalog has been retrieved.
+    page_size = 100
 
     all_items = []
+    total = None
 
     try:
-        response = requests.get(url, headers=headers, params=params, timeout=60)
-        response.raise_for_status()
+        start = 0
+        while True:
+            params = {
+                "n": page_size,
+                "start": start,
+                "type": "series",
+                "locale": "en-US",
+                "sort_by": "alphabetical",
+                "ratings": "true",
+                "preferred_audio_language": "ja-JP"
+            }
 
-        data = response.json()
-        items = data.get("data", [])
-        total = data.get("total", 0)
-        all_items.extend(items)
+            response = requests.get(url, headers=headers, params=params, timeout=60)
+            response.raise_for_status()
+
+            data = response.json()
+            items = data.get("data", [])
+            total = data.get("total", 0)
+            all_items.extend(items)
+
+            print(f"  Fetched {len(all_items)} of {total} anime series...")
+
+            # Stop when we've collected everything or the page came back empty
+            if not items or len(all_items) >= total:
+                break
+
+            start += page_size
+            time.sleep(1)  # be gentle to avoid rate limiting / Cloudflare challenges
 
         # Validate format of first item
         if all_items and not validate_crunchyroll_format(all_items[0]):

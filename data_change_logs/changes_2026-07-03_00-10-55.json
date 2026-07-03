@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-07-03T00:10:55.157849",
+  "summary": {
+    "total_old": 1972,
+    "total_new": 1977,
+    "added_count": 5,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00379214",
+      "title": "Crowned in a Hundred Days"
+    },
+    {
+      "id": "GT00378018",
+      "title": "The Exiled Heavy Knight Knows How to Game the System"
+    },
+    {
+      "id": "GT00379424",
+      "title": "BanG Dream! YUME∞MITA"
+    },
+    {
+      "id": "GT00378081",
+      "title": "KAIJU GIRL CARAMELISE"
+    },
+    {
+      "id": "GT00377933",
+      "title": "Dara-san of the Reiwa Era"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

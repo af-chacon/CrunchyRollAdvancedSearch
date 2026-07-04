@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-07-04T00:12:40.827685",
+  "summary": {
+    "total_old": 1977,
+    "total_new": 1981,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00371671",
+      "title": "I Became a Legend after My 10 Year-Long Last Stand"
+    },
+    {
+      "id": "GT00371926",
+      "title": "Please Excuse My Younger Brothers"
+    },
+    {
+      "id": "GT00371656",
+      "title": "Draw This, Then Die"
+    },
+    {
+      "id": "GT00378124",
+      "title": "The Frontier Lord Begins with Zero Subjects"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

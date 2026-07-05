@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-07-05T00:12:44.958768",
+  "summary": {
+    "total_old": 1981,
+    "total_new": 1989,
+    "added_count": 8,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00378063",
+      "title": "Grow Up Show"
+    },
+    {
+      "id": "GT00377907",
+      "title": "BLACK TORCH"
+    },
+    {
+      "id": "GT00378118",
+      "title": "The Duke's Son Claims He Won't Love Me, But Showers Me with Adoration"
+    },
+    {
+      "id": "GT00378121",
+      "title": "The Ogre's Bride"
+    },
+    {
+      "id": "GT00378102",
+      "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School"
+    },
+    {
+      "id": "GT00378096",
+      "title": "Recommendations from Iwamoto-Senpai"
+    },
+    {
+      "id": "GT00378090",
+      "title": "Magical Girl Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance"
+    },
+    {
+      "id": "GT00378078",
+      "title": "Jaadugar: A Witch in Mongolia"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

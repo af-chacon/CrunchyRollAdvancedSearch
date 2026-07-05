@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-07-05T17:49:39.219425",
+  "summary": {
+    "total_old": 1989,
+    "total_new": 1993,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00378075",
+      "title": "Iron Wok Jan"
+    },
+    {
+      "id": "GT00378084",
+      "title": "Let’s go KAIKIGUMI"
+    },
+    {
+      "id": "GT00378059",
+      "title": "Goodbye, Lara"
+    },
+    {
+      "id": "GT00378122",
+      "title": "The World's Strongest Rearguard"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

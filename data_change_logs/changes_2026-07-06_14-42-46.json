@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-07-06T14:42:46.913856",
+  "summary": {
+    "total_old": 1993,
+    "total_new": 1997,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00378119",
+      "title": "The Insipid Prince's Furtive Grab for the Throne"
+    },
+    {
+      "id": "GT00379182",
+      "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires"
+    },
+    {
+      "id": "GT00378120",
+      "title": "Oh Boy, Was I Wrong About Her"
+    },
+    {
+      "id": "GT00378087",
+      "title": "Love Unseen Beneath the Clear Night Sky"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

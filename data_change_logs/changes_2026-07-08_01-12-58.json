@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-08T01:12:58.834892",
+  "summary": {
+    "total_old": 1998,
+    "total_new": 1997,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GG5H5X0K0",
+      "title": "Bikini Warriors"
+    }
+  ],
+  "status_changes": []
+}

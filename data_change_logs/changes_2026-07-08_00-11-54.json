@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-07-08T00:11:54.648929",
+  "summary": {
+    "total_old": 1997,
+    "total_new": 1998,
+    "added_count": 4,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00378126",
+      "title": "Victoria of Many Faces"
+    },
+    {
+      "id": "GT00374354",
+      "title": "I Want to Love You Till Your Dying Day"
+    },
+    {
+      "id": "GT00378099",
+      "title": "Red River"
+    },
+    {
+      "id": "GT00362362",
+      "title": "Young Ladies Don't Play Fighting Games"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G6MGX3DG6",
+      "title": "Excel Saga"
+    },
+    {
+      "id": "GY197VD9R",
+      "title": "Gungrave"
+    },
+    {
+      "id": "GR19PXG06",
+      "title": "Noir"
+    }
+  ],
+  "status_changes": []
+}

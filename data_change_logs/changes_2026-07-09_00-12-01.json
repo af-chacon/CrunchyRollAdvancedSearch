@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-09T00:12:01.086332",
+  "summary": {
+    "total_old": 1997,
+    "total_new": 1998,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00378123",
+      "title": "Tomb Raider King"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

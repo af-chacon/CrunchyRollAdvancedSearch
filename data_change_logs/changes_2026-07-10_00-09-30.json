@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-07-10T00:09:30.521117",
+  "summary": {
+    "total_old": 1998,
+    "total_new": 1999,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00379439",
+      "title": "Mebius Dust"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00378116",
+      "title": "Smoking Behind the Supermarket with You",
+      "old_status": "NOT_YET_RELEASED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

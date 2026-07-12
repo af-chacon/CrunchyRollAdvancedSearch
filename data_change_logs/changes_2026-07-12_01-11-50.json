@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-12T01:11:50.974788",
+  "summary": {
+    "total_old": 2000,
+    "total_new": 2000,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

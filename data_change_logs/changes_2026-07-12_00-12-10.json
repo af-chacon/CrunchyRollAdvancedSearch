@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-07-12T00:12:10.864789",
+  "summary": {
+    "total_old": 1999,
+    "total_new": 2000,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00378066",
+      "title": "Hanaori-san Still Wants to Fight in the Next Life"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

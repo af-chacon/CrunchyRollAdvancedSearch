@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-14T00:12:10.431784",
+  "summary": {
+    "total_old": 2001,
+    "total_new": 2000,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRP8E5EQR",
+      "title": "Sengoku BASARA - End of Judgement"
+    }
+  ],
+  "status_changes": []
+}

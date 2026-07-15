@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-15T00:12:06.854119",
+  "summary": {
+    "total_old": 2000,
+    "total_new": 2000,
+    "added_count": 1,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00002105",
+      "title": "Ben-To"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GYW4D0M86",
+      "title": "Black Lagoon"
+    }
+  ],
+  "status_changes": []
+}

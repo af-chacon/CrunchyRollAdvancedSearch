@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-07-16T00:13:02.694410",
+  "summary": {
+    "total_old": 2000,
+    "total_new": 1995,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRVNXW75Y",
+      "title": "Orange"
+    },
+    {
+      "id": "GRDKVQ53Y",
+      "title": "Anima Yell!"
+    },
+    {
+      "id": "G69PZV9VY",
+      "title": "Chaos Dragon"
+    },
+    {
+      "id": "GRWEQEZER",
+      "title": "Blood Blockade Battlefront"
+    },
+    {
+      "id": "GRVNX917Y",
+      "title": "Grimgar, Ashes and Illusions"
+    }
+  ],
+  "status_changes": []
+}

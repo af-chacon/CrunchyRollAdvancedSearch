@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-07-21T00:12:48.810181",
+  "summary": {
+    "total_old": 1994,
+    "total_new": 1993,
+    "added_count": 2,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GY3VKX1MR",
+      "title": "Hunter x Hunter"
+    },
+    {
+      "id": "GG5H5X3VN",
+      "title": "Arknights"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G79H230EM",
+      "title": "Fairy gone"
+    },
+    {
+      "id": "G6P5WVEQ6",
+      "title": "MAJOR 2nd"
+    },
+    {
+      "id": "GRZJXKN86",
+      "title": "HANEBADO!"
+    }
+  ],
+  "status_changes": []
+}

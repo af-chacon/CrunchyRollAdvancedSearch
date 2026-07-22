@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-22T00:11:20.975379",
+  "summary": {
+    "total_old": 1993,
+    "total_new": 1992,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G6Q9GGE26",
+      "title": "I'm Standing on a Million Lives"
+    }
+  ],
+  "status_changes": []
+}

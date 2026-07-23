@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-23T00:12:00.625306",
+  "summary": {
+    "total_old": 1992,
+    "total_new": 1991,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GG5H5X3VN",
+      "title": "Arknights"
+    }
+  ],
+  "status_changes": []
+}

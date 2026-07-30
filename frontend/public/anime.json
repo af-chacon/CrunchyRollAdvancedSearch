@@ -2129,7 +2129,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 28712
+      "total": 28713
     },
     "anilist": {
       "anilist_id": 165790,
@@ -2410,7 +2410,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 107325
+      "total": 107326
     },
     "anilist": {
       "anilist_id": 168374,
@@ -3479,7 +3479,7 @@
         "percentage": 64
       },
       "average": "4.3",
-      "total": 8350
+      "total": 8351
     },
     "anilist": {
       "anilist_id": 4654,
@@ -4320,7 +4320,7 @@
         "percentage": 75
       },
       "average": "4.6",
-      "total": 41977
+      "total": 41978
     },
     "anilist": {
       "anilist_id": 165855,
@@ -5414,7 +5414,7 @@
         "percentage": 79
       },
       "average": "4.7",
-      "total": 26763
+      "total": 26764
     },
     "anilist": {
       "anilist_id": 148098,
@@ -5689,7 +5689,7 @@
         "percentage": 57
       },
       "average": "4.1",
-      "total": 35490
+      "total": 35492
     },
     "anilist": {
       "anilist_id": 187663,
@@ -5965,7 +5965,7 @@
         "percentage": 70
       },
       "average": "4.3",
-      "total": 16121
+      "total": 16122
     },
     "anilist": {
       "anilist_id": 182771,
@@ -7296,21 +7296,21 @@
         "ja-JP"
       ],
       "subtitle_locales": [
-        "pt-BR",
-        "ms-MY",
-        "zh-HK",
-        "es-ES",
-        "vi-VN",
-        "zh-CN",
-        "de-DE",
         "en-US",
-        "it-IT",
-        "id-ID",
+        "de-DE",
         "ar-SA",
-        "fr-FR",
-        "th-TH",
+        "zh-CN",
+        "vi-VN",
         "es-419",
-        "ru-RU"
+        "ru-RU",
+        "th-TH",
+        "zh-HK",
+        "pt-BR",
+        "es-ES",
+        "ms-MY",
+        "id-ID",
+        "it-IT",
+        "fr-FR"
       ],
       "series_launch_year": 2026,
       "tenant_categories": [
@@ -7338,12 +7338,12 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "172",
+        "displayed": "173",
         "unit": "",
         "percentage": 4
       },
       "4s": {
-        "displayed": "365",
+        "displayed": "366",
         "unit": "",
         "percentage": 7
       },
@@ -7353,7 +7353,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 5556
+      "total": 5558
     },
     "anilist": {
       "anilist_id": 199408,
@@ -7596,7 +7596,7 @@
         "percentage": 5
       },
       "2s": {
-        "displayed": "102",
+        "displayed": "103",
         "unit": "",
         "percentage": 3
       },
@@ -7616,7 +7616,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 4689
+      "total": 4690
     },
     "anilist": null
   },
@@ -8368,7 +8368,7 @@
         "percentage": 71
       },
       "average": "4.4",
-      "total": 6880
+      "total": 6881
     },
     "anilist": {
       "anilist_id": 177120,
@@ -9412,7 +9412,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 55760
+      "total": 55762
     },
     "anilist": {
       "anilist_id": 163142,
@@ -9995,7 +9995,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 128101
+      "total": 128107
     },
     "anilist": {
       "anilist_id": 166794,
@@ -10561,7 +10561,7 @@
         "percentage": 72
       },
       "average": "4.4",
-      "total": 9590
+      "total": 9591
     },
     "anilist": {
       "anilist_id": 171545,
@@ -12136,7 +12136,7 @@
         "percentage": 58
       },
       "average": "4.3",
-      "total": 10601
+      "total": 10602
     },
     "anilist": {
       "anilist_id": 20785,
@@ -13800,7 +13800,7 @@
         "percentage": 21
       },
       "4s": {
-        "displayed": "104",
+        "displayed": "105",
         "unit": "",
         "percentage": 19
       },
@@ -13810,7 +13810,7 @@
         "percentage": 32
       },
       "average": "3.3",
-      "total": 574
+      "total": 575
     },
     "anilist": {
       "anilist_id": 21417,
@@ -14812,7 +14812,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 13794
+      "total": 13795
     },
     "anilist": {
       "anilist_id": 13161,
@@ -15907,7 +15907,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 12660
+      "total": 12661
     },
     "anilist": {
       "anilist_id": 159074,
@@ -16463,7 +16463,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "410",
+        "displayed": "411",
         "unit": "",
         "percentage": 4
       },
@@ -16478,7 +16478,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 13643
+      "total": 13649
     },
     "anilist": {
       "anilist_id": 190143,
@@ -17037,7 +17037,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 45820
+      "total": 45821
     },
     "anilist": {
       "anilist_id": 137281,
@@ -19364,7 +19364,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "287",
+        "displayed": "288",
         "unit": "",
         "percentage": 3
       },
@@ -19379,7 +19379,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 9864
+      "total": 9867
     },
     "anilist": {
       "anilist_id": 20613,
@@ -19678,7 +19678,7 @@
         "percentage": 74
       },
       "average": "4.6",
-      "total": 46137
+      "total": 46138
     },
     "anilist": {
       "anilist_id": 21700,
@@ -20517,7 +20517,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 19010
+      "total": 19011
     },
     "anilist": {
       "anilist_id": 116566,
@@ -22708,7 +22708,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "253",
+        "displayed": "254",
         "unit": "",
         "percentage": 2
       },
@@ -22733,7 +22733,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 14597
+      "total": 14599
     },
     "anilist": {
       "anilist_id": 201817,
@@ -23029,7 +23029,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 152498
+      "total": 152499
     },
     "anilist": {
       "anilist_id": 162804,
@@ -23310,7 +23310,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 54393
+      "total": 54395
     },
     "anilist": {
       "anilist_id": 154391,
@@ -23555,7 +23555,7 @@
         "percentage": 6
       },
       "2s": {
-        "displayed": "137",
+        "displayed": "138",
         "unit": "",
         "percentage": 5
       },
@@ -23575,7 +23575,7 @@
         "percentage": 57
       },
       "average": "4.2",
-      "total": 2930
+      "total": 2933
     },
     "anilist": {
       "anilist_id": 131005,
@@ -24683,7 +24683,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 64201
+      "total": 64205
     },
     "anilist": {
       "anilist_id": 156023,
@@ -24971,7 +24971,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 24033
+      "total": 24037
     },
     "anilist": null
   },
@@ -25465,7 +25465,7 @@
         "percentage": 61
       },
       "average": "4.3",
-      "total": 23575
+      "total": 23576
     },
     "anilist": {
       "anilist_id": 21290,
@@ -25736,7 +25736,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 23787
+      "total": 23789
     },
     "anilist": {
       "anilist_id": 6547,
@@ -29254,7 +29254,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "249",
+        "displayed": "250",
         "unit": "",
         "percentage": 3
       },
@@ -29269,7 +29269,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 10861
+      "total": 10862
     },
     "anilist": {
       "anilist_id": 184639,
@@ -31197,7 +31197,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 49486
+      "total": 49488
     },
     "anilist": {
       "anilist_id": 134732,
@@ -34704,7 +34704,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 98917
+      "total": 98919
     },
     "anilist": {
       "anilist_id": 100668,
@@ -36351,7 +36351,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 55545
+      "total": 55546
     },
     "anilist": {
       "anilist_id": 164702,
@@ -36904,7 +36904,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 61281
+      "total": 61282
     },
     "anilist": {
       "anilist_id": 108268,
@@ -36933,8 +36933,8 @@
         "Medieval",
         "Class Struggle",
         "Reincarnation",
-        "Work",
         "Female Protagonist",
+        "Work",
         "Isekai",
         "Age Regression",
         "Economics",
@@ -37472,7 +37472,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 83140
+      "total": 83141
     },
     "anilist": {
       "anilist_id": 20755,
@@ -38558,7 +38558,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 8837
+      "total": 8838
     },
     "anilist": {
       "anilist_id": 107663,
@@ -39736,12 +39736,12 @@
         "percentage": 4
       },
       "5s": {
-        "displayed": "518.4",
+        "displayed": "518.5",
         "unit": "K",
         "percentage": 94
       },
       "average": "4.9",
-      "total": 556960
+      "total": 556988
     },
     "anilist": {
       "anilist_id": 16498,
@@ -40018,7 +40018,7 @@
         "percentage": 81
       },
       "average": "4.5",
-      "total": 7705
+      "total": 7706
     },
     "anilist": null
   },
@@ -40243,7 +40243,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 6341
+      "total": 6342
     },
     "anilist": {
       "anilist_id": 21281,
@@ -42918,7 +42918,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 3638
+      "total": 3639
     },
     "anilist": {
       "anilist_id": 8516,
@@ -45036,7 +45036,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 65785
+      "total": 65786
     },
     "anilist": {
       "anilist_id": 126213,
@@ -47429,7 +47429,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 18269
+      "total": 18270
     },
     "anilist": {
       "anilist_id": 126047,
@@ -48428,7 +48428,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 72324
+      "total": 72327
     },
     "anilist": {
       "anilist_id": 150695,
@@ -50018,7 +50018,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 91470
+      "total": 91473
     },
     "anilist": {
       "anilist_id": 156039,
@@ -50597,7 +50597,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 31671
+      "total": 31672
     },
     "anilist": {
       "anilist_id": 179879,
@@ -51969,7 +51969,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 44437
+      "total": 44438
     },
     "anilist": {
       "anilist_id": 4898,
@@ -52549,7 +52549,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 304433
+      "total": 304444
     },
     "anilist": {
       "anilist_id": 97940,
@@ -53362,7 +53362,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 86271
+      "total": 86272
     },
     "anilist": {
       "anilist_id": 145260,
@@ -53659,7 +53659,7 @@
         "percentage": 92
       },
       "average": "4.8",
-      "total": 22074
+      "total": 22090
     },
     "anilist": {
       "anilist_id": 187538,
@@ -55847,7 +55847,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 69871
+      "total": 69874
     },
     "anilist": {
       "anilist_id": 9919,
@@ -56149,7 +56149,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 261446
+      "total": 261456
     },
     "anilist": {
       "anilist_id": 137822,
@@ -57552,7 +57552,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 85585
+      "total": 85587
     },
     "anilist": {
       "anilist_id": 130003,
@@ -58119,7 +58119,7 @@
         "percentage": 49
       },
       "average": "3.8",
-      "total": 35450
+      "total": 35453
     },
     "anilist": {
       "anilist_id": 178100,
@@ -59865,7 +59865,7 @@
         "percentage": 46
       },
       "average": "3.4",
-      "total": 99058
+      "total": 99061
     },
     "anilist": {
       "anilist_id": 97938,
@@ -60141,7 +60141,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 4379
+      "total": 4380
     },
     "anilist": {
       "anilist_id": 187869,
@@ -60421,7 +60421,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 21262
+      "total": 21263
     },
     "anilist": {
       "anilist_id": 112443,
@@ -62057,12 +62057,12 @@
         "percentage": 17
       },
       "5s": {
-        "displayed": "667",
+        "displayed": "668",
         "unit": "",
         "percentage": 68
       },
       "average": "4.4",
-      "total": 987
+      "total": 988
     },
     "anilist": {
       "anilist_id": 20533,
@@ -62351,7 +62351,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 73778
+      "total": 73779
     },
     "anilist": {
       "anilist_id": 155907,
@@ -63466,7 +63466,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 95884
+      "total": 95885
     },
     "anilist": {
       "anilist_id": 21311,
@@ -66196,7 +66196,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 153905
+      "total": 153909
     },
     "anilist": {
       "anilist_id": 156067,
@@ -66478,7 +66478,7 @@
         "percentage": 71
       },
       "average": "4.4",
-      "total": 33582
+      "total": 33583
     },
     "anilist": {
       "anilist_id": 153554,
@@ -70597,7 +70597,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 43353
+      "total": 43354
     },
     "anilist": {
       "anilist_id": 105156,
@@ -72798,7 +72798,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 496290
+      "total": 496300
     },
     "anilist": {
       "anilist_id": 127230,
@@ -74670,7 +74670,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 44261
+      "total": 44266
     },
     "anilist": {
       "anilist_id": 20997,
@@ -75423,7 +75423,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 48411
+      "total": 48414
     },
     "anilist": {
       "anilist_id": 167087,
@@ -76946,7 +76946,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 98904
+      "total": 98906
     },
     "anilist": {
       "anilist_id": 170130,
@@ -77224,7 +77224,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 44701
+      "total": 44703
     },
     "anilist": {
       "anilist_id": 152523,
@@ -78315,7 +78315,7 @@
         "percentage": 82
       },
       "average": "4.6",
-      "total": 13234
+      "total": 13236
     },
     "anilist": {
       "anilist_id": 180082,
@@ -79389,7 +79389,7 @@
         "percentage": 5
       },
       "4s": {
-        "displayed": "905",
+        "displayed": "906",
         "unit": "",
         "percentage": 16
       },
@@ -79399,7 +79399,7 @@
         "percentage": 72
       },
       "average": "4.4",
-      "total": 6016
+      "total": 6019
     },
     "anilist": {
       "anilist_id": 101973,
@@ -81049,7 +81049,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 227055
+      "total": 227073
     },
     "anilist": {
       "anilist_id": 98659,
@@ -81276,34 +81276,34 @@
       "linked_guid": "",
       "availability_notes": "",
       "audio_locales": [
-        "ar-SA",
         "pt-BR",
-        "fr-FR",
-        "en-US",
+        "es-419",
+        "ja-JP",
         "de-DE",
+        "te-IN",
+        "fr-FR",
         "hi-IN",
         "ta-IN",
-        "te-IN",
-        "ja-JP",
-        "es-419"
+        "ar-SA",
+        "en-US"
       ],
       "subtitle_locales": [
-        "hi-IN",
         "th-TH",
         "ta-IN",
-        "en-US",
+        "ar-SA",
         "de-DE",
-        "es-ES",
+        "te-IN",
         "fr-FR",
+        "ru-RU",
+        "es-ES",
         "vi-VN",
+        "hi-IN",
         "pt-BR",
         "id-ID",
         "ms-MY",
-        "ru-RU",
-        "it-IT",
+        "en-US",
         "es-419",
-        "te-IN",
-        "ar-SA",
+        "it-IT",
         "pl-PL"
       ],
       "series_launch_year": 2025,
@@ -81357,7 +81357,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 101506
+      "total": 101512
     },
     "anilist": {
       "anilist_id": 178869,
@@ -82138,7 +82138,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 88538
+      "total": 88541
     },
     "anilist": null
   },
@@ -82922,7 +82922,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 21480
+      "total": 21482
     },
     "anilist": {
       "anilist_id": 116588,
@@ -85833,7 +85833,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "343",
+        "displayed": "344",
         "unit": "",
         "percentage": 1
       },
@@ -85858,7 +85858,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 53361
+      "total": 53363
     },
     "anilist": {
       "anilist_id": 1,
@@ -86952,7 +86952,7 @@
         "percentage": 69
       },
       "average": "4.1",
-      "total": 1864
+      "total": 1865
     },
     "anilist": {
       "anilist_id": 213484,
@@ -87896,7 +87896,7 @@
         "percentage": 63
       },
       "average": "4.2",
-      "total": 6298
+      "total": 6299
     },
     "anilist": {
       "anilist_id": 180794,
@@ -89183,7 +89183,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 9303
+      "total": 9304
     },
     "anilist": {
       "anilist_id": 1482,
@@ -90790,7 +90790,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 16824
+      "total": 16825
     },
     "anilist": {
       "anilist_id": 173692,
@@ -91085,7 +91085,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 56844
+      "total": 56857
     },
     "anilist": {
       "anilist_id": 195600,
@@ -92476,7 +92476,7 @@
         "percentage": 92
       },
       "average": "4.8",
-      "total": 306016
+      "total": 306024
     },
     "anilist": {
       "anilist_id": 171018,
@@ -94674,7 +94674,7 @@
         "percentage": 5
       },
       "4s": {
-        "displayed": "264",
+        "displayed": "265",
         "unit": "",
         "percentage": 11
       },
@@ -94684,7 +94684,7 @@
         "percentage": 74
       },
       "average": "4.3",
-      "total": 2533
+      "total": 2534
     },
     "anilist": {
       "anilist_id": 203880,
@@ -95266,7 +95266,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 127720
+      "total": 127725
     },
     "anilist": {
       "anilist_id": 99423,
@@ -95841,7 +95841,7 @@
         "percentage": 83
       },
       "average": "4.6",
-      "total": 31617
+      "total": 31619
     },
     "anilist": {
       "anilist_id": 15583,
@@ -96409,7 +96409,7 @@
         "percentage": 68
       },
       "average": "4.4",
-      "total": 9344
+      "total": 9345
     },
     "anilist": {
       "anilist_id": 187901,
@@ -96998,7 +96998,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 52480
+      "total": 52481
     },
     "anilist": {
       "anilist_id": 157198,
@@ -97262,7 +97262,7 @@
         "percentage": 4
       },
       "2s": {
-        "displayed": "415",
+        "displayed": "416",
         "unit": "",
         "percentage": 3
       },
@@ -97282,7 +97282,7 @@
         "percentage": 69
       },
       "average": "4.5",
-      "total": 18930
+      "total": 18931
     },
     "anilist": {
       "anilist_id": 6880,
@@ -97828,7 +97828,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 37559
+      "total": 37560
     },
     "anilist": {
       "anilist_id": 178886,
@@ -98606,7 +98606,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 57843
+      "total": 57845
     },
     "anilist": {
       "anilist_id": 97907,
@@ -102397,7 +102397,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 771507
+      "total": 771527
     },
     "anilist": {
       "anilist_id": 101922,
@@ -102654,12 +102654,12 @@
         "percentage": 6
       },
       "5s": {
-        "displayed": "976",
+        "displayed": "977",
         "unit": "",
         "percentage": 82
       },
       "average": "4.5",
-      "total": 1198
+      "total": 1199
     },
     "anilist": null
   },
@@ -103663,7 +103663,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 12089
+      "total": 12090
     },
     "anilist": {
       "anilist_id": 235,
@@ -104440,7 +104440,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "465",
+        "displayed": "466",
         "unit": "",
         "percentage": 6
       },
@@ -104455,7 +104455,7 @@
         "percentage": 79
       },
       "average": "4.6",
-      "total": 9091
+      "total": 9092
     },
     "anilist": {
       "anilist_id": 1726,
@@ -109160,7 +109160,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 42102
+      "total": 42104
     },
     "anilist": {
       "anilist_id": 162144,
@@ -110252,7 +110252,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 88928
+      "total": 88931
     },
     "anilist": {
       "anilist_id": 120697,
@@ -110807,7 +110807,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 17654
+      "total": 17655
     },
     "anilist": {
       "anilist_id": 105228,
@@ -111706,7 +111706,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 243140
+      "total": 243153
     },
     "anilist": {
       "anilist_id": 105333,
@@ -113353,7 +113353,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 78431
+      "total": 78432
     },
     "anilist": {
       "anilist_id": 813,
@@ -114152,7 +114152,7 @@
         "percentage": 60
       },
       "average": "4.2",
-      "total": 6011
+      "total": 6012
     },
     "anilist": {
       "anilist_id": 112376,
@@ -116024,7 +116024,7 @@
         "percentage": 75
       },
       "average": "4.4",
-      "total": 4557
+      "total": 4558
     },
     "anilist": {
       "anilist_id": 100714,
@@ -117662,7 +117662,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 35046
+      "total": 35047
     },
     "anilist": {
       "anilist_id": 191205,
@@ -120611,12 +120611,12 @@
         "percentage": 18
       },
       "5s": {
-        "displayed": "604",
+        "displayed": "605",
         "unit": "",
         "percentage": 65
       },
       "average": "4.3",
-      "total": 943
+      "total": 944
     },
     "anilist": {
       "anilist_id": 103301,
@@ -121425,7 +121425,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "776",
+        "displayed": "777",
         "unit": "",
         "percentage": 2
       },
@@ -121440,7 +121440,7 @@
         "percentage": 91
       },
       "average": "4.9",
-      "total": 63183
+      "total": 63186
     },
     "anilist": {
       "anilist_id": 21234,
@@ -124340,7 +124340,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 48131
+      "total": 48134
     },
     "anilist": {
       "anilist_id": 178548,
@@ -126443,7 +126443,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 101401
+      "total": 101402
     },
     "anilist": {
       "anilist_id": 173694,
@@ -127837,7 +127837,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 67534
+      "total": 67537
     },
     "anilist": {
       "anilist_id": 6702,
@@ -128125,7 +128125,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 30013
+      "total": 30015
     },
     "anilist": {
       "anilist_id": 139095,
@@ -131377,7 +131377,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 7764
+      "total": 7766
     },
     "anilist": {
       "anilist_id": 21719,
@@ -131939,7 +131939,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "550",
+        "displayed": "549",
         "unit": "",
         "percentage": 2
       },
@@ -131954,7 +131954,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 30060
+      "total": 30061
     },
     "anilist": {
       "anilist_id": 166617,
@@ -132517,7 +132517,7 @@
         "percentage": 68
       },
       "average": "4.5",
-      "total": 17562
+      "total": 17564
     },
     "anilist": {
       "anilist_id": 122052,
@@ -133781,7 +133781,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 160095
+      "total": 160101
     },
     "anilist": {
       "anilist_id": 105310,
@@ -136230,7 +136230,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 49382
+      "total": 49383
     },
     "anilist": {
       "anilist_id": 21691,
@@ -137517,7 +137517,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "389",
+        "displayed": "390",
         "unit": "",
         "percentage": 7
       },
@@ -137542,7 +137542,7 @@
         "percentage": 67
       },
       "average": "4.3",
-      "total": 6371
+      "total": 6372
     },
     "anilist": {
       "anilist_id": 9367,
@@ -137851,7 +137851,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 391296
+      "total": 391308
     },
     "anilist": {
       "anilist_id": 154587,
@@ -138119,7 +138119,7 @@
         "percentage": 4
       },
       "2s": {
-        "displayed": "227",
+        "displayed": "228",
         "unit": "",
         "percentage": 2
       },
@@ -138139,7 +138139,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 13356
+      "total": 13359
     },
     "anilist": {
       "anilist_id": 208044,
@@ -138402,7 +138402,7 @@
         "percentage": 4
       },
       "4s": {
-        "displayed": "780",
+        "displayed": "781",
         "unit": "",
         "percentage": 12
       },
@@ -138412,7 +138412,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 6925
+      "total": 6926
     },
     "anilist": null
   },
@@ -138669,7 +138669,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 94650
+      "total": 94654
     },
     "anilist": {
       "anilist_id": 105334,
@@ -139226,12 +139226,12 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "221",
+        "displayed": "220",
         "unit": "",
         "percentage": 5
       },
       "4s": {
-        "displayed": "695",
+        "displayed": "696",
         "unit": "",
         "percentage": 15
       },
@@ -139241,7 +139241,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 4704
+      "total": 4705
     },
     "anilist": {
       "anilist_id": 71,
@@ -139512,7 +139512,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 2691
+      "total": 2693
     },
     "anilist": {
       "anilist_id": 21451,
@@ -139784,7 +139784,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 2871
+      "total": 2872
     },
     "anilist": {
       "anilist_id": 73,
@@ -140050,7 +140050,7 @@
         "percentage": 84
       },
       "average": "4.8",
-      "total": 2515
+      "total": 2516
     },
     "anilist": {
       "anilist_id": 72,
@@ -140327,7 +140327,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 116896
+      "total": 116904
     },
     "anilist": {
       "anilist_id": 5114,
@@ -143374,7 +143374,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 261970
+      "total": 261992
     },
     "anilist": {
       "anilist_id": 178025,
@@ -145747,7 +145747,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 28066
+      "total": 28068
     },
     "anilist": {
       "anilist_id": 199588,
@@ -146019,7 +146019,7 @@
         "percentage": 58
       },
       "average": "4.3",
-      "total": 19760
+      "total": 19762
     },
     "anilist": {
       "anilist_id": 97766,
@@ -152091,7 +152091,7 @@
         "percentage": 82
       },
       "average": "4.5",
-      "total": 3145
+      "total": 3147
     },
     "anilist": {
       "anilist_id": 162890,
@@ -152623,7 +152623,7 @@
         "percentage": 71
       },
       "average": "4.4",
-      "total": 41108
+      "total": 41109
     },
     "anilist": {
       "anilist_id": 126192,
@@ -154001,7 +154001,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 73748
+      "total": 73749
     },
     "anilist": {
       "anilist_id": 108430,
@@ -156114,7 +156114,7 @@
         "percentage": 86
       },
       "average": "4.5",
-      "total": 37729
+      "total": 37731
     },
     "anilist": {
       "anilist_id": 180228,
@@ -156927,7 +156927,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 85093
+      "total": 85096
     },
     "anilist": {
       "anilist_id": 101165,
@@ -158015,7 +158015,7 @@
         "percentage": 61
       },
       "average": "4.2",
-      "total": 22830
+      "total": 22831
     },
     "anilist": {
       "anilist_id": 144176,
@@ -158581,7 +158581,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 22953
+      "total": 22955
     },
     "anilist": {
       "anilist_id": 99699,
@@ -158861,7 +158861,7 @@
         "percentage": 63
       },
       "average": "4.3",
-      "total": 26165
+      "total": 26167
     },
     "anilist": {
       "anilist_id": 176053,
@@ -159688,7 +159688,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 2546
+      "total": 2547
     },
     "anilist": {
       "anilist_id": 177637,
@@ -159956,7 +159956,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 7327
+      "total": 7328
     },
     "anilist": {
       "anilist_id": 8425,
@@ -160779,7 +160779,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 22741
+      "total": 22742
     },
     "anilist": {
       "anilist_id": 100922,
@@ -163546,7 +163546,7 @@
         "percentage": 92
       },
       "average": "4.8",
-      "total": 15551
+      "total": 15552
     },
     "anilist": null
   },
@@ -166145,7 +166145,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "317",
+        "displayed": "318",
         "unit": "",
         "percentage": 2
       },
@@ -166170,7 +166170,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 20604
+      "total": 20606
     },
     "anilist": {
       "anilist_id": 2001,
@@ -167724,7 +167724,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "356",
+        "displayed": "357",
         "unit": "",
         "percentage": 4
       },
@@ -167749,7 +167749,7 @@
         "percentage": 76
       },
       "average": "4.5",
-      "total": 10221
+      "total": 10223
     },
     "anilist": {
       "anilist_id": 195333,
@@ -168042,7 +168042,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 156250
+      "total": 156253
     },
     "anilist": {
       "anilist_id": 20464,
@@ -170142,7 +170142,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "944",
+        "displayed": "945",
         "unit": "",
         "percentage": 5
       },
@@ -170152,7 +170152,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "922",
+        "displayed": "923",
         "unit": "",
         "percentage": 5
       },
@@ -170167,7 +170167,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 19249
+      "total": 19254
     },
     "anilist": {
       "anilist_id": 177580,
@@ -170712,7 +170712,7 @@
         "percentage": 83
       },
       "average": "4.6",
-      "total": 3880
+      "total": 3881
     },
     "anilist": {
       "anilist_id": 199066,
@@ -171790,7 +171790,7 @@
         "percentage": 76
       },
       "average": "4.4",
-      "total": 8721
+      "total": 8722
     },
     "anilist": {
       "anilist_id": 187331,
@@ -172298,7 +172298,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 41162
+      "total": 41166
     },
     "anilist": {
       "anilist_id": 144092,
@@ -173464,7 +173464,7 @@
         "percentage": 63
       },
       "average": "4.1",
-      "total": 53652
+      "total": 53654
     },
     "anilist": {
       "anilist_id": 127090,
@@ -175026,7 +175026,7 @@
         "percentage": 63
       },
       "average": "4.4",
-      "total": 27619
+      "total": 27620
     },
     "anilist": {
       "anilist_id": 179689,
@@ -177258,7 +177258,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 269461
+      "total": 269467
     },
     "anilist": {
       "anilist_id": 128893,
@@ -177541,7 +177541,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "675",
+        "displayed": "676",
         "unit": "",
         "percentage": 4
       },
@@ -177556,7 +177556,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 18929
+      "total": 18930
     },
     "anilist": {
       "anilist_id": 270,
@@ -178109,7 +178109,7 @@
         "percentage": 6
       },
       "2s": {
-        "displayed": "381",
+        "displayed": "382",
         "unit": "",
         "percentage": 4
       },
@@ -178129,7 +178129,7 @@
         "percentage": 63
       },
       "average": "4.3",
-      "total": 11614
+      "total": 11615
     },
     "anilist": {
       "anilist_id": 107961,
@@ -178866,17 +178866,17 @@
         "percentage": 4
       },
       "2s": {
-        "displayed": "78",
+        "displayed": "79",
         "unit": "",
         "percentage": 2
       },
       "3s": {
-        "displayed": "162",
+        "displayed": "161",
         "unit": "",
-        "percentage": 4
+        "percentage": 3
       },
       "4s": {
-        "displayed": "398",
+        "displayed": "397",
         "unit": "",
         "percentage": 8
       },
@@ -179929,7 +179929,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 51640
+      "total": 51642
     },
     "anilist": {
       "anilist_id": 114232,
@@ -180711,7 +180711,7 @@
         "percentage": 86
       },
       "average": "4.6",
-      "total": 72374
+      "total": 72378
     },
     "anilist": {
       "anilist_id": 11617,
@@ -181002,7 +181002,7 @@
         "percentage": 56
       },
       "average": "4.2",
-      "total": 22614
+      "total": 22615
     },
     "anilist": {
       "anilist_id": 108388,
@@ -183101,7 +183101,7 @@
         "percentage": 2
       },
       "2s": {
-        "displayed": "126",
+        "displayed": "127",
         "unit": "",
         "percentage": 2
       },
@@ -183121,7 +183121,7 @@
         "percentage": 79
       },
       "average": "4.7",
-      "total": 9463
+      "total": 9464
     },
     "anilist": {
       "anilist_id": 100077,
@@ -183916,7 +183916,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 49634
+      "total": 49638
     },
     "anilist": {
       "anilist_id": 155963,
@@ -184750,7 +184750,7 @@
         "percentage": 80
       },
       "average": "4.6",
-      "total": 41766
+      "total": 41770
     },
     "anilist": {
       "anilist_id": 175443,
@@ -185308,7 +185308,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "4.1",
+        "displayed": "4.2",
         "unit": "K",
         "percentage": 2
       },
@@ -185323,7 +185323,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 213148
+      "total": 213159
     },
     "anilist": {
       "anilist_id": 124080,
@@ -186114,7 +186114,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "601",
+        "displayed": "603",
         "unit": "",
         "percentage": 1
       },
@@ -186139,7 +186139,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 60799
+      "total": 60803
     },
     "anilist": {
       "anilist_id": 117612,
@@ -186693,7 +186693,7 @@
         "percentage": 6
       },
       "4s": {
-        "displayed": "9.5",
+        "displayed": "9.6",
         "unit": "K",
         "percentage": 16
       },
@@ -186703,7 +186703,7 @@
         "percentage": 73
       },
       "average": "4.5",
-      "total": 60008
+      "total": 60010
     },
     "anilist": {
       "anilist_id": 101004,
@@ -187799,7 +187799,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 153543
+      "total": 153552
     },
     "anilist": {
       "anilist_id": 136,
@@ -189171,7 +189171,7 @@
         "percentage": 4
       },
       "4s": {
-        "displayed": "682",
+        "displayed": "683",
         "unit": "",
         "percentage": 8
       },
@@ -189181,7 +189181,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 9461
+      "total": 9465
     },
     "anilist": {
       "anilist_id": 199748,
@@ -189452,7 +189452,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 5168
+      "total": 5169
     },
     "anilist": {
       "anilist_id": 20735,
@@ -189747,7 +189747,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 155058
+      "total": 155060
     },
     "anilist": {
       "anilist_id": 153845,
@@ -190042,7 +190042,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 48433
+      "total": 48434
     },
     "anilist": {
       "anilist_id": 180812,
@@ -190324,7 +190324,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 51717
+      "total": 51722
     },
     "anilist": {
       "anilist_id": 169580,
@@ -191134,7 +191134,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "474",
+        "displayed": "475",
         "unit": "",
         "percentage": 3
       },
@@ -191144,7 +191144,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "814",
+        "displayed": "815",
         "unit": "",
         "percentage": 4
       },
@@ -191159,7 +191159,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 23258
+      "total": 23268
     },
     "anilist": {
       "anilist_id": 194393,
@@ -191691,7 +191691,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "66",
+        "displayed": "67",
         "unit": "",
         "percentage": 2
       },
@@ -191706,7 +191706,7 @@
         "percentage": 88
       },
       "average": "4.7",
-      "total": 4915
+      "total": 4921
     },
     "anilist": {
       "anilist_id": 187260,
@@ -192004,7 +192004,7 @@
         "percentage": 77
       },
       "average": "4.5",
-      "total": 103644
+      "total": 103647
     },
     "anilist": {
       "anilist_id": 156415,
@@ -192294,7 +192294,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 67860
+      "total": 67863
     },
     "anilist": {
       "anilist_id": 168139,
@@ -192862,7 +192862,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 45472
+      "total": 45475
     },
     "anilist": {
       "anilist_id": 178462,
@@ -193133,7 +193133,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 21372
+      "total": 21373
     },
     "anilist": {
       "anilist_id": 154214,
@@ -194535,7 +194535,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 64626
+      "total": 64628
     },
     "anilist": {
       "anilist_id": 139820,
@@ -194832,7 +194832,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 54129
+      "total": 54133
     },
     "anilist": {
       "anilist_id": 112608,
@@ -196744,7 +196744,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 21381
+      "total": 21382
     },
     "anilist": {
       "anilist_id": 107956,
@@ -198049,7 +198049,7 @@
         "percentage": 69
       },
       "average": "4.3",
-      "total": 74754
+      "total": 74758
     },
     "anilist": {
       "anilist_id": 98491,
@@ -198592,7 +198592,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 32165
+      "total": 32166
     },
     "anilist": {
       "anilist_id": 192507,
@@ -199695,7 +199695,7 @@
         "percentage": 65
       },
       "average": "4.4",
-      "total": 24774
+      "total": 24776
     },
     "anilist": {
       "anilist_id": 107201,
@@ -203403,7 +203403,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 55950
+      "total": 55951
     },
     "anilist": {
       "anilist_id": 20920,
@@ -204236,7 +204236,7 @@
         "percentage": 48
       },
       "average": "3.9",
-      "total": 33932
+      "total": 33933
     },
     "anilist": {
       "anilist_id": 101547,
@@ -204788,7 +204788,7 @@
         "percentage": 77
       },
       "average": "4.3",
-      "total": 59373
+      "total": 59375
     },
     "anilist": {
       "anilist_id": 183661,
@@ -207152,7 +207152,7 @@
         "percentage": 84
       },
       "average": "4.5",
-      "total": 4282
+      "total": 4285
     },
     "anilist": {
       "anilist_id": 190569,
@@ -207441,7 +207441,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 58165
+      "total": 58167
     },
     "anilist": {
       "anilist_id": 187264,
@@ -209665,7 +209665,7 @@
         "percentage": 89
       },
       "average": "4.7",
-      "total": 91260
+      "total": 91261
     },
     "anilist": {
       "anilist_id": 666,
@@ -210796,7 +210796,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 12051
+      "total": 12052
     },
     "anilist": {
       "anilist_id": 177385,
@@ -211395,7 +211395,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 818410
+      "total": 818428
     },
     "anilist": {
       "anilist_id": 113415,
@@ -212220,7 +212220,7 @@
         "percentage": 3
       },
       "3s": {
-        "displayed": "668",
+        "displayed": "669",
         "unit": "",
         "percentage": 6
       },
@@ -212235,7 +212235,7 @@
         "percentage": 75
       },
       "average": "4.5",
-      "total": 11947
+      "total": 11948
     },
     "anilist": {
       "anilist_id": 99940,
@@ -213518,7 +213518,7 @@
         "percentage": 77
       },
       "average": "4.7",
-      "total": 24658
+      "total": 24659
     },
     "anilist": {
       "anilist_id": 21196,
@@ -215184,7 +215184,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 151615
+      "total": 151620
     },
     "anilist": {
       "anilist_id": 101921,
@@ -215753,7 +215753,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 9338
+      "total": 9341
     },
     "anilist": {
       "anilist_id": 204466,
@@ -216326,7 +216326,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 360196
+      "total": 360202
     },
     "anilist": {
       "anilist_id": 153288,
@@ -218762,7 +218762,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "594",
+        "displayed": "595",
         "unit": "",
         "percentage": 2
       },
@@ -218777,7 +218777,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 54727
+      "total": 54734
     },
     "anilist": {
       "anilist_id": 14713,
@@ -220131,7 +220131,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 1442
+      "total": 1443
     },
     "anilist": {
       "anilist_id": 144,
@@ -220621,12 +220621,12 @@
         "percentage": 6
       },
       "5s": {
-        "displayed": "924",
+        "displayed": "925",
         "unit": "",
-        "percentage": 48
+        "percentage": 49
       },
       "average": "3.2",
-      "total": 1926
+      "total": 1927
     },
     "anilist": null
   },
@@ -224616,7 +224616,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 18800
+      "total": 18802
     },
     "anilist": {
       "anilist_id": 114085,
@@ -224895,7 +224895,7 @@
         "percentage": 60
       },
       "average": "4.3",
-      "total": 5351
+      "total": 5352
     },
     "anilist": {
       "anilist_id": 107339,
@@ -226518,7 +226518,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "589",
+        "displayed": "590",
         "unit": "",
         "percentage": 3
       },
@@ -226533,7 +226533,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 20249
+      "total": 20251
     },
     "anilist": {
       "anilist_id": 198113,
@@ -226797,7 +226797,7 @@
         "percentage": 2
       },
       "2s": {
-        "displayed": "399",
+        "displayed": "400",
         "unit": "",
         "percentage": 2
       },
@@ -226817,7 +226817,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 32406
+      "total": 32408
     },
     "anilist": {
       "anilist_id": 18679,
@@ -227850,7 +227850,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 15481
+      "total": 15483
     },
     "anilist": {
       "anilist_id": 6045,
@@ -228939,7 +228939,7 @@
         "percentage": 53
       },
       "average": "4.1",
-      "total": 3919
+      "total": 3920
     },
     "anilist": {
       "anilist_id": 118376,
@@ -229207,7 +229207,7 @@
         "percentage": 92
       },
       "average": "4.8",
-      "total": 27210
+      "total": 27211
     },
     "anilist": {
       "anilist_id": 12031,
@@ -233240,7 +233240,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "881",
+        "displayed": "882",
         "unit": "",
         "percentage": 6
       },
@@ -233255,7 +233255,7 @@
         "percentage": 73
       },
       "average": "4.5",
-      "total": 16778
+      "total": 16779
     },
     "anilist": {
       "anilist_id": 114840,
@@ -234051,7 +234051,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 17383
+      "total": 17384
     },
     "anilist": {
       "anilist_id": 103302,
@@ -234816,7 +234816,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 32461
+      "total": 32462
     },
     "anilist": {
       "anilist_id": 150075,
@@ -235129,7 +235129,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 134091
+      "total": 134098
     },
     "anilist": {
       "anilist_id": 21202,
@@ -236204,7 +236204,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "832",
+        "displayed": "833",
         "unit": "",
         "percentage": 5
       },
@@ -236219,7 +236219,7 @@
         "percentage": 79
       },
       "average": "4.6",
-      "total": 17159
+      "total": 17160
     },
     "anilist": {
       "anilist_id": 182814,
@@ -237863,7 +237863,7 @@
         "percentage": 9
       },
       "4s": {
-        "displayed": "149",
+        "displayed": "150",
         "unit": "",
         "percentage": 17
       },
@@ -237873,7 +237873,7 @@
         "percentage": 64
       },
       "average": "4.2",
-      "total": 929
+      "total": 930
     },
     "anilist": null
   },
@@ -238097,7 +238097,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 31165
+      "total": 31166
     },
     "anilist": {
       "anilist_id": 11771,
@@ -238364,7 +238364,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 14798
+      "total": 14801
     },
     "anilist": {
       "anilist_id": 196029,
@@ -243612,12 +243612,12 @@
         "percentage": 13
       },
       "5s": {
-        "displayed": "713",
+        "displayed": "714",
         "unit": "",
         "percentage": 62
       },
       "average": "4.0",
-      "total": 1165
+      "total": 1166
     },
     "anilist": null
   },
@@ -244394,7 +244394,7 @@
         "percentage": 65
       },
       "average": "4.2",
-      "total": 14650
+      "total": 14652
     },
     "anilist": {
       "anilist_id": 4025,
@@ -245220,7 +245220,7 @@
         "percentage": 67
       },
       "average": "4.2",
-      "total": 5133
+      "total": 5134
     },
     "anilist": {
       "anilist_id": 197754,
@@ -246569,7 +246569,7 @@
         "percentage": 66
       },
       "average": "4.3",
-      "total": 24512
+      "total": 24513
     },
     "anilist": {
       "anilist_id": 134252,
@@ -249441,7 +249441,7 @@
         "percentage": 93
       },
       "average": "4.8",
-      "total": 104700
+      "total": 104707
     },
     "anilist": {
       "anilist_id": 137667,
@@ -251614,12 +251614,12 @@
         "percentage": 17
       },
       "5s": {
-        "displayed": "929",
+        "displayed": "930",
         "unit": "",
         "percentage": 74
       },
       "average": "4.5",
-      "total": 1259
+      "total": 1260
     },
     "anilist": {
       "anilist_id": 16353,
@@ -252968,7 +252968,7 @@
         "percentage": 74
       },
       "average": "4.6",
-      "total": 26087
+      "total": 26088
     },
     "anilist": {
       "anilist_id": 127050,
@@ -253241,7 +253241,7 @@
         "percentage": 73
       },
       "average": "4.5",
-      "total": 14668
+      "total": 14669
     },
     "anilist": {
       "anilist_id": 20520,
@@ -253788,7 +253788,7 @@
         "percentage": 61
       },
       "average": "4.3",
-      "total": 12979
+      "total": 12980
     },
     "anilist": {
       "anilist_id": 21517,
@@ -254058,7 +254058,7 @@
         "percentage": 1
       },
       "4s": {
-        "displayed": "215",
+        "displayed": "216",
         "unit": "",
         "percentage": 3
       },
@@ -254068,7 +254068,7 @@
         "percentage": 97
       },
       "average": "4.9",
-      "total": 9834
+      "total": 9836
     },
     "anilist": {
       "anilist_id": 202269,
@@ -256680,7 +256680,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 62296
+      "total": 62298
     },
     "anilist": {
       "anilist_id": 143270,
@@ -258235,7 +258235,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "436",
+        "displayed": "437",
         "unit": "",
         "percentage": 10
       },
@@ -258260,7 +258260,7 @@
         "percentage": 66
       },
       "average": "4.2",
-      "total": 4626
+      "total": 4628
     },
     "anilist": {
       "anilist_id": 104051,
@@ -261899,12 +261899,12 @@
         "percentage": 16
       },
       "5s": {
-        "displayed": "97",
+        "displayed": "98",
         "unit": "",
-        "percentage": 43
+        "percentage": 44
       },
       "average": "3.5",
-      "total": 226
+      "total": 227
     },
     "anilist": {
       "anilist_id": 21156,
@@ -264292,7 +264292,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 41577
+      "total": 41578
     },
     "anilist": {
       "anilist_id": 171457,
@@ -266685,7 +266685,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 10151
+      "total": 10152
     },
     "anilist": {
       "anilist_id": 21366,
@@ -267764,7 +267764,7 @@
         "percentage": 6
       },
       "2s": {
-        "displayed": "332",
+        "displayed": "333",
         "unit": "",
         "percentage": 2
       },
@@ -267784,7 +267784,7 @@
         "percentage": 82
       },
       "average": "4.6",
-      "total": 31937
+      "total": 31945
     },
     "anilist": {
       "anilist_id": 199547,
@@ -268068,7 +268068,7 @@
         "percentage": 57
       },
       "average": "4.2",
-      "total": 3101
+      "total": 3102
     },
     "anilist": {
       "anilist_id": 115183,
@@ -268911,7 +268911,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 69414
+      "total": 69418
     },
     "anilist": {
       "anilist_id": 21857,
@@ -269226,7 +269226,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 224263
+      "total": 224266
     },
     "anilist": {
       "anilist_id": 151801,
@@ -269517,7 +269517,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 51081
+      "total": 51086
     },
     "anilist": {
       "anilist_id": 181447,
@@ -271170,7 +271170,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 13834
+      "total": 13835
     },
     "anilist": {
       "anilist_id": 179992,
@@ -271447,7 +271447,7 @@
         "percentage": 65
       },
       "average": "4.3",
-      "total": 32811
+      "total": 32813
     },
     "anilist": {
       "anilist_id": 177552,
@@ -271730,7 +271730,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 13415
+      "total": 13416
     },
     "anilist": {
       "anilist_id": 100298,
@@ -272553,7 +272553,7 @@
         "percentage": 3
       },
       "3s": {
-        "displayed": "685",
+        "displayed": "686",
         "unit": "",
         "percentage": 7
       },
@@ -272568,7 +272568,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 10278
+      "total": 10279
     },
     "anilist": {
       "anilist_id": 99000,
@@ -273403,7 +273403,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 30030
+      "total": 30031
     },
     "anilist": {
       "anilist_id": 143327,
@@ -274502,7 +274502,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 36284
+      "total": 36286
     },
     "anilist": {
       "anilist_id": 131083,
@@ -279004,7 +279004,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 14137
+      "total": 14140
     },
     "anilist": {
       "anilist_id": 190704,
@@ -280044,7 +280044,7 @@
         "percentage": 2
       },
       "2s": {
-        "displayed": "725",
+        "displayed": "726",
         "unit": "",
         "percentage": 1
       },
@@ -280064,7 +280064,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 151781
+      "total": 151786
     },
     "anilist": {
       "anilist_id": 21507,
@@ -286166,7 +286166,7 @@
         "percentage": 83
       },
       "average": "4.6",
-      "total": 2116
+      "total": 2117
     },
     "anilist": {
       "anilist_id": 2246,
@@ -286450,7 +286450,7 @@
         "percentage": 70
       },
       "average": "4.5",
-      "total": 19341
+      "total": 19342
     },
     "anilist": {
       "anilist_id": 113286,
@@ -287007,7 +287007,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 136715
+      "total": 136721
     },
     "anilist": {
       "anilist_id": 141949,
@@ -287287,7 +287287,7 @@
         "percentage": 91
       },
       "average": "4.9",
-      "total": 29611
+      "total": 29613
     },
     "anilist": {
       "anilist_id": 114124,
@@ -288617,7 +288617,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 13527
+      "total": 13529
     },
     "anilist": {
       "anilist_id": 162002,
@@ -291080,7 +291080,7 @@
         "percentage": 89
       },
       "average": "4.7",
-      "total": 352481
+      "total": 352529
     },
     "anilist": {
       "anilist_id": 108465,
@@ -293332,7 +293332,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 280021
+      "total": 280033
     },
     "anilist": {
       "anilist_id": 132405,
@@ -293612,7 +293612,7 @@
         "percentage": 62
       },
       "average": "4.3",
-      "total": 25097
+      "total": 25098
     },
     "anilist": {
       "anilist_id": 97863,
@@ -294239,7 +294239,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 454355
+      "total": 454371
     },
     "anilist": {
       "anilist_id": 21459,
@@ -295104,7 +295104,7 @@
         "percentage": 72
       },
       "average": "4.6",
-      "total": 35420
+      "total": 35421
     },
     "anilist": {
       "anilist_id": 14227,
@@ -295371,7 +295371,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 28416
+      "total": 28417
     },
     "anilist": {
       "anilist_id": 20946,
@@ -295656,7 +295656,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 150094
+      "total": 150103
     },
     "anilist": {
       "anilist_id": 154965,
@@ -296218,7 +296218,7 @@
         "percentage": 79
       },
       "average": "4.7",
-      "total": 51658
+      "total": 51659
     },
     "anilist": {
       "anilist_id": 104647,
@@ -296800,7 +296800,7 @@
         "percentage": 46
       },
       "average": "3.3",
-      "total": 11881
+      "total": 11882
     },
     "anilist": {
       "anilist_id": 206951,
@@ -297886,7 +297886,7 @@
         "percentage": 77
       },
       "average": "4.5",
-      "total": 70852
+      "total": 70854
     },
     "anilist": {
       "anilist_id": 186794,
@@ -298704,7 +298704,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 21641
+      "total": 21644
     },
     "anilist": {
       "anilist_id": 155730,
@@ -298987,7 +298987,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 49565
+      "total": 49566
     },
     "anilist": {
       "anilist_id": 148465,
@@ -299513,7 +299513,7 @@
         "percentage": 4
       },
       "3s": {
-        "displayed": "680",
+        "displayed": "681",
         "unit": "",
         "percentage": 8
       },
@@ -299528,7 +299528,7 @@
         "percentage": 67
       },
       "average": "4.3",
-      "total": 9631
+      "total": 9633
     },
     "anilist": {
       "anilist_id": 20984,
@@ -302454,12 +302454,12 @@
         "percentage": 10
       },
       "5s": {
-        "displayed": "106.2",
+        "displayed": "106.3",
         "unit": "K",
         "percentage": 86
       },
       "average": "4.8",
-      "total": 124197
+      "total": 124207
     },
     "anilist": {
       "anilist_id": 20,
@@ -302736,7 +302736,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 243206
+      "total": 243217
     },
     "anilist": {
       "anilist_id": 1735,
@@ -303870,17 +303870,17 @@
         "percentage": 6
       },
       "4s": {
-        "displayed": "586",
+        "displayed": "587",
         "unit": "",
         "percentage": 9
       },
       "5s": {
-        "displayed": "5",
+        "displayed": "5.1",
         "unit": "K",
         "percentage": 70
       },
       "average": "4.2",
-      "total": 7219
+      "total": 7221
     },
     "anilist": {
       "anilist_id": 202102,
@@ -305249,7 +305249,7 @@
         "percentage": 33
       },
       "average": "2.9",
-      "total": 8300
+      "total": 8301
     },
     "anilist": {
       "anilist_id": 97833,
@@ -305815,7 +305815,7 @@
         "percentage": 68
       },
       "average": "4.5",
-      "total": 31281
+      "total": 31283
     },
     "anilist": {
       "anilist_id": 155838,
@@ -306363,7 +306363,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 14414
+      "total": 14415
     },
     "anilist": {
       "anilist_id": 10165,
@@ -307482,7 +307482,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 38485
+      "total": 38486
     },
     "anilist": {
       "anilist_id": 171038,
@@ -307763,7 +307763,7 @@
         "percentage": 63
       },
       "average": "4.4",
-      "total": 32365
+      "total": 32368
     },
     "anilist": {
       "anilist_id": 137909,
@@ -308821,7 +308821,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "76",
+        "displayed": "77",
         "unit": "",
         "percentage": 6
       },
@@ -308843,10 +308843,10 @@
       "5s": {
         "displayed": "868",
         "unit": "",
-        "percentage": 63
+        "percentage": 62
       },
       "average": "4.3",
-      "total": 1399
+      "total": 1400
     },
     "anilist": {
       "anilist_id": 618,
@@ -309990,7 +309990,7 @@
         "percentage": 71
       },
       "average": "4.5",
-      "total": 44077
+      "total": 44078
     },
     "anilist": {
       "anilist_id": 152137,
@@ -310277,7 +310277,7 @@
         "percentage": 75
       },
       "average": "4.5",
-      "total": 34188
+      "total": 34190
     },
     "anilist": {
       "anilist_id": 185993,
@@ -319493,7 +319493,7 @@
         "percentage": 94
       },
       "average": "4.8",
-      "total": 845337
+      "total": 845350
     },
     "anilist": {
       "anilist_id": 21,
@@ -320870,7 +320870,7 @@
         "percentage": 58
       },
       "average": "4.2",
-      "total": 9783
+      "total": 9784
     },
     "anilist": {
       "anilist_id": 187387,
@@ -322409,7 +322409,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 8748
+      "total": 8749
     },
     "anilist": {
       "anilist_id": 20720,
@@ -323214,7 +323214,7 @@
         "percentage": 71
       },
       "average": "4.4",
-      "total": 25180
+      "total": 25181
     },
     "anilist": {
       "anilist_id": 128034,
@@ -323978,34 +323978,34 @@
       "linked_guid": "",
       "availability_notes": "",
       "audio_locales": [
+        "de-DE",
         "ru-RU",
+        "pt-BR",
         "ja-JP",
         "es-ES",
-        "pt-BR",
-        "fr-FR",
-        "de-DE",
         "th-TH",
-        "hi-IN",
+        "en-US",
+        "fr-FR",
         "es-419",
-        "en-US"
+        "hi-IN"
       ],
       "subtitle_locales": [
-        "it-IT",
-        "th-TH",
-        "de-DE",
         "zh-HK",
-        "zh-CN",
-        "ms-MY",
-        "en-US",
-        "id-ID",
-        "ru-RU",
-        "pl-PL",
-        "pt-BR",
         "es-ES",
+        "en-US",
         "vi-VN",
-        "ar-SA",
+        "ms-MY",
         "fr-FR",
-        "es-419"
+        "de-DE",
+        "pt-BR",
+        "id-ID",
+        "es-419",
+        "zh-CN",
+        "th-TH",
+        "it-IT",
+        "ar-SA",
+        "pl-PL",
+        "ru-RU"
       ],
       "series_launch_year": 2023,
       "tenant_categories": [
@@ -324049,7 +324049,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 35933
+      "total": 35942
     },
     "anilist": {
       "anilist_id": 150672,
@@ -325571,7 +325571,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 51259
+      "total": 51260
     },
     "anilist": {
       "anilist_id": 154459,
@@ -325850,7 +325850,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 33721
+      "total": 33722
     },
     "anilist": {
       "anilist_id": 112667,
@@ -326372,7 +326372,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 35784
+      "total": 35785
     },
     "anilist": {
       "anilist_id": 853,
@@ -329574,7 +329574,7 @@
         "percentage": 84
       },
       "average": "4.8",
-      "total": 64165
+      "total": 64166
     },
     "anilist": {
       "anilist_id": 136707,
@@ -330387,7 +330387,7 @@
         "percentage": 4
       },
       "3s": {
-        "displayed": "394",
+        "displayed": "395",
         "unit": "",
         "percentage": 9
       },
@@ -330402,7 +330402,7 @@
         "percentage": 66
       },
       "average": "4.3",
-      "total": 4891
+      "total": 4892
     },
     "anilist": {
       "anilist_id": 202985,
@@ -337886,7 +337886,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 3610
+      "total": 3614
     },
     "anilist": {
       "anilist_id": 203490,
@@ -338155,7 +338155,7 @@
         "percentage": 67
       },
       "average": "4.1",
-      "total": 40458
+      "total": 40461
     },
     "anilist": {
       "anilist_id": 179965,
@@ -339262,7 +339262,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 31678
+      "total": 31680
     },
     "anilist": {
       "anilist_id": 101168,
@@ -339541,7 +339541,7 @@
         "percentage": 44
       },
       "average": "3.1",
-      "total": 11781
+      "total": 11782
     },
     "anilist": {
       "anilist_id": 170936,
@@ -340370,7 +340370,7 @@
         "percentage": 67
       },
       "average": "4.2",
-      "total": 4266
+      "total": 4267
     },
     "anilist": {
       "anilist_id": 98549,
@@ -340656,7 +340656,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 65011
+      "total": 65012
     },
     "anilist": {
       "anilist_id": 177506,
@@ -345984,7 +345984,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 39767
+      "total": 39768
     },
     "anilist": {
       "anilist_id": 163623,
@@ -346265,7 +346265,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 40761
+      "total": 40762
     },
     "anilist": {
       "anilist_id": 99935,
@@ -352744,7 +352744,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 113048
+      "total": 113050
     },
     "anilist": {
       "anilist_id": 199340,
@@ -353017,7 +353017,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 31480
+      "total": 31481
     },
     "anilist": {
       "anilist_id": 142701,
@@ -353285,7 +353285,7 @@
         "percentage": 5
       },
       "4s": {
-        "displayed": "954",
+        "displayed": "955",
         "unit": "",
         "percentage": 15
       },
@@ -353295,7 +353295,7 @@
         "percentage": 79
       },
       "average": "4.7",
-      "total": 6627
+      "total": 6628
     },
     "anilist": {
       "anilist_id": 130549,
@@ -353589,7 +353589,7 @@
         "percentage": 75
       },
       "average": "4.4",
-      "total": 84620
+      "total": 84624
     },
     "anilist": {
       "anilist_id": 169417,
@@ -353907,7 +353907,7 @@
         "percentage": 87
       },
       "average": "4.7",
-      "total": 232978
+      "total": 232988
     },
     "anilist": {
       "anilist_id": 21355,
@@ -354222,7 +354222,7 @@
         "percentage": 58
       },
       "average": "4.0",
-      "total": 52464
+      "total": 52466
     },
     "anilist": {
       "anilist_id": 153360,
@@ -354500,7 +354500,7 @@
         "percentage": 68
       },
       "average": "4.4",
-      "total": 30171
+      "total": 30172
     },
     "anilist": {
       "anilist_id": 142193,
@@ -355328,7 +355328,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 14889
+      "total": 14890
     },
     "anilist": {
       "anilist_id": 97768,
@@ -356155,7 +356155,7 @@
         "percentage": 77
       },
       "average": "4.7",
-      "total": 25565
+      "total": 25566
     },
     "anilist": {
       "anilist_id": 99726,
@@ -357796,7 +357796,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "184",
+        "displayed": "185",
         "unit": "",
         "percentage": 1
       },
@@ -357811,7 +357811,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 30070
+      "total": 30073
     },
     "anilist": {
       "anilist_id": 137662,
@@ -358086,7 +358086,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 23515
+      "total": 23516
     },
     "anilist": {
       "anilist_id": 114065,
@@ -358651,7 +358651,7 @@
         "percentage": 60
       },
       "average": "3.8",
-      "total": 158891
+      "total": 158893
     },
     "anilist": {
       "anilist_id": 113813,
@@ -359459,7 +359459,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "210",
+        "displayed": "211",
         "unit": "",
         "percentage": 2
       },
@@ -359484,7 +359484,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 17370
+      "total": 17373
     },
     "anilist": {
       "anilist_id": 97617,
@@ -360322,7 +360322,7 @@
         "percentage": 93
       },
       "average": "4.8",
-      "total": 8779
+      "total": 8783
     },
     "anilist": {
       "anilist_id": 201514,
@@ -362699,7 +362699,7 @@
         "percentage": 59
       },
       "average": "4.1",
-      "total": 17589
+      "total": 17590
     },
     "anilist": null
   },
@@ -363713,7 +363713,7 @@
         "percentage": 17
       },
       "4s": {
-        "displayed": "162",
+        "displayed": "163",
         "unit": "",
         "percentage": 9
       },
@@ -363723,7 +363723,7 @@
         "percentage": 23
       },
       "average": "2.6",
-      "total": 1892
+      "total": 1893
     },
     "anilist": {
       "anilist_id": 98238,
@@ -364228,7 +364228,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 15902
+      "total": 15903
     },
     "anilist": {
       "anilist_id": 2993,
@@ -367250,7 +367250,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 20386
+      "total": 20387
     },
     "anilist": {
       "anilist_id": 130591,
@@ -368072,7 +368072,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "911",
+        "displayed": "912",
         "unit": "",
         "percentage": 2
       },
@@ -368097,7 +368097,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 65698
+      "total": 65711
     },
     "anilist": {
       "anilist_id": 21613,
@@ -368917,7 +368917,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 10396
+      "total": 10397
     },
     "anilist": {
       "anilist_id": 1254,
@@ -373205,7 +373205,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 29161
+      "total": 29162
     },
     "anilist": {
       "anilist_id": 205,
@@ -374276,7 +374276,7 @@
         "percentage": 71
       },
       "average": "4.5",
-      "total": 3671
+      "total": 3672
     },
     "anilist": {
       "anilist_id": 98217,
@@ -375657,7 +375657,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 26899
+      "total": 26901
     },
     "anilist": {
       "anilist_id": 152765,
@@ -376675,7 +376675,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 22245
+      "total": 22247
     },
     "anilist": {
       "anilist_id": 98503,
@@ -377213,7 +377213,7 @@
         "percentage": 62
       },
       "average": "4.3",
-      "total": 3461
+      "total": 3462
     },
     "anilist": {
       "anilist_id": 21201,
@@ -377775,7 +377775,7 @@
         "percentage": 57
       },
       "average": "4.2",
-      "total": 34480
+      "total": 34481
     },
     "anilist": {
       "anilist_id": 179885,
@@ -378596,7 +378596,7 @@
         "percentage": 63
       },
       "average": "4.3",
-      "total": 4690
+      "total": 4691
     },
     "anilist": {
       "anilist_id": 187989,
@@ -379421,7 +379421,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 76720
+      "total": 76724
     },
     "anilist": {
       "anilist_id": 179966,
@@ -382961,7 +382961,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 112987
+      "total": 112989
     },
     "anilist": {
       "anilist_id": 167152,
@@ -386480,12 +386480,12 @@
         "percentage": 7
       },
       "5s": {
-        "displayed": "177.7",
+        "displayed": "177.8",
         "unit": "K",
         "percentage": 91
       },
       "average": "4.8",
-      "total": 196392
+      "total": 196398
     },
     "anilist": {
       "anilist_id": 151970,
@@ -387529,7 +387529,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 10684
+      "total": 10685
     },
     "anilist": {
       "anilist_id": 148076,
@@ -388629,7 +388629,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 71773
+      "total": 71774
     },
     "anilist": {
       "anilist_id": 127911,
@@ -396557,7 +396557,7 @@
         "percentage": 2
       },
       "2s": {
-        "displayed": "969",
+        "displayed": "970",
         "unit": "",
         "percentage": 1
       },
@@ -396577,7 +396577,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 102834
+      "total": 102839
     },
     "anilist": {
       "anilist_id": 132474,
@@ -397142,7 +397142,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 47095
+      "total": 47096
     },
     "anilist": {
       "anilist_id": 141911,
@@ -398206,7 +398206,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 17729
+      "total": 17730
     },
     "anilist": {
       "anilist_id": 111428,
@@ -399278,12 +399278,12 @@
         "percentage": 3
       },
       "5s": {
-        "displayed": "79.9",
+        "displayed": "80",
         "unit": "K",
         "percentage": 97
       },
       "average": "4.9",
-      "total": 82897
+      "total": 82916
     },
     "anilist": {
       "anilist_id": 196187,
@@ -400077,7 +400077,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 29419
+      "total": 29421
     },
     "anilist": {
       "anilist_id": 21058,
@@ -400637,7 +400637,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 99492
+      "total": 99494
     },
     "anilist": {
       "anilist_id": 103632,
@@ -401777,7 +401777,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 1039103
+      "total": 1039132
     },
     "anilist": {
       "anilist_id": 151807,
@@ -402583,7 +402583,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 12423
+      "total": 12425
     },
     "anilist": {
       "anilist_id": 132126,
@@ -404393,7 +404393,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 45596
+      "total": 45598
     },
     "anilist": {
       "anilist_id": 3588,
@@ -407714,7 +407714,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 33397
+      "total": 33398
     },
     "anilist": {
       "anilist_id": 145728,
@@ -408331,12 +408331,12 @@
         "percentage": 6
       },
       "5s": {
-        "displayed": "394.8",
+        "displayed": "394.9",
         "unit": "K",
         "percentage": 92
       },
       "average": "4.9",
-      "total": 431739
+      "total": 431749
     },
     "anilist": {
       "anilist_id": 140960,
@@ -409162,7 +409162,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 2267
+      "total": 2268
     },
     "anilist": {
       "anilist_id": 113950,
@@ -409425,7 +409425,7 @@
         "percentage": 4
       },
       "3s": {
-        "displayed": "312",
+        "displayed": "313",
         "unit": "",
         "percentage": 10
       },
@@ -409440,7 +409440,7 @@
         "percentage": 61
       },
       "average": "4.3",
-      "total": 3264
+      "total": 3265
     },
     "anilist": {
       "anilist_id": 99424,
@@ -411352,7 +411352,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 17078
+      "total": 17079
     },
     "anilist": {
       "anilist_id": 9253,
@@ -415861,7 +415861,7 @@
         "percentage": 45
       },
       "average": "3.7",
-      "total": 25566
+      "total": 25567
     },
     "anilist": {
       "anilist_id": 140754,
@@ -416931,7 +416931,7 @@
         "percentage": 65
       },
       "average": "4.1",
-      "total": 13335
+      "total": 13336
     },
     "anilist": {
       "anilist_id": 21177,
@@ -418274,7 +418274,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 129879
+      "total": 129886
     },
     "anilist": {
       "anilist_id": 11757,
@@ -419108,7 +419108,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 1491
+      "total": 1492
     },
     "anilist": {
       "anilist_id": 2418,
@@ -420735,7 +420735,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 13990
+      "total": 13991
     },
     "anilist": {
       "anilist_id": 127412,
@@ -421279,7 +421279,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "597",
+        "displayed": "600",
         "unit": "",
         "percentage": 1
       },
@@ -421294,7 +421294,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 72897
+      "total": 72904
     },
     "anilist": {
       "anilist_id": 185407,
@@ -421840,7 +421840,7 @@
         "percentage": 63
       },
       "average": "4.2",
-      "total": 7450
+      "total": 7451
     },
     "anilist": {
       "anilist_id": 117343,
@@ -423155,7 +423155,7 @@
         "percentage": 62
       },
       "average": "4.1",
-      "total": 45127
+      "total": 45129
     },
     "anilist": {
       "anilist_id": 160389,
@@ -423955,7 +423955,7 @@
         "percentage": 61
       },
       "average": "4.1",
-      "total": 1903
+      "total": 1904
     },
     "anilist": {
       "anilist_id": 110130,
@@ -424244,7 +424244,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 33587
+      "total": 33592
     },
     "anilist": {
       "anilist_id": 178005,
@@ -425307,7 +425307,7 @@
         "percentage": 79
       },
       "average": "4.7",
-      "total": 19264
+      "total": 19266
     },
     "anilist": {
       "anilist_id": 154384,
@@ -427458,7 +427458,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 21176
+      "total": 21179
     },
     "anilist": {
       "anilist_id": 176702,
@@ -429375,7 +429375,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 344236
+      "total": 344251
     },
     "anilist": {
       "anilist_id": 101280,
@@ -429681,7 +429681,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 81936
+      "total": 81943
     },
     "anilist": {
       "anilist_id": 162694,
@@ -429961,7 +429961,7 @@
         "percentage": 64
       },
       "average": "4.4",
-      "total": 46919
+      "total": 46921
     },
     "anilist": {
       "anilist_id": 106319,
@@ -430545,7 +430545,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 71025
+      "total": 71026
     },
     "anilist": {
       "anilist_id": 21688,
@@ -430807,7 +430807,7 @@
         "percentage": 1
       },
       "2s": {
-        "displayed": "787",
+        "displayed": "786",
         "unit": "",
         "percentage": 1
       },
@@ -430827,7 +430827,7 @@
         "percentage": 92
       },
       "average": "4.9",
-      "total": 125740
+      "total": 125744
     },
     "anilist": {
       "anilist_id": 143338,
@@ -431352,7 +431352,7 @@
         "percentage": 97
       },
       "average": "4.9",
-      "total": 392518
+      "total": 392531
     },
     "anilist": {
       "anilist_id": 161645,
@@ -431628,7 +431628,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 5743
+      "total": 5744
     },
     "anilist": {
       "anilist_id": 128545,
@@ -431915,7 +431915,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 95841
+      "total": 95843
     },
     "anilist": {
       "anilist_id": 153332,
@@ -432466,7 +432466,7 @@
         "percentage": 57
       },
       "average": "4.2",
-      "total": 22769
+      "total": 22772
     },
     "anilist": {
       "anilist_id": 188487,
@@ -432733,7 +432733,7 @@
         "percentage": 30
       },
       "average": "3.0",
-      "total": 30286
+      "total": 30288
     },
     "anilist": {
       "anilist_id": 166372,
@@ -433010,7 +433010,7 @@
         "percentage": 60
       },
       "average": "3.9",
-      "total": 166018
+      "total": 166026
     },
     "anilist": {
       "anilist_id": 183161,
@@ -433558,7 +433558,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 68509
+      "total": 68515
     },
     "anilist": {
       "anilist_id": 175872,
@@ -434367,7 +434367,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 61773
+      "total": 61774
     },
     "anilist": {
       "anilist_id": 131646,
@@ -434867,7 +434867,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 10238
+      "total": 10244
     },
     "anilist": {
       "anilist_id": 186863,
@@ -435136,7 +435136,7 @@
         "percentage": 8
       },
       "4s": {
-        "displayed": "890",
+        "displayed": "891",
         "unit": "",
         "percentage": 16
       },
@@ -435146,7 +435146,7 @@
         "percentage": 65
       },
       "average": "4.3",
-      "total": 5853
+      "total": 5855
     },
     "anilist": {
       "anilist_id": 196974,
@@ -435923,7 +435923,7 @@
         "percentage": 66
       },
       "average": "4.3",
-      "total": 31678
+      "total": 31680
     },
     "anilist": {
       "anilist_id": 180292,
@@ -436495,7 +436495,7 @@
         "percentage": 77
       },
       "average": "4.5",
-      "total": 82477
+      "total": 82479
     },
     "anilist": {
       "anilist_id": 114121,
@@ -436777,7 +436777,7 @@
         "percentage": 68
       },
       "average": "4.4",
-      "total": 18655
+      "total": 18656
     },
     "anilist": {
       "anilist_id": 174914,
@@ -437862,7 +437862,7 @@
         "percentage": 6
       },
       "4s": {
-        "displayed": "898",
+        "displayed": "899",
         "unit": "",
         "percentage": 10
       },
@@ -437872,7 +437872,7 @@
         "percentage": 79
       },
       "average": "4.6",
-      "total": 9022
+      "total": 9023
     },
     "anilist": {
       "anilist_id": 194742,
@@ -438713,7 +438713,7 @@
         "percentage": 73
       },
       "average": "4.5",
-      "total": 46702
+      "total": 46703
     },
     "anilist": {
       "anilist_id": 15809,
@@ -440799,7 +440799,7 @@
         "percentage": 86
       },
       "average": "4.7",
-      "total": 4136
+      "total": 4139
     },
     "anilist": {
       "anilist_id": 208225,
@@ -441648,7 +441648,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 29220
+      "total": 29221
     },
     "anilist": {
       "anilist_id": 162896,
@@ -441929,7 +441929,7 @@
         "percentage": 84
       },
       "average": "4.6",
-      "total": 18720
+      "total": 18739
     },
     "anilist": {
       "anilist_id": 180136,
@@ -443865,7 +443865,7 @@
         "percentage": 3
       },
       "2s": {
-        "displayed": "125",
+        "displayed": "126",
         "unit": "",
         "percentage": 2
       },
@@ -443875,7 +443875,7 @@
         "percentage": 3
       },
       "4s": {
-        "displayed": "559",
+        "displayed": "560",
         "unit": "",
         "percentage": 6
       },
@@ -443885,7 +443885,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 10404
+      "total": 10410
     },
     "anilist": {
       "anilist_id": 196218,
@@ -444715,7 +444715,7 @@
         "percentage": 77
       },
       "average": "4.6",
-      "total": 28450
+      "total": 28452
     },
     "anilist": {
       "anilist_id": 10620,
@@ -445783,7 +445783,7 @@
         "percentage": 84
       },
       "average": "4.8",
-      "total": 39535
+      "total": 39536
     },
     "anilist": {
       "anilist_id": 129190,
@@ -446321,7 +446321,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 28762
+      "total": 28764
     },
     "anilist": {
       "anilist_id": 160188,
@@ -447117,7 +447117,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 35581
+      "total": 35584
     },
     "anilist": {
       "anilist_id": 182060,
@@ -447398,7 +447398,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 70310
+      "total": 70313
     },
     "anilist": {
       "anilist_id": 155418,
@@ -447974,7 +447974,7 @@
         "percentage": 63
       },
       "average": "4.3",
-      "total": 64567
+      "total": 64569
     },
     "anilist": {
       "anilist_id": 130586,
@@ -448518,7 +448518,7 @@
         "percentage": 44
       },
       "average": "3.8",
-      "total": 29961
+      "total": 29962
     },
     "anilist": {
       "anilist_id": 174043,
@@ -450964,7 +450964,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 45056
+      "total": 45057
     },
     "anilist": {
       "anilist_id": 151252,
@@ -451250,7 +451250,7 @@
         "percentage": 69
       },
       "average": "4.4",
-      "total": 53583
+      "total": 53585
     },
     "anilist": {
       "anilist_id": 148116,
@@ -453623,12 +453623,12 @@
         "percentage": 3
       },
       "3s": {
-        "displayed": "313",
+        "displayed": "314",
         "unit": "",
         "percentage": 6
       },
       "4s": {
-        "displayed": "505",
+        "displayed": "506",
         "unit": "",
         "percentage": 9
       },
@@ -453638,7 +453638,7 @@
         "percentage": 78
       },
       "average": "4.5",
-      "total": 5796
+      "total": 5798
     },
     "anilist": {
       "anilist_id": 169582,
@@ -453912,7 +453912,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 10777
+      "total": 10778
     },
     "anilist": {
       "anilist_id": 185039,
@@ -454201,7 +454201,7 @@
         "percentage": 76
       },
       "average": "4.5",
-      "total": 36006
+      "total": 36008
     },
     "anilist": {
       "anilist_id": 20458,
@@ -456099,7 +456099,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 13763
+      "total": 13771
     },
     "anilist": {
       "anilist_id": 189987,
@@ -456380,7 +456380,7 @@
         "percentage": 56
       },
       "average": "4.0",
-      "total": 15521
+      "total": 15522
     },
     "anilist": {
       "anilist_id": 114108,
@@ -459959,7 +459959,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 17754
+      "total": 17755
     },
     "anilist": {
       "anilist_id": 101972,
@@ -461336,7 +461336,7 @@
         "percentage": 76
       },
       "average": "4.6",
-      "total": 17312
+      "total": 17313
     },
     "anilist": {
       "anilist_id": 114888,
@@ -462164,7 +462164,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 44107
+      "total": 44108
     },
     "anilist": {
       "anilist_id": 177104,
@@ -462951,7 +462951,7 @@
         "percentage": 71
       },
       "average": "4.5",
-      "total": 40142
+      "total": 40143
     },
     "anilist": {
       "anilist_id": 170890,
@@ -463201,7 +463201,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "437",
+        "displayed": "438",
         "unit": "",
         "percentage": 7
       },
@@ -463226,7 +463226,7 @@
         "percentage": 68
       },
       "average": "4.4",
-      "total": 7244
+      "total": 7246
     },
     "anilist": {
       "anilist_id": 126897,
@@ -463439,26 +463439,26 @@
       "linked_guid": "",
       "availability_notes": "",
       "audio_locales": [
-        "th-TH",
-        "ja-JP"
+        "ja-JP",
+        "th-TH"
       ],
       "subtitle_locales": [
-        "zh-CN",
-        "ko-KR",
-        "ru-RU",
-        "de-DE",
-        "ar-SA",
-        "zh-HK",
-        "fr-FR",
-        "id-ID",
-        "en-US",
-        "th-TH",
-        "pt-BR",
-        "ms-MY",
-        "it-IT",
         "es-ES",
+        "fr-FR",
+        "ar-SA",
+        "ms-MY",
+        "zh-HK",
+        "en-US",
+        "pt-BR",
+        "th-TH",
+        "id-ID",
+        "de-DE",
+        "vi-VN",
+        "zh-CN",
+        "it-IT",
         "es-419",
-        "vi-VN"
+        "ko-KR",
+        "ru-RU"
       ],
       "series_launch_year": 2025,
       "tenant_categories": [
@@ -463492,7 +463492,7 @@
         "percentage": 4
       },
       "4s": {
-        "displayed": "473",
+        "displayed": "474",
         "unit": "",
         "percentage": 8
       },
@@ -463502,7 +463502,7 @@
         "percentage": 85
       },
       "average": "4.7",
-      "total": 6089
+      "total": 6090
     },
     "anilist": {
       "anilist_id": 196219,
@@ -463754,12 +463754,12 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "219",
+        "displayed": "220",
         "unit": "",
         "percentage": 2
       },
       "4s": {
-        "displayed": "522",
+        "displayed": "523",
         "unit": "",
         "percentage": 4
       },
@@ -463769,7 +463769,7 @@
         "percentage": 93
       },
       "average": "4.8",
-      "total": 14509
+      "total": 14521
     },
     "anilist": {
       "anilist_id": 194219,
@@ -464036,7 +464036,7 @@
         "percentage": 66
       },
       "average": "4.4",
-      "total": 1635
+      "total": 1636
     },
     "anilist": {
       "anilist_id": 102926,
@@ -464308,7 +464308,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 95088
+      "total": 95090
     },
     "anilist": {
       "anilist_id": 163292,
@@ -466740,7 +466740,7 @@
         "percentage": 66
       },
       "average": "4.4",
-      "total": 65456
+      "total": 65459
     },
     "anilist": {
       "anilist_id": 101759,
@@ -467002,7 +467002,7 @@
         "percentage": 2
       },
       "2s": {
-        "displayed": "667",
+        "displayed": "668",
         "unit": "",
         "percentage": 1
       },
@@ -467022,7 +467022,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 105899
+      "total": 105911
     },
     "anilist": {
       "anilist_id": 103572,
@@ -467876,7 +467876,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 72749
+      "total": 72752
     },
     "anilist": {
       "anilist_id": 144553,
@@ -468184,7 +468184,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 214131
+      "total": 214133
     },
     "anilist": {
       "anilist_id": 99263,
@@ -469489,12 +469489,12 @@
         "percentage": 12
       },
       "5s": {
-        "displayed": "40.8",
+        "displayed": "40.9",
         "unit": "K",
         "percentage": 83
       },
       "average": "4.7",
-      "total": 49347
+      "total": 49349
     },
     "anilist": {
       "anilist_id": 123802,
@@ -471436,7 +471436,7 @@
         "percentage": 51
       },
       "average": "3.9",
-      "total": 15217
+      "total": 15219
     },
     "anilist": {
       "anilist_id": 200769,
@@ -471985,7 +471985,7 @@
         "percentage": 60
       },
       "average": "4.3",
-      "total": 51830
+      "total": 51831
     },
     "anilist": {
       "anilist_id": 129191,
@@ -472265,7 +472265,7 @@
         "percentage": 53
       },
       "average": "4.1",
-      "total": 24478
+      "total": 24480
     },
     "anilist": {
       "anilist_id": 169935,
@@ -473044,7 +473044,7 @@
         "percentage": 76
       },
       "average": "4.5",
-      "total": 24112
+      "total": 24113
     },
     "anilist": {
       "anilist_id": 20678,
@@ -475073,7 +475073,7 @@
         "percentage": 73
       },
       "average": "4.5",
-      "total": 59932
+      "total": 59935
     },
     "anilist": {
       "anilist_id": 183133,
@@ -475570,7 +475570,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 93220
+      "total": 93225
     },
     "anilist": {
       "anilist_id": 147642,
@@ -476101,7 +476101,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "590",
+        "displayed": "591",
         "unit": "",
         "percentage": 6
       },
@@ -476111,7 +476111,7 @@
         "percentage": 4
       },
       "3s": {
-        "displayed": "695",
+        "displayed": "699",
         "unit": "",
         "percentage": 7
       },
@@ -476121,12 +476121,12 @@
         "percentage": 10
       },
       "5s": {
-        "displayed": "8.3",
+        "displayed": "8.4",
         "unit": "K",
         "percentage": 76
       },
       "average": "4.5",
-      "total": 10987
+      "total": 11001
     },
     "anilist": {
       "anilist_id": 197715,
@@ -476398,7 +476398,7 @@
         "percentage": 61
       },
       "average": "4.2",
-      "total": 18415
+      "total": 18416
     },
     "anilist": {
       "anilist_id": 195518,
@@ -476665,12 +476665,12 @@
     },
     "rating": {
       "1s": {
-        "displayed": "926",
+        "displayed": "927",
         "unit": "",
         "percentage": 3
       },
       "2s": {
-        "displayed": "526",
+        "displayed": "525",
         "unit": "",
         "percentage": 2
       },
@@ -476690,7 +476690,7 @@
         "percentage": 81
       },
       "average": "4.6",
-      "total": 31225
+      "total": 31230
     },
     "anilist": {
       "anilist_id": 182483,
@@ -476966,7 +476966,7 @@
         "percentage": 79
       },
       "average": "4.6",
-      "total": 95006
+      "total": 95011
     },
     "anilist": {
       "anilist_id": 186052,
@@ -477248,7 +477248,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 51464
+      "total": 51465
     },
     "anilist": {
       "anilist_id": 156891,
@@ -478649,7 +478649,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 118115
+      "total": 118116
     },
     "anilist": {
       "anilist_id": 129898,
@@ -478915,7 +478915,7 @@
         "percentage": 9
       },
       "4s": {
-        "displayed": "824",
+        "displayed": "826",
         "unit": "",
         "percentage": 13
       },
@@ -478925,7 +478925,7 @@
         "percentage": 67
       },
       "average": "4.2",
-      "total": 6490
+      "total": 6494
     },
     "anilist": {
       "anilist_id": 198409,
@@ -479198,7 +479198,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 128857
+      "total": 128861
     },
     "anilist": {
       "anilist_id": 137908,
@@ -479470,7 +479470,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 32694
+      "total": 32695
     },
     "anilist": {
       "anilist_id": 138882,
@@ -481867,7 +481867,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "226",
+        "displayed": "227",
         "unit": "",
         "percentage": 3
       },
@@ -481882,7 +481882,7 @@
         "percentage": 85
       },
       "average": "4.8",
-      "total": 7868
+      "total": 7870
     },
     "anilist": {
       "anilist_id": 122348,
@@ -482147,12 +482147,12 @@
         "percentage": 3
       },
       "5s": {
-        "displayed": "7",
+        "displayed": "7.1",
         "unit": "K",
         "percentage": 96
       },
       "average": "4.9",
-      "total": 7391
+      "total": 7405
     },
     "anilist": {
       "anilist_id": 188139,
@@ -483765,7 +483765,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 84897
+      "total": 84900
     },
     "anilist": {
       "anilist_id": 156092,
@@ -484618,7 +484618,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 91030
+      "total": 91031
     },
     "anilist": {
       "anilist_id": 114535,
@@ -485383,7 +485383,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "995",
+        "displayed": "996",
         "unit": "",
         "percentage": 3
       },
@@ -485398,7 +485398,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 49589
+      "total": 49590
     },
     "anilist": {
       "anilist_id": 108463,
@@ -486241,7 +486241,7 @@
         "percentage": 74
       },
       "average": "4.6",
-      "total": 94559
+      "total": 94568
     },
     "anilist": {
       "anilist_id": 20605,
@@ -487315,7 +487315,7 @@
         "percentage": 82
       },
       "average": "4.7",
-      "total": 122190
+      "total": 122191
     },
     "anilist": {
       "anilist_id": 120120,
@@ -487578,17 +487578,17 @@
     },
     "rating": {
       "1s": {
-        "displayed": "833",
+        "displayed": "836",
         "unit": "",
         "percentage": 8
       },
       "2s": {
-        "displayed": "269",
+        "displayed": "270",
         "unit": "",
         "percentage": 3
       },
       "3s": {
-        "displayed": "424",
+        "displayed": "425",
         "unit": "",
         "percentage": 4
       },
@@ -487598,12 +487598,12 @@
         "percentage": 8
       },
       "5s": {
-        "displayed": "8.4",
+        "displayed": "8.5",
         "unit": "K",
         "percentage": 79
       },
       "average": "4.5",
-      "total": 10791
+      "total": 10810
     },
     "anilist": {
       "anilist_id": 184356,
@@ -487898,7 +487898,7 @@
         "percentage": 86
       },
       "average": "4.8",
-      "total": 124750
+      "total": 124753
     },
     "anilist": {
       "anilist_id": 151806,
@@ -488718,7 +488718,7 @@
         "percentage": 2
       },
       "3s": {
-        "displayed": "137",
+        "displayed": "138",
         "unit": "",
         "percentage": 5
       },
@@ -488733,7 +488733,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 2781
+      "total": 2782
     },
     "anilist": {
       "anilist_id": 146867,
@@ -489027,7 +489027,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 78852
+      "total": 78855
     },
     "anilist": {
       "anilist_id": 116267,
@@ -490098,7 +490098,7 @@
         "percentage": 75
       },
       "average": "4.5",
-      "total": 49888
+      "total": 49889
     },
     "anilist": {
       "anilist_id": 177474,
@@ -491228,7 +491228,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 128264
+      "total": 128266
     },
     "anilist": {
       "anilist_id": 115230,
@@ -492073,7 +492073,7 @@
         "percentage": 85
       },
       "average": "4.8",
-      "total": 110284
+      "total": 110295
     },
     "anilist": {
       "anilist_id": 142074,
@@ -492953,7 +492953,7 @@
         "percentage": 76
       },
       "average": "4.4",
-      "total": 42430
+      "total": 42431
     },
     "anilist": {
       "anilist_id": 151040,
@@ -495444,7 +495444,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 197433
+      "total": 197439
     },
     "anilist": {
       "anilist_id": 125206,
@@ -497633,7 +497633,7 @@
         "percentage": 77
       },
       "average": "4.3",
-      "total": 38953
+      "total": 38954
     },
     "anilist": {
       "anilist_id": 166700,
@@ -498427,7 +498427,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "468",
+        "displayed": "469",
         "unit": "",
         "percentage": 3
       },
@@ -498452,7 +498452,7 @@
         "percentage": 74
       },
       "average": "4.5",
-      "total": 17725
+      "total": 17728
     },
     "anilist": {
       "anilist_id": 21499,
@@ -498715,7 +498715,7 @@
         "percentage": 3
       },
       "2s": {
-        "displayed": "344",
+        "displayed": "345",
         "unit": "",
         "percentage": 2
       },
@@ -498735,7 +498735,7 @@
         "percentage": 83
       },
       "average": "4.7",
-      "total": 26467
+      "total": 26468
     },
     "anilist": {
       "anilist_id": 164172,
@@ -504044,7 +504044,7 @@
         "percentage": 4
       },
       "2s": {
-        "displayed": "571",
+        "displayed": "572",
         "unit": "",
         "percentage": 2
       },
@@ -504064,7 +504064,7 @@
         "percentage": 79
       },
       "average": "4.6",
-      "total": 43245
+      "total": 43247
     },
     "anilist": {
       "anilist_id": 115113,
@@ -505393,7 +505393,7 @@
         "percentage": 71
       },
       "average": "4.4",
-      "total": 7822
+      "total": 7823
     },
     "anilist": {
       "anilist_id": 3457,
@@ -506545,7 +506545,7 @@
     "type": "series",
     "slug": "",
     "slug_title": "versatile-mage",
-    "last_public": "2026-07-29T02:30:00.000Z",
+    "last_public": "2026-07-28T15:00:00.000Z",
     "images": {
       "poster_tall": [
         [
@@ -506713,22 +506713,22 @@
         "zh-CN"
       ],
       "subtitle_locales": [
-        "ko-KR",
-        "id-ID",
-        "ms-MY",
-        "zh-HK",
         "de-DE",
-        "es-419",
-        "pt-BR",
+        "es-ES",
         "ru-RU",
-        "it-IT",
+        "fr-FR",
+        "pt-BR",
+        "ms-MY",
+        "id-ID",
+        "ko-KR",
         "ar-SA",
+        "zh-CN",
+        "es-419",
         "en-US",
         "th-TH",
         "vi-VN",
-        "zh-CN",
-        "es-ES",
-        "fr-FR"
+        "it-IT",
+        "zh-HK"
       ],
       "series_launch_year": 2016,
       "tenant_categories": [
@@ -506752,7 +506752,7 @@
         "percentage": 37
       },
       "2s": {
-        "displayed": "365",
+        "displayed": "364",
         "unit": "",
         "percentage": 9
       },
@@ -506772,7 +506772,7 @@
         "percentage": 42
       },
       "average": "3.1",
-      "total": 4482
+      "total": 4483
     },
     "anilist": {
       "anilist_id": 206354,
@@ -507013,7 +507013,7 @@
         "percentage": 1
       },
       "3s": {
-        "displayed": "51",
+        "displayed": "52",
         "unit": "",
         "percentage": 2
       },
@@ -507028,7 +507028,7 @@
         "percentage": 92
       },
       "average": "4.8",
-      "total": 3530
+      "total": 3533
     },
     "anilist": {
       "anilist_id": 198709,
@@ -507293,7 +507293,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 54773
+      "total": 54774
     },
     "anilist": {
       "anilist_id": 163076,
@@ -507619,7 +507619,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 130845
+      "total": 130850
     },
     "anilist": {
       "anilist_id": 101348,
@@ -511702,7 +511702,7 @@
         "percentage": 75
       },
       "average": "4.6",
-      "total": 17345
+      "total": 17347
     },
     "anilist": {
       "anilist_id": 112609,
@@ -512790,7 +512790,7 @@
         "percentage": 73
       },
       "average": "4.4",
-      "total": 28680
+      "total": 28683
     },
     "anilist": {
       "anilist_id": 169420,
@@ -513862,7 +513862,7 @@
         "percentage": 78
       },
       "average": "4.6",
-      "total": 13446
+      "total": 13447
     },
     "anilist": {
       "anilist_id": 103900,
@@ -514688,7 +514688,7 @@
         "percentage": 90
       },
       "average": "4.8",
-      "total": 93061
+      "total": 93065
     },
     "anilist": {
       "anilist_id": 107693,
@@ -516833,7 +516833,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "310",
+        "displayed": "311",
         "unit": "",
         "percentage": 6
       },
@@ -516858,7 +516858,7 @@
         "percentage": 77
       },
       "average": "4.5",
-      "total": 5943
+      "total": 5944
     },
     "anilist": {
       "anilist_id": 18245,
@@ -517879,7 +517879,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 87807
+      "total": 87812
     },
     "anilist": {
       "anilist_id": 151847,
@@ -518173,7 +518173,7 @@
         "percentage": 88
       },
       "average": "4.8",
-      "total": 156155
+      "total": 156157
     },
     "anilist": {
       "anilist_id": 163270,
@@ -518748,7 +518748,7 @@
         "percentage": 91
       },
       "average": "4.8",
-      "total": 183426
+      "total": 183440
     },
     "anilist": {
       "anilist_id": 174576,
@@ -519307,7 +519307,7 @@
         "percentage": 94
       },
       "average": "4.9",
-      "total": 96343
+      "total": 96358
     },
     "anilist": {
       "anilist_id": 147105,
@@ -519870,7 +519870,7 @@
         "percentage": 72
       },
       "average": "4.5",
-      "total": 27183
+      "total": 27186
     },
     "anilist": {
       "anilist_id": 180367,
@@ -522361,7 +522361,7 @@
         "percentage": 67
       },
       "average": "4.4",
-      "total": 20652
+      "total": 20653
     },
     "anilist": {
       "anilist_id": 124845,
@@ -525382,7 +525382,7 @@
         "percentage": 80
       },
       "average": "4.7",
-      "total": 16617
+      "total": 16620
     },
     "anilist": {
       "anilist_id": 21860,
@@ -527253,7 +527253,7 @@
         "percentage": 84
       },
       "average": "4.7",
-      "total": 57563
+      "total": 57565
     },
     "anilist": null
   },
@@ -528267,7 +528267,7 @@
         "percentage": 4
       },
       "3s": {
-        "displayed": "790",
+        "displayed": "791",
         "unit": "",
         "percentage": 8
       },
@@ -528282,7 +528282,7 @@
         "percentage": 70
       },
       "average": "4.3",
-      "total": 11279
+      "total": 11280
     },
     "anilist": {
       "anilist_id": 118399,
@@ -529886,7 +529886,7 @@
         "percentage": 89
       },
       "average": "4.8",
-      "total": 57759
+      "total": 57760
     },
     "anilist": {
       "anilist_id": 20770,
@@ -530983,7 +530983,7 @@
         "percentage": 93
       },
       "average": "4.9",
-      "total": 69624
+      "total": 69634
     },
     "anilist": {
       "anilist_id": 184951,
@@ -533160,7 +533160,7 @@
         "percentage": 95
       },
       "average": "4.9",
-      "total": 92362
+      "total": 92366
     },
     "anilist": {
       "anilist_id": 20665,
@@ -534505,7 +534505,7 @@
         "percentage": 76
       },
       "average": "4.4",
-      "total": 3615
+      "total": 3616
     },
     "anilist": {
       "anilist_id": 3972,
@@ -535567,12 +535567,12 @@
         "percentage": 13
       },
       "5s": {
-        "displayed": "1.5",
+        "displayed": "1.6",
         "unit": "K",
         "percentage": 56
       },
       "average": "3.8",
-      "total": 2773
+      "total": 2774
     },
     "anilist": {
       "anilist_id": 10015,
@@ -535825,7 +535825,7 @@
     },
     "rating": {
       "1s": {
-        "displayed": "413",
+        "displayed": "414",
         "unit": "",
         "percentage": 11
       },
@@ -535850,7 +535850,7 @@
         "percentage": 58
       },
       "average": "4.1",
-      "total": 3933
+      "total": 3934
     },
     "anilist": {
       "anilist_id": 97995,
@@ -538059,7 +538059,7 @@
         "percentage": 81
       },
       "average": "4.7",
-      "total": 38989
+      "total": 38990
     },
     "anilist": {
       "anilist_id": 176273,
@@ -538347,7 +538347,7 @@
         "percentage": 87
       },
       "average": "4.8",
-      "total": 95624
+      "total": 95626
     },
     "anilist": {
       "anilist_id": 159831,

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-08-05T00:12:12.552450",
+  "summary": {
+    "total_old": 1993,
+    "total_new": 1992,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G65J2V786",
+      "title": "TALES OF CRESTORIA -THE WAKE OF SIN-"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

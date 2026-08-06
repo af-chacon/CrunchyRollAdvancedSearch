@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-08-06T00:13:13.292912",
+  "summary": {
+    "total_old": 1992,
+    "total_new": 1989,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GQWH0MPNM",
+      "title": "Mongolian Chop Squad"
+    },
+    {
+      "id": "G4PH0WJDQ",
+      "title": "Captain Tsubasa: Junior Youth Arc"
+    },
+    {
+      "id": "GVDHX8Q3P",
+      "title": "Digimon Adventure tri. (Films)"
+    }
+  ],
+  "status_changes": []
+}

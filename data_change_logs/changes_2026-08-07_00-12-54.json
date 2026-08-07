@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-07T00:12:54.893849",
+  "summary": {
+    "total_old": 1989,
+    "total_new": 1988,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00334078",
+      "title": "Overlord: The Sacred Kingdom"
+    }
+  ],
+  "status_changes": []
+}

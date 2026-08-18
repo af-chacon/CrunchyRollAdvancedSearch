@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-08-18T00:13:19.253698",
+  "summary": {
+    "total_old": 1991,
+    "total_new": 1993,
+    "added_count": 2,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GMTE00002913",
+      "title": "Dragon Ball Z: Lord Slug"
+    },
+    {
+      "id": "GR75K121Y",
+      "title": "NINJA SLAYER FROM ANIMATION"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

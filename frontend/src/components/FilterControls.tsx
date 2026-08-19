@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { FilterState, FilterValue, SortType, SortDirection } from '../types'
 import { TriStateFilter } from './TriStateFilter'
-import { formatMaturityRating } from '../utils'
+import { formatLocale, formatMaturityRating } from '../utils'
 
 interface FilterControlsProps {
   filter: FilterState
@@ -15,8 +15,12 @@ interface FilterControlsProps {
   availableStatuses: string[]
   availableStudios: string[]
   availableMaturityRatings: string[]
+  availableAudioLocales: string[]
+  availableSubtitleLocales: string[]
   // Funnel facet counts: how many titles fit each option given the filters
   // applied in the sections above it.
+  audioLocaleCounts: Record<string, number>
+  subtitleLocaleCounts: Record<string, number>
   maturityRatingCounts: Record<string, number>
   genreCounts: Record<string, number>
   contentDescriptorCounts: Record<string, number>
@@ -37,6 +41,10 @@ export function FilterControls({
   availableStatuses,
   availableStudios,
   availableMaturityRatings,
+  availableAudioLocales,
+  availableSubtitleLocales,
+  audioLocaleCounts,
+  subtitleLocaleCounts,
   maturityRatingCounts,
   genreCounts,
   contentDescriptorCounts,
@@ -46,6 +54,8 @@ export function FilterControls({
 }: FilterControlsProps) {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     basic: true,
+    audioLocales: false,
+    subtitleLocales: false,
     maturityRatings: false,
     genres: false,
     contentWarnings: false,
@@ -97,6 +107,26 @@ export function FilterControls({
       newDescriptors[descriptor] = value
     }
     onFilterChange({ ...filter, contentDescriptors: newDescriptors })
+  }
+
+  const handleAudioLocaleChange = (locale: string, value: FilterValue) => {
+    const newAudioLocales = { ...filter.audioLocales }
+    if (value === 'default') {
+      delete newAudioLocales[locale]
+    } else {
+      newAudioLocales[locale] = value
+    }
+    onFilterChange({ ...filter, audioLocales: newAudioLocales })
+  }
+
+  const handleSubtitleLocaleChange = (locale: string, value: FilterValue) => {
+    const newSubtitleLocales = { ...filter.subtitleLocales }
+    if (value === 'default') {
+      delete newSubtitleLocales[locale]
+    } else {
+      newSubtitleLocales[locale] = value
+    }
+    onFilterChange({ ...filter, subtitleLocales: newSubtitleLocales })
   }
 
   const handleMaturityRatingChange = (rating: string, value: FilterValue) => {
@@ -199,6 +229,90 @@ export function FilterControls({
           </div>
         )}
       </div>
+      {availableAudioLocales.length > 0 && (
+        <div className="filter-section">
+          <button
+            type="button"
+            className="section-toggle"
+            onClick={() => toggleSection('audioLocales')}
+          >
+            <div className="section-header">
+              <span className="section-label">Audio Language ({availableAudioLocales.length})</span>
+              {(() => {
+                const { included, excluded } = getFilterCounts(filter.audioLocales)
+                if (included > 0 || excluded > 0) {
+                  return (
+                    <span className="filter-count">
+                      {included > 0 && `${included} inc`}
+                      {included > 0 && excluded > 0 && ', '}
+                      {excluded > 0 && `${excluded} exc`}
+                    </span>
+                  )
+                }
+                return null
+              })()}
+            </div>
+            <span className="toggle-icon">{expandedSections.audioLocales ? '▼' : '▶'}</span>
+          </button>
+          {expandedSections.audioLocales && (
+            <>
+              <p className="filter-hint">Matches titles offering any language you include.</p>
+              <div className="content-descriptors">
+                {availableAudioLocales.map(locale => (
+                  <TriStateFilter
+                    key={locale}
+                    label={`${formatLocale(locale)} (${audioLocaleCounts[locale] || 0})`}
+                    value={filter.audioLocales[locale] || 'default'}
+                    onChange={(value) => handleAudioLocaleChange(locale, value)}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      )}
+      {availableSubtitleLocales.length > 0 && (
+        <div className="filter-section">
+          <button
+            type="button"
+            className="section-toggle"
+            onClick={() => toggleSection('subtitleLocales')}
+          >
+            <div className="section-header">
+              <span className="section-label">Subtitle Language ({availableSubtitleLocales.length})</span>
+              {(() => {
+                const { included, excluded } = getFilterCounts(filter.subtitleLocales)
+                if (included > 0 || excluded > 0) {
+                  return (
+                    <span className="filter-count">
+                      {included > 0 && `${included} inc`}
+                      {included > 0 && excluded > 0 && ', '}
+                      {excluded > 0 && `${excluded} exc`}
+                    </span>
+                  )
+                }
+                return null
+              })()}
+            </div>
+            <span className="toggle-icon">{expandedSections.subtitleLocales ? '▼' : '▶'}</span>
+          </button>
+          {expandedSections.subtitleLocales && (
+            <>
+              <p className="filter-hint">Matches titles offering any language you include.</p>
+              <div className="content-descriptors">
+                {availableSubtitleLocales.map(locale => (
+                  <TriStateFilter
+                    key={locale}
+                    label={`${formatLocale(locale)} (${subtitleLocaleCounts[locale] || 0})`}
+                    value={filter.subtitleLocales[locale] || 'default'}
+                    onChange={(value) => handleSubtitleLocaleChange(locale, value)}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      )}
       {availableMaturityRatings.length > 0 && (
         <div className="filter-section">
           <button

@@ -13,7 +13,10 @@ import {
 // Maturity ratings ordered from least to most restrictive (Crunchyroll cr-tv system)
 const MATURITY_RATING_ORDER = ['ALL', 'PG', '12', '14', '16', '18']
 
-const DEFAULT_FILTER: FilterState = {
+// Built fresh on every call: clearFilters must hand React a new object even
+// when no filter is active, or the state update bails out and the effect that
+// returns the user to page 1 never runs.
+const createDefaultFilter = (): FilterState => ({
   dubbed: 'default',
   subbed: 'default',
   minRating: 0,
@@ -27,7 +30,7 @@ const DEFAULT_FILTER: FilterState = {
   studios: {},
   sortBy: 'alphabetical',
   sortDirection: 'asc'
-}
+})
 
 function App() {
   const [anime, setAnime] = useState<Anime[]>([])
@@ -36,10 +39,10 @@ function App() {
   const [currentPage, setCurrentPage] = useState<number>(1)
   const [itemsPerPage, setItemsPerPage] = useState<number>(16)
   const [dataTimestamp, setDataTimestamp] = useState<string>('')
-  const [filter, setFilter] = useState<FilterState>(DEFAULT_FILTER)
+  const [filter, setFilter] = useState<FilterState>(createDefaultFilter)
 
   const clearFilters = () => {
-    setFilter(DEFAULT_FILTER)
+    setFilter(createDefaultFilter())
     setSearchTerm('')
   }
 

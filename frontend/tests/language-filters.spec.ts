@@ -19,12 +19,17 @@ async function openSection(page: Page, label: string) {
   await section(page, label).locator('.section-toggle').click();
 }
 
-// A single language option, matched on the start of its label so that
-// "English" never picks up "English (India)".
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// A single language option, matched on its whole label -- "Name (count)" -- so
+// that "English" cannot also pick up "English (India)".
 function option(page: Page, sectionLabel: string, language: string): Locator {
+  const label = new RegExp(`^${escapeRegExp(language)} \\(\\d+\\)$`);
   return section(page, sectionLabel)
     .locator('.tri-state-filter')
-    .filter({ has: page.locator('.tri-state-label', { hasText: new RegExp(`^${language} \\(`) }) });
+    .filter({ has: page.locator('.tri-state-label', { hasText: label }) });
 }
 
 // The facet count rendered in an option's label, e.g. "German (215)" -> 215.
@@ -68,10 +73,11 @@ test.describe('Audio and subtitle language filters', () => {
     const labels = await section(page, 'Audio Language').locator('.tri-state-label').allInnerTexts();
 
     expect(labels.length).toBeGreaterThan(0);
-    // A raw code leaking through means the locale is missing from
-    // LANGUAGE_NAMES in src/utils.ts -- add it there.
+    // Display names are capitalised and locale codes are not, which catches any
+    // length of subtag ('ja-JP', 'fil-PH'). A lowercase name means the locale is
+    // missing from LANGUAGE_NAMES in src/utils.ts -- add it there.
     for (const label of labels) {
-      expect(label).not.toMatch(/^[a-z]{2}-[A-Z0-9]+\s/);
+      expect(label.replace(/\s*\(\d+\)$/, '')).toMatch(/^[A-Z]/);
     }
   });
 
@@ -188,6 +194,18 @@ test.describe('Audio and subtitle language filters', () => {
     await openSection(page, 'Audio Language');
     await cycle(page, 'Audio Language', 'Japanese', INCLUDE);
     expect(await resultCount(page)).toBeLessThanOrEqual(searchOnly);
+  });
+
+  test('clear filters returns to the first page even with nothing selected', async ({ page }) => {
+    for (let i = 0; i < 3; i++) {
+      await page.locator('.pagination button', { hasText: 'Next' }).click();
+    }
+    await expect(page.locator('.results-count')).not.toContainText('Page 1 of');
+
+    // Regression guard: clearFilters must hand React a fresh filter object, or
+    // the update bails out and the page-reset effect never runs.
+    await page.locator('.clear-filters-btn').click();
+    await expect(page.locator('.results-count')).toContainText('Page 1 of');
   });
 
   test('clear filters resets both language sections', async ({ page }) => {

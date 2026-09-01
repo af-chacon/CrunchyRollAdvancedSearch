@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import './App.css'
 import { Anime, FilterState, FilterValue } from './types'
-import { UNRATED_MATURITY } from './utils'
+import { UNRATED_MATURITY, formatLocale } from './utils'
 import {
   Header,
   SearchBar,
@@ -13,6 +13,25 @@ import {
 // Maturity ratings ordered from least to most restrictive (Crunchyroll cr-tv system)
 const MATURITY_RATING_ORDER = ['ALL', 'PG', '12', '14', '16', '18']
 
+// Built fresh on every call: clearFilters must hand React a new object even
+// when no filter is active, or the state update bails out and the effect that
+// returns the user to page 1 never runs.
+const createDefaultFilter = (): FilterState => ({
+  dubbed: 'default',
+  subbed: 'default',
+  minRating: 0,
+  audioLocales: {},
+  subtitleLocales: {},
+  maturityRatings: {},
+  contentDescriptors: {},
+  genres: {},
+  tags: {},
+  status: {},
+  studios: {},
+  sortBy: 'alphabetical',
+  sortDirection: 'asc'
+})
+
 function App() {
   const [anime, setAnime] = useState<Anime[]>([])
   const [loading, setLoading] = useState<boolean>(true)
@@ -20,34 +39,10 @@ function App() {
   const [currentPage, setCurrentPage] = useState<number>(1)
   const [itemsPerPage, setItemsPerPage] = useState<number>(16)
   const [dataTimestamp, setDataTimestamp] = useState<string>('')
-  const [filter, setFilter] = useState<FilterState>({
-    dubbed: 'default',
-    subbed: 'default',
-    minRating: 0,
-    maturityRatings: {},
-    contentDescriptors: {},
-    genres: {},
-    tags: {},
-    status: {},
-    studios: {},
-    sortBy: 'alphabetical',
-    sortDirection: 'asc'
-  })
+  const [filter, setFilter] = useState<FilterState>(createDefaultFilter)
 
   const clearFilters = () => {
-    setFilter({
-      dubbed: 'default',
-      subbed: 'default',
-      minRating: 0,
-      maturityRatings: {},
-      contentDescriptors: {},
-      genres: {},
-      tags: {},
-      status: {},
-      studios: {},
-      sortBy: 'alphabetical',
-      sortDirection: 'asc'
-    })
+    setFilter(createDefaultFilter())
     setSearchTerm('')
   }
 
@@ -116,6 +111,21 @@ function App() {
     )
   ).sort()
 
+  // Locale codes are sorted by their display name so the option order stays
+  // stable while facet counts shift. Blank codes appear in the data for a
+  // handful of titles and are not offerable options.
+  const collectLocales = (getLocales: (item: Anime) => string[]) =>
+    Array.from(new Set(anime.flatMap(getLocales).filter(Boolean)))
+      .sort((a, b) => formatLocale(a).localeCompare(formatLocale(b)))
+
+  const availableAudioLocales = collectLocales(
+    item => item.series_metadata?.audio_locales || []
+  )
+
+  const availableSubtitleLocales = collectLocales(
+    item => item.series_metadata?.subtitle_locales || []
+  )
+
   const availableMaturityRatings = Array.from(
     new Set(
       anime
@@ -166,6 +176,27 @@ function App() {
       return (included.length === 0 || included.includes(itemKey)) && !excluded.includes(itemKey)
     }
 
+    // Audio/subtitle languages: a title carries a list of locales, so included
+    // languages use OR semantics (match a title offering any selected language)
+    // while a title offering an excluded language is dropped. Membership is
+    // tested per locale code -- the lists themselves are never compared.
+    const matchesLocales = (
+      locales: string[],
+      filterObj: Record<string, FilterValue>
+    ) => {
+      const included = Object.entries(filterObj)
+        .filter(([, value]) => value === 'include').map(([locale]) => locale)
+      const excluded = Object.entries(filterObj)
+        .filter(([, value]) => value === 'exclude').map(([locale]) => locale)
+      return (included.length === 0 || included.some(locale => locales.includes(locale))) &&
+        !excluded.some(locale => locales.includes(locale))
+    }
+
+    const matchesAudioLocales = (item: Anime) =>
+      matchesLocales(item.series_metadata?.audio_locales || [], filter.audioLocales)
+    const matchesSubtitleLocales = (item: Anime) =>
+      matchesLocales(item.series_metadata?.subtitle_locales || [], filter.subtitleLocales)
+
     // Generic tri-state matcher for the multi-value record filters
     const matchesRecord = (
       item: Anime,
@@ -203,7 +234,9 @@ function App() {
     // section above it (search + basic filters first, studios last).
     const afterSearch = anime.filter(matchesSearch)
     const afterBasic = afterSearch.filter(matchesBasic)
-    const afterMaturity = afterBasic.filter(matchesMaturity)
+    const afterAudioLocales = afterBasic.filter(matchesAudioLocales)
+    const afterSubtitleLocales = afterAudioLocales.filter(matchesSubtitleLocales)
+    const afterMaturity = afterSubtitleLocales.filter(matchesMaturity)
     const afterGenres = afterMaturity.filter(matchesGenres)
     const afterContentDescriptors = afterGenres.filter(matchesContentDescriptors)
     const afterTags = afterContentDescriptors.filter(matchesTags)
@@ -214,7 +247,9 @@ function App() {
     // ignoring that section's own selections, so its counts always sum to the
     // funnel total entering the section.
     const counts = {
-      maturityRatingCounts: countValues(afterBasic, item => [
+      audioLocaleCounts: countValues(afterBasic, item => (item.series_metadata?.audio_locales || []).filter(Boolean)),
+      subtitleLocaleCounts: countValues(afterAudioLocales, item => (item.series_metadata?.subtitle_locales || []).filter(Boolean)),
+      maturityRatingCounts: countValues(afterSubtitleLocales, item => [
         item.series_metadata?.extended_maturity_rating?.rating ?? UNRATED_MATURITY,
       ]),
       genreCounts: countValues(afterMaturity, item => item.anilist?.genres || []),
@@ -285,6 +320,10 @@ function App() {
           availableStatuses={availableStatuses}
           availableStudios={availableStudios}
           availableMaturityRatings={availableMaturityRatings}
+          availableAudioLocales={availableAudioLocales}
+          availableSubtitleLocales={availableSubtitleLocales}
+          audioLocaleCounts={facetCounts.audioLocaleCounts}
+          subtitleLocaleCounts={facetCounts.subtitleLocaleCounts}
           maturityRatingCounts={facetCounts.maturityRatingCounts}
           genreCounts={facetCounts.genreCounts}
           contentDescriptorCounts={facetCounts.contentDescriptorCounts}

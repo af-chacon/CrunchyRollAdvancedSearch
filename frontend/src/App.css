@@ -272,6 +272,18 @@ header h1 {
   }
 }
 
+.filter-hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+@media (prefers-color-scheme: light) {
+  .filter-hint {
+    color: #64748b;
+  }
+}
+
 .content-descriptors {
   display: flex;
   flex-wrap: wrap;

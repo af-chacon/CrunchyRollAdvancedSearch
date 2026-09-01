@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-01T00:10:11.613151",
+  "summary": {
+    "total_old": 1993,
+    "total_new": 1990,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G69PV5EVY",
+      "title": "Hikakin Beatbox"
+    },
+    {
+      "id": "GMTE00107040",
+      "title": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE"
+    },
+    {
+      "id": "GMTE107040",
+      "title": "FINAL FANTASY XV: EPISODE ARDYN – PROLOGUE"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-09-02T00:12:07.228547",
+  "summary": {
+    "total_old": 1990,
+    "total_new": 1997,
+    "added_count": 7,
+    "removed_count": 0,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "GMTE00050834",
+      "title": "Code Geass: Lelouch of the Rebellion I Initiation"
+    },
+    {
+      "id": "GMTE00102664",
+      "title": "Yowamushi Pedal Re:ROAD"
+    },
+    {
+      "id": "GMTE00102665",
+      "title": "Yowamushi Pedal The Movie"
+    },
+    {
+      "id": "GMTE00102663",
+      "title": "Yowamushi Pedal Re:RIDE"
+    },
+    {
+      "id": "GMTE00058614",
+      "title": "Code Geass: Lelouch of the Re;surrection"
+    },
+    {
+      "id": "GMTE00050833",
+      "title": "Code Geass: Lelouch of the Rebellion II Transgression"
+    },
+    {
+      "id": "GMTE00050832",
+      "title": "Code Geass: Lelouch of the Rebellion III Glorification"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    },
+    {
+      "id": "GT00378126",
+      "title": "Victoria of Many Faces",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

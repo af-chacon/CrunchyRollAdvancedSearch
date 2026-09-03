@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-03T00:11:19.240387",
+  "summary": {
+    "total_old": 1997,
+    "total_new": 1990,
+    "added_count": 0,
+    "removed_count": 7,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00102664",
+      "title": "Yowamushi Pedal Re:ROAD"
+    },
+    {
+      "id": "GYKEHW2EG",
+      "title": "Boom Boom Satellites"
+    },
+    {
+      "id": "GMTE00102663",
+      "title": "Yowamushi Pedal Re:RIDE"
+    },
+    {
+      "id": "GVDHXNGXN",
+      "title": "Miyavi"
+    },
+    {
+      "id": "GRQ4WE4GY",
+      "title": "Poyopoyo"
+    },
+    {
+      "id": "GMTE00058614",
+      "title": "Code Geass: Lelouch of the Re;surrection"
+    },
+    {
+      "id": "GMTE00102665",
+      "title": "Yowamushi Pedal The Movie"
+    }
+  ],
+  "status_changes": []
+}

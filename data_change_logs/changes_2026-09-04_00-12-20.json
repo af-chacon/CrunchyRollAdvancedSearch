@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-09-04T00:12:20.448453",
+  "summary": {
+    "total_old": 1990,
+    "total_new": 1986,
+    "added_count": 0,
+    "removed_count": 4,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00050832",
+      "title": "Code Geass: Lelouch of the Rebellion III Glorification"
+    },
+    {
+      "id": "GMTE00050834",
+      "title": "Code Geass: Lelouch of the Rebellion I Initiation"
+    },
+    {
+      "id": "GMTE00050833",
+      "title": "Code Geass: Lelouch of the Rebellion II Transgression"
+    },
+    {
+      "id": "GVDHX853V",
+      "title": "Doctor Elise: The Royal Lady with the Lamp"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-05T00:10:54.515873",
+  "summary": {
+    "total_old": 1986,
+    "total_new": 1986,
+    "added_count": 1,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GZJH3D898",
+      "title": "KamiErabi GOD.app"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G4PH0WJEG",
+      "title": "Gridman Universe"
+    }
+  ],
+  "status_changes": []
+}

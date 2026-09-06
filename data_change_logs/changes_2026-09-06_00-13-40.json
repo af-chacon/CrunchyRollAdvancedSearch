@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-06T00:13:40.262836",
+  "summary": {
+    "total_old": 1986,
+    "total_new": 1985,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GR75K121Y",
+      "title": "NINJA SLAYER FROM ANIMATION"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-08T00:06:06.071664",
+  "summary": {
+    "total_old": 1985,
+    "total_new": 1984,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMEHME7EJ",
+      "title": "Gakuen Heaven"
+    }
+  ],
+  "status_changes": []
+}

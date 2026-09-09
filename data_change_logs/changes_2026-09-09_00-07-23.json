@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-09T00:07:23.079268",
+  "summary": {
+    "total_old": 1984,
+    "total_new": 1979,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYGGVJQ5Y",
+      "title": "Genshiken Second Season"
+    },
+    {
+      "id": "GR49M7GP6",
+      "title": "A Lull in the Sea (Nagi-Asu: Nagi no Asukara)"
+    },
+    {
+      "id": "G6X0P133Y",
+      "title": "KARAKAI JOZU NO TAKAGI-SAN"
+    },
+    {
+      "id": "GRZX4PK4Y",
+      "title": "Chronicles of the Going Home Club"
+    },
+    {
+      "id": "GRNQJ57XR",
+      "title": "Nagi no Asukara (Nagi-Asu: A Lull in the Sea)"
+    }
+  ],
+  "status_changes": []
+}

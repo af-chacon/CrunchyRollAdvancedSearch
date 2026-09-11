@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-11T00:06:09.016650",
+  "summary": {
+    "total_old": 1980,
+    "total_new": 1978,
+    "added_count": 1,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GR19G2W26",
+      "title": "Seiren"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G6K54V11Y",
+      "title": "SANRIO BOYS"
+    },
+    {
+      "id": "G6JQ8GDVR",
+      "title": "Sakura Quest"
+    },
+    {
+      "id": "GY0XH21WK",
+      "title": "Berryz Kobo"
+    }
+  ],
+  "status_changes": []
+}

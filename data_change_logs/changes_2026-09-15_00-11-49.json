@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-15T00:11:49.557821",
+  "summary": {
+    "total_old": 1978,
+    "total_new": 1980,
+    "added_count": 3,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GQWH0MP82",
+      "title": "Big Fish & Begonia"
+    },
+    {
+      "id": "GMEHME81V",
+      "title": "To Every You I've Loved Before"
+    },
+    {
+      "id": "G1XHJV29J",
+      "title": "The Boy and the Beast"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G60X49JGR",
+      "title": "Try Knights"
+    }
+  ],
+  "status_changes": []
+}

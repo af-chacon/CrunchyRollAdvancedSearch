@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-16T00:10:56.194085",
+  "summary": {
+    "total_old": 1980,
+    "total_new": 1980,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 2
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00378125",
+      "title": "The Oblivious Saint Can't Contain Her Power",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00379214",
+      "title": "Crowned in a Hundred Days",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

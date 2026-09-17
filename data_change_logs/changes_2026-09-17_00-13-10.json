@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-09-17T00:13:10.416777",
+  "summary": {
+    "total_old": 1980,
+    "total_new": 1972,
+    "added_count": 2,
+    "removed_count": 10,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GYX0479MR",
+      "title": "BAKUON!!"
+    },
+    {
+      "id": "GY2PQNPMY",
+      "title": "TWOCAR"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR19G2W26",
+      "title": "Seiren"
+    },
+    {
+      "id": "GYMGDK3GY",
+      "title": "Kanojo ga Flag wo Oraretara (If Her Flag Breaks)"
+    },
+    {
+      "id": "GR24JJ086",
+      "title": "BLACKFOX"
+    },
+    {
+      "id": "GMEHME81V",
+      "title": "To Every You I've Loved Before"
+    },
+    {
+      "id": "GQWH0MP82",
+      "title": "Big Fish & Begonia"
+    },
+    {
+      "id": "GR751Q2ZY",
+      "title": "PandoraHearts"
+    },
+    {
+      "id": "GRQWJWPGR",
+      "title": "Akira"
+    },
+    {
+      "id": "G1XHJV29J",
+      "title": "The Boy and the Beast"
+    },
+    {
+      "id": "GJ0H7QG5M",
+      "title": "Mobile Suit Gundam SEED Freedom"
+    },
+    {
+      "id": "GY2P14QEY",
+      "title": "Akame ga Kill!"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

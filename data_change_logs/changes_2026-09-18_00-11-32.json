@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-18T00:11:32.060737",
+  "summary": {
+    "total_old": 1972,
+    "total_new": 1973,
+    "added_count": 2,
+    "removed_count": 1,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "G3KHEVQ95",
+      "title": "Josee, the Tiger and the Fish"
+    },
+    {
+      "id": "G24H1NJQ2",
+      "title": "Human Lost"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GKEH2G7PG",
+      "title": "The Law of Ueki"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378081",
+      "title": "KAIJU GIRL CARAMELISE",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

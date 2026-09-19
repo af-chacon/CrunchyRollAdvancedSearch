@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-09-19T00:13:05.397748",
+  "summary": {
+    "total_old": 1973,
+    "total_new": 1973,
+    "added_count": 2,
+    "removed_count": 2,
+    "status_changes_count": 3
+  },
+  "added": [
+    {
+      "id": "G6758GW4R",
+      "title": "Eureka Seven"
+    },
+    {
+      "id": "G24H1N898",
+      "title": "FLOW"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GZJH3D8P9",
+      "title": "DEMON SLAYER -KIMETSU NO YAIBA- the stage"
+    },
+    {
+      "id": "G4PH0WJNG",
+      "title": "Bloody Escape: Bats out of Hell"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00378124",
+      "title": "The Frontier Lord Begins with Zero Subjects",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371671",
+      "title": "I Became a Legend after My 10 Year-Long Last Stand",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371872",
+      "title": "The Drops of God",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

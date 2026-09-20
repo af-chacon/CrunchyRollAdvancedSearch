@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-20T00:12:49.748032",
+  "summary": {
+    "total_old": 1973,
+    "total_new": 1973,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 8
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00371630",
+      "title": "Daemons of the Shadow Realm",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378096",
+      "title": "Recommendations from Iwamoto-Senpai",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378121",
+      "title": "The Ogre's Bride",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378118",
+      "title": "The Duke's Son Claims He Won't Love Me, Yet Showers Me with Adoration",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378090",
+      "title": "Magical Girl Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378102",
+      "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00377907",
+      "title": "BLACK TORCH",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

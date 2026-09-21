@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-21T00:12:57.821103",
+  "summary": {
+    "total_old": 1973,
+    "total_new": 1973,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 5
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00378075",
+      "title": "Iron Wok Jan",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378059",
+      "title": "Goodbye, Lara",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00371881",
+      "title": "Though I Am an Inept Villainess",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00374357",
+      "title": "The Classroom of a Black Cat and a Witch",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378122",
+      "title": "The World's Strongest Rearguard",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

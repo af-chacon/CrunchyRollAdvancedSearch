@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-21T11:12:46.661812",
+  "summary": {
+    "total_old": 1973,
+    "total_new": 1973,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 5
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GT00378119",
+      "title": "The Insipid Prince's Furtive Grab for the Throne",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378087",
+      "title": "Love Unseen Beneath the Clear Night Sky",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00379182",
+      "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    },
+    {
+      "id": "GT00378120",
+      "title": "Oh Boy, Was I Wrong About Her",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

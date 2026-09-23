@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-23T00:08:49.532667",
+  "summary": {
+    "total_old": 1973,
+    "total_new": 1957,
+    "added_count": 5,
+    "removed_count": 21,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GY5VP557Y",
+      "title": "THE iDOLM@STER"
+    },
+    {
+      "id": "GR9P32VD6",
+      "title": "Gonna Be the Twin-Tail!!"
+    },
+    {
+      "id": "G63KN0DZ6",
+      "title": "Days of Urashimasakatasen"
+    },
+    {
+      "id": "GRPP77VJR",
+      "title": "BURN THE WITCH"
+    },
+    {
+      "id": "GXJHM397N",
+      "title": "Fate/Grand Carnival"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GY8VDGZGY",
+      "title": "Shin Koihime Musou - Otome Tairan"
+    },
+    {
+      "id": "GYGVNVEDY",
+      "title": "Katana Maidens -Tomoshibi"
+    },
+    {
+      "id": "GYX0M3V0R",
+      "title": "Cardfight!! Vanguard Link Joker (Season 3)"
+    },
+    {
+      "id": "GRE51VXX6",
+      "title": "Cardfight!! Vanguard Legion Mate (Season 4)"
+    },
+    {
+      "id": "GXJHM39V0",
+      "title": "Fate/stay night [Heaven's Feel]"
+    },
+    {
+      "id": "GJ0H7QG4K",
+      "title": "GREAT PRETENDER razbliuto"
+    },
+    {
+      "id": "GR197V276",
+      "title": "Children of Ether"
+    },
+    {
+      "id": "G6E51Q71Y",
+      "title": "Mischievous Kiss 2 - Love in Tokyo"
+    },
+    {
+      "id": "GQWH0MP75",
+      "title": "Eureka Seven Hi-Evolution"
+    },
+    {
+      "id": "GDKHZEJ9G",
+      "title": "Pani Poni Dash!"
+    },
+    {
+      "id": "GMTE00002888",
+      "title": "Dragon Age: Dawn of the Seeker"
+    },
+    {
+      "id": "G24H1NJQ2",
+      "title": "Human Lost"
+    },
+    {
+      "id": "G1XHJVWD3",
+      "title": "Mobile Suit Gundam Narrative"
+    },
+    {
+      "id": "GDKHZEJVG",
+      "title": "The Disappearance of Haruhi Suzumiya"
+    },
+    {
+      "id": "GQWH0M1K3",
+      "title": "Manie Manie: Neo Tokyo"
+    },
+    {
+      "id": "GNVHKN9PW",
+      "title": "In This Corner (and Other Corners) of the World"
+    },
+    {
+      "id": "GY2420WPR",
+      "title": "Katana Maidens ~ Mini Toji"
+    },
+    {
+      "id": "GNVHKN9Z2",
+      "title": "Kurayukaba & Kuramerukagari"
+    },
+    {
+      "id": "GEXH3W2Q5",
+      "title": "Hula Fulla Dance"
+    },
+    {
+      "id": "GEXH3W2J5",
+      "title": "Mobile Suit Gundam: Cucuruz Doan's Island"
+    },
+    {
+      "id": "G3KHEV0NW",
+      "title": "MOBILE SUIT GUNDAM THE ORIGIN"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00362362",
+      "title": "Young Ladies Don't Play Fighting Games",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

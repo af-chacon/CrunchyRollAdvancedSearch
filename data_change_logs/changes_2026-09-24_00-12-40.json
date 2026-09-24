@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-09-24T00:12:40.872809",
+  "summary": {
+    "total_old": 1957,
+    "total_new": 1948,
+    "added_count": 2,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G9VHN9DGZ",
+      "title": "Seven Days War"
+    },
+    {
+      "id": "GRQ4WXP1Y",
+      "title": "Mitsudomoe"
+    }
+  ],
+  "removed": [
+    {
+      "id": "G8DHV728E",
+      "title": "Shomin Sample"
+    },
+    {
+      "id": "G6758GW4R",
+      "title": "Eureka Seven"
+    },
+    {
+      "id": "G609GX1M6",
+      "title": "Military!"
+    },
+    {
+      "id": "GR49M8GQ6",
+      "title": "Mahou Shoujo Nante Mouiidesukara"
+    },
+    {
+      "id": "G6MGP0V26",
+      "title": "Hakone-chan"
+    },
+    {
+      "id": "G6JQ2QQER",
+      "title": "Mahou Shoujo? Naria Girls"
+    },
+    {
+      "id": "G24H1N898",
+      "title": "FLOW"
+    },
+    {
+      "id": "GJ0H7Q87Z",
+      "title": "Talentless Nana"
+    },
+    {
+      "id": "GR5VJEX5R",
+      "title": "Mangirl!"
+    },
+    {
+      "id": "GJ0H7Q443",
+      "title": "Kiyo in Kyoto: From the Maiko House"
+    },
+    {
+      "id": "GRGGVXV5R",
+      "title": "Sparrow's Hotel"
+    }
+  ],
+  "status_changes": []
+}

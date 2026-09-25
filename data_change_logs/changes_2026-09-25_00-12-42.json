@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-25T00:12:42.516614",
+  "summary": {
+    "total_old": 1948,
+    "total_new": 1942,
+    "added_count": 2,
+    "removed_count": 8,
+    "status_changes_count": 3
+  },
+  "added": [
+    {
+      "id": "GY5VJWNEY",
+      "title": "Recently, My Sister is Unusual"
+    },
+    {
+      "id": "GRGGVZ0DR",
+      "title": "Servant x Service"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GNVHKNP88",
+      "title": "Sakura Wars the Movie"
+    },
+    {
+      "id": "G24H1NWDM",
+      "title": "Strawberry Prince the Movie"
+    },
+    {
+      "id": "G6X03JPMY",
+      "title": "LiSA TV"
+    },
+    {
+      "id": "G6XJNXZ2R",
+      "title": "Midnight Eye Goku"
+    },
+    {
+      "id": "GG5H5X7DK",
+      "title": "Urusei Yatsura Movies"
+    },
+    {
+      "id": "G24H107GQ",
+      "title": "Sword of the Stranger"
+    },
+    {
+      "id": "GMTE00002104",
+      "title": "BAYONETTA: Bloody Fate"
+    },
+    {
+      "id": "GZJH3D817",
+      "title": "The Roots of To Your Eternity"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00377933",
+      "title": "Dara-san of the Reiwa Era",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00379439",
+      "title": "Mebius Dust",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00378116",
+      "title": "Smoking Behind the Supermarket with You",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

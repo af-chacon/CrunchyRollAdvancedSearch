@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-26T00:12:38.102178",
+  "summary": {
+    "total_old": 1942,
+    "total_new": 1937,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYP85K3KY",
+      "title": "Ai-Mai-Mi"
+    },
+    {
+      "id": "GRDQVM3KY",
+      "title": "Onee-chan ga Kita"
+    },
+    {
+      "id": "GRK5KDJ86",
+      "title": "Lychee Light Club"
+    },
+    {
+      "id": "G69PVZG0Y",
+      "title": "Moritasan wa Mukuchi"
+    },
+    {
+      "id": "GYVNDKK06",
+      "title": "Lilpri"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00371656",
+      "title": "Draw This, Then Die",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

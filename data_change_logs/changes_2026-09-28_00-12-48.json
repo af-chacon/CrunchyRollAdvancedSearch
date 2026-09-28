@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-09-28T00:12:48.429366",
+  "summary": {
+    "total_old": 1937,
+    "total_new": 1925,
+    "added_count": 1,
+    "removed_count": 13,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00384004",
+      "title": "Overgeared"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GY49G03ER",
+      "title": "Straight Title Robot Anime"
+    },
+    {
+      "id": "GYE5MPJ0R",
+      "title": "Boku-no-imoutowa\"Osaka-okan\""
+    },
+    {
+      "id": "GR8DW3J9R",
+      "title": "Love To-LIE-Angle"
+    },
+    {
+      "id": "GRZXQJK3Y",
+      "title": "Aooni The Blue Monster"
+    },
+    {
+      "id": "GYE5ZMXPR",
+      "title": "The Irresponsible Galaxy Tylor"
+    },
+    {
+      "id": "GYE50WQ0R",
+      "title": "Taisho Mebiusline Chicchaisan"
+    },
+    {
+      "id": "GYJQ8G4V6",
+      "title": "Makeruna!! Aku no Gundan!"
+    },
+    {
+      "id": "G63KN0DZ6",
+      "title": "Days of Urashimasakatasen"
+    },
+    {
+      "id": "G63VMJ9DY",
+      "title": "Soul Buster"
+    },
+    {
+      "id": "GR2P0GJKR",
+      "title": "Ai-Mai-Mi Surgical Friends"
+    },
+    {
+      "id": "GR09G930R",
+      "title": "Happy Tree Friends"
+    },
+    {
+      "id": "GYX0479MR",
+      "title": "BAKUON!!"
+    },
+    {
+      "id": "GYPP7D7JY",
+      "title": "Don't Call Us A JUNK GAME!"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-09-29T00:13:40.506782",
+  "summary": {
+    "total_old": 1925,
+    "total_new": 1919,
+    "added_count": 6,
+    "removed_count": 12,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "GJ0H7Q87Z",
+      "title": "Talentless Nana"
+    },
+    {
+      "id": "G63VP0DWY",
+      "title": "The World YAMIZUKAN"
+    },
+    {
+      "id": "GYK5PDM8R",
+      "title": "Re:ZERO -Starting Life in Another World- Shorts"
+    },
+    {
+      "id": "G65VGZZ76",
+      "title": "Time Travel Girl"
+    },
+    {
+      "id": "GR49GQDV6",
+      "title": "Seiken no Blacksmith"
+    },
+    {
+      "id": "GYJQ2WVD6",
+      "title": "WWW.WAGNARIA!!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR9PV4V06",
+      "title": "Hayate the Combat Butler!"
+    },
+    {
+      "id": "GYP85GJ1Y",
+      "title": "You and Me 2"
+    },
+    {
+      "id": "G6793E94Y",
+      "title": "VS Knight Lamune & 40 Fresh"
+    },
+    {
+      "id": "GY190V9ER",
+      "title": "The Prince of Tennis II OVA vs Genius 10"
+    },
+    {
+      "id": "G6P585256",
+      "title": "Hyouka"
+    },
+    {
+      "id": "G5PHNMWWN",
+      "title": "The Prince of Tennis II U-17 World Cup"
+    },
+    {
+      "id": "GRE5KWDX6",
+      "title": "Wooser’s Hand-to-Mouth Life: Phantasmagoric Arc"
+    },
+    {
+      "id": "GW4HM751M",
+      "title": "The Prince of Tennis II Hyotei vs. Rikkai Game of Future"
+    },
+    {
+      "id": "G6ME4XJ4R",
+      "title": "The Sacred Blacksmith"
+    },
+    {
+      "id": "GYNV4Z7JR",
+      "title": "Hakubo"
+    },
+    {
+      "id": "G609QXV76",
+      "title": "Hybrid x Heart Magias Academy Ataraxia"
+    },
+    {
+      "id": "GRZJ073V6",
+      "title": "EAT-MAN '98"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00371851",
+      "title": "LIAR GAME",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

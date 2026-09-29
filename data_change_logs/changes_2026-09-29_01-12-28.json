@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-29T01:12:28.908905",
+  "summary": {
+    "total_old": 1919,
+    "total_new": 1917,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00002351",
+      "title": "Origin: Spirits of the Past"
+    },
+    {
+      "id": "GNVHKN9EW",
+      "title": "A Ninja and an Assassin Under One Roof"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-30T01:12:29.116221",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1915,
+    "added_count": 1,
+    "removed_count": 3,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "GRGGQ914R",
+      "title": "DAIMIDALER: PRINCE VS. PENGUIN EMPIRE"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GRMG1D55R",
+      "title": "Brave Witches"
+    },
+    {
+      "id": "GR0XNW22Y",
+      "title": "Ninja Collection"
+    },
+    {
+      "id": "GRDQNE7GY",
+      "title": "Beyblade: Metal Fusion"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GT00374354",
+      "title": "I Want to Love You Till Your Dying Day",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

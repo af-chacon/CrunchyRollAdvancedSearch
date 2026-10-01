@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-01T00:12:38.403179",
+  "summary": {
+    "total_old": 1915,
+    "total_new": 1904,
+    "added_count": 0,
+    "removed_count": 11,
+    "status_changes_count": 2
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G6K5K358Y",
+      "title": "Nisemonogatari"
+    },
+    {
+      "id": "GYWEMJ1GY",
+      "title": "Monogatari Second Season"
+    },
+    {
+      "id": "GY49M09ZR",
+      "title": "Nekomonogatari Black"
+    },
+    {
+      "id": "G3KHEVD0D",
+      "title": "KIZUMONOGATARI -Koyomi Vamp-"
+    },
+    {
+      "id": "G9VHN9QJ4",
+      "title": "Fafner THE BEYOND"
+    },
+    {
+      "id": "GRNQJ5Z9R",
+      "title": "Ghastly Prince Enma Burning Up"
+    },
+    {
+      "id": "GYW4D15K6",
+      "title": "Steins;Gate 0"
+    },
+    {
+      "id": "G62PE1X86",
+      "title": "Tsukimonogatari"
+    },
+    {
+      "id": "GR09G787R",
+      "title": "OWARIMONOGATARI"
+    },
+    {
+      "id": "GNVHKN9W2",
+      "title": "MONOGATARI Series OFF & MONSTER Season"
+    },
+    {
+      "id": "G3KHEV032",
+      "title": "D4DJ All Mix"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GT00378123",
+      "title": "Tomb Raider King",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

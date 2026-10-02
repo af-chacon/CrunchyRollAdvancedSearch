@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-02T01:12:28.462900",
+  "summary": {
+    "total_old": 1896,
+    "total_new": 1895,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00000017",
+      "title": "King of Thorn"
+    }
+  ],
+  "status_changes": []
+}

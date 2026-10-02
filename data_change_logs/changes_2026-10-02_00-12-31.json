@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-02T00:12:31.923208",
+  "summary": {
+    "total_old": 1904,
+    "total_new": 1896,
+    "added_count": 3,
+    "removed_count": 11,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G8DHVVPP3",
+      "title": "Hell Girl: Two Mirrors"
+    },
+    {
+      "id": "GT00384001",
+      "title": "FX Fighter Kurumi-chan"
+    },
+    {
+      "id": "GY7527GM6",
+      "title": "Show By Rock!!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR09QX10R",
+      "title": "The Galaxy Railways: A Letter from the Abandoned Planet"
+    },
+    {
+      "id": "G4PH0WMN7",
+      "title": "Fairy Tail Movies"
+    },
+    {
+      "id": "GRWE2W42R",
+      "title": "Fushigi Yugi OVA"
+    },
+    {
+      "id": "GEXH3W4G4",
+      "title": "SHOW BY ROCK!! Mashumairesh!!"
+    },
+    {
+      "id": "GRNQ2QMQR",
+      "title": "Junjo Romantica 3"
+    },
+    {
+      "id": "G6P8ZPGK6",
+      "title": "Hell Girl: Fourth Twilight"
+    },
+    {
+      "id": "GY3VKM44R",
+      "title": "The Tower of DRUAGA -the Sword of URUK-"
+    },
+    {
+      "id": "G6VNXNE4R",
+      "title": "PERSONA5 the Animation -THE DAY BREAKERS-"
+    },
+    {
+      "id": "G69VGQX3Y",
+      "title": "LASTEXILE -Fam, the Silver Wing"
+    },
+    {
+      "id": "GYKE2J2MY",
+      "title": "Rainy Cocoa sideG"
+    },
+    {
+      "id": "GYVNX8JQ6",
+      "title": "The Tower of DRUAGA -the Aegis of URUK-"
+    }
+  ],
+  "status_changes": []
+}

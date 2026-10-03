@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-03T00:12:25.675782",
+  "summary": {
+    "total_old": 1895,
+    "total_new": 1900,
+    "added_count": 5,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00383995",
+      "title": "KERORO☆"
+    },
+    {
+      "id": "GT00170402",
+      "title": "MSonic!"
+    },
+    {
+      "id": "GNVHKN9EW",
+      "title": "A Ninja and an Assassin Under One Roof"
+    },
+    {
+      "id": "GT00251651",
+      "title": "Hakuoki ~Demon of the Fleeting Blossom~ (2021)"
+    },
+    {
+      "id": "GT00391092",
+      "title": "IDOLiSH7 the Movie LIVE 4bit BEYOND THE PERiOD"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

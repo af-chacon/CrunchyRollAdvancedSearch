@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-03T17:26:26.396150",
+  "summary": {
+    "total_old": 1900,
+    "total_new": 1906,
+    "added_count": 6,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00384007",
+      "title": "Romelia War Chronicle"
+    },
+    {
+      "id": "GT00371633",
+      "title": "A Tale of the Secret Saint"
+    },
+    {
+      "id": "GT00365619",
+      "title": "VERTEX FORCE"
+    },
+    {
+      "id": "GT00384003",
+      "title": "Magical Explorer"
+    },
+    {
+      "id": "GT00383996",
+      "title": "#I'm Looking for a Zombie"
+    },
+    {
+      "id": "GT00385867",
+      "title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

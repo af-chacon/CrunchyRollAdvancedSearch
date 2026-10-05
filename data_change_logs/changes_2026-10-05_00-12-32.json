@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-05T00:12:32.140785",
+  "summary": {
+    "total_old": 1906,
+    "total_new": 1910,
+    "added_count": 4,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00384000",
+      "title": "From Far Away"
+    },
+    {
+      "id": "GT00385445",
+      "title": "Uncle's Obsession with Cute Things"
+    },
+    {
+      "id": "GT00365562",
+      "title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé"
+    },
+    {
+      "id": "GT00384006",
+      "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

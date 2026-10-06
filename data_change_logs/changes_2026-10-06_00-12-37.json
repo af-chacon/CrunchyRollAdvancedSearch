@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-06T00:12:37.604322",
+  "summary": {
+    "total_old": 1910,
+    "total_new": 1913,
+    "added_count": 5,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G649G581Y",
+      "title": "Gingitsune: Messenger Fox of the Gods"
+    },
+    {
+      "id": "GT00384010",
+      "title": "So What's Wrong with Getting Reborn as a Goblin?"
+    },
+    {
+      "id": "GT00371866",
+      "title": "PSYREN"
+    },
+    {
+      "id": "G6P84X3K6",
+      "title": "Maerchen Maedchen"
+    },
+    {
+      "id": "GT00378072",
+      "title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GMTE00192689",
+      "title": "Hansel and Gretel"
+    },
+    {
+      "id": "GYDQ2NXK6",
+      "title": "Laughing Under the Clouds"
+    }
+  ],
+  "status_changes": []
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-07T00:09:18.206745",
+  "summary": {
+    "total_old": 1913,
+    "total_new": 1916,
+    "added_count": 4,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00384013",
+      "title": "Super Psychic Policeman Chojo"
+    },
+    {
+      "id": "GT00385703",
+      "title": "Battle Spirits [Re] ZEKKAI NO KU"
+    },
+    {
+      "id": "GT00384014",
+      "title": "The Cold Sato-san is Only Sweet to Me"
+    },
+    {
+      "id": "GT00384016",
+      "title": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR3KZZ3ZR",
+      "title": "VIRTUALSAN - LOOKING"
+    }
+  ],
+  "status_changes": []
+}

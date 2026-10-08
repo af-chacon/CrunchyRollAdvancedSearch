@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-10-08T00:12:34.542965",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1922,
+    "added_count": 7,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00384009",
+      "title": "The World's Strongest Witch"
+    },
+    {
+      "id": "GT00385792",
+      "title": "Dandivine"
+    },
+    {
+      "id": "GT00383994",
+      "title": "Magic Knight Rayearth (2026)"
+    },
+    {
+      "id": "GT00391197",
+      "title": "Free! - Take Your Marks"
+    },
+    {
+      "id": "GT00324719",
+      "title": "Cobra the Animation: Time Drive"
+    },
+    {
+      "id": "GT00324705",
+      "title": "Cobra the Animation: The Psychogun"
+    },
+    {
+      "id": "GEXH3W49W",
+      "title": "Cobra the Animation"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GZJH3D0J2",
+      "title": "Bartender"
+    }
+  ],
+  "status_changes": []
+}

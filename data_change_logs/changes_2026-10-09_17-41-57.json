@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-09T17:41:57.265150",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1927,
+    "added_count": 3,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GMTE00002992",
+      "title": "Fullmetal Alchemist: The Conqueror of Shamballa"
+    },
+    {
+      "id": "GT00383999",
+      "title": "Firefly Wedding"
+    },
+    {
+      "id": "GT00383991",
+      "title": "A Certain Dark Item"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GR24JZ886",
+      "title": "Fate/Grand Order",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

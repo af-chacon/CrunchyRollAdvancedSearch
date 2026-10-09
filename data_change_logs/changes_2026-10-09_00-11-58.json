@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-09T00:11:58.137366",
+  "summary": {
+    "total_old": 1922,
+    "total_new": 1924,
+    "added_count": 3,
+    "removed_count": 1,
+    "status_changes_count": 2
+  },
+  "added": [
+    {
+      "id": "GRE5M12P6",
+      "title": "Samurai Flamenco"
+    },
+    {
+      "id": "GY097MQ4Y",
+      "title": "Dog Days"
+    },
+    {
+      "id": "GRNQP873R",
+      "title": "Cardcaptor Sakura"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR2P1P2KR",
+      "title": "Is the Order a Rabbit?"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    },
+    {
+      "id": "G6JQVM3ER",
+      "title": "Case Closed",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

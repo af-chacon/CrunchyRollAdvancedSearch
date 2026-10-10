@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-10T00:13:49.278951",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1924,
+    "added_count": 2,
+    "removed_count": 2,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00383991",
+      "title": "A Certain Dark Item"
+    },
+    {
+      "id": "GT00383999",
+      "title": "Firefly Wedding"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GR24GNVM6",
+      "title": "Vampire Knight"
+    },
+    {
+      "id": "G8DHV7DV0",
+      "title": "Psycho-Pass - The Movie"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GR24JZ886",
+      "title": "Fate/Grand Order",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

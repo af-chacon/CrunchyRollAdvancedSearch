@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-11T00:13:03.329813",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1927,
+    "added_count": 3,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00374496",
+      "title": "Paw & Palaces"
+    },
+    {
+      "id": "GT00383993",
+      "title": "HORROR COLLECTOR"
+    },
+    {
+      "id": "GT00384015",
+      "title": "The Vermilion Mask"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

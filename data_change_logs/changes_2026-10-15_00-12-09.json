@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-15T00:12:09.922292",
+  "summary": {
+    "total_old": 1931,
+    "total_new": 1931,
+    "added_count": 2,
+    "removed_count": 2,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "G63K98PZ6",
+      "title": "One-Punch Man"
+    },
+    {
+      "id": "GT00385648",
+      "title": "The Prince of Tennis Movies"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GG5H5XDJM",
+      "title": "Sorairo Utility"
+    },
+    {
+      "id": "G6DQN9KGR",
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "G6JQVM3ER",
+      "title": "Detective Conan",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

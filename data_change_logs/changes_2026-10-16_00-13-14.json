@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-16T00:13:14.443396",
+  "summary": {
+    "total_old": 1931,
+    "total_new": 1931,
+    "added_count": 0,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GYW4MG9G6",
+      "title": "Rascal Does Not Dream Series",
+      "old_status": "NOT_YET_RELEASED",
+      "new_status": "FINISHED"
+    }
+  ]
+}

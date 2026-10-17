@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-17T00:11:40.390419",
+  "summary": {
+    "total_old": 1931,
+    "total_new": 1926,
+    "added_count": 0,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMTE00102662",
+      "title": "Little Nemo: Adventures in Slumberland"
+    },
+    {
+      "id": "GYNQXJDQY",
+      "title": "SHOKU-KING (Motion Manga)"
+    },
+    {
+      "id": "GY09G9N4Y",
+      "title": "The Diary of Ochibi (Motion Manga)"
+    },
+    {
+      "id": "GRX0MGN76",
+      "title": "MUSHI-SHI"
+    },
+    {
+      "id": "GMTE00111913",
+      "title": "Jin Roh"
+    }
+  ],
+  "status_changes": []
+}

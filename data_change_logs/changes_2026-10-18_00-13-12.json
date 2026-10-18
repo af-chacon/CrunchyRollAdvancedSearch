@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-18T00:13:12.284944",
+  "summary": {
+    "total_old": 1926,
+    "total_new": 1931,
+    "added_count": 5,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G6DK07N7R",
+      "title": "the Garden of sinners"
+    },
+    {
+      "id": "GT00383998",
+      "title": "Dreamland"
+    },
+    {
+      "id": "GXJHM3G47",
+      "title": "Super Dimension Century Orguss"
+    },
+    {
+      "id": "GY75KE906",
+      "title": "Thunderbolt Fantasy"
+    },
+    {
+      "id": "G60914JM6",
+      "title": "TRINITY SEVEN"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

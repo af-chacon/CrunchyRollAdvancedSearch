@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-20T00:10:05.666720",
+  "summary": {
+    "total_old": 1932,
+    "total_new": 1928,
+    "added_count": 1,
+    "removed_count": 5,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GRNQJVMQR",
+      "title": "Wagnaria!!"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GMTE00116631",
+      "title": "Cardcaptor Sakura the Movie 2: The Sealed Card"
+    },
+    {
+      "id": "GMTE00192523",
+      "title": "Kaede New Town"
+    },
+    {
+      "id": "G9VHN9DGZ",
+      "title": "Seven Days War"
+    },
+    {
+      "id": "GMTE00169710",
+      "title": "Kite Liberator"
+    },
+    {
+      "id": "GMTE00193062",
+      "title": "Black Jack The Movie"
+    }
+  ],
+  "status_changes": []
+}

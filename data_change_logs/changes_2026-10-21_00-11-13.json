@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-21T00:11:13.232337",
+  "summary": {
+    "total_old": 1928,
+    "total_new": 1928,
+    "added_count": 2,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "G619XVNEY",
+      "title": "Durarara"
+    },
+    {
+      "id": "GRP585ZQR",
+      "title": "Code Geass - Akito the Exiled"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GMTE00309893",
+      "title": "given: on the other hand"
+    },
+    {
+      "id": "G63K98PZ6",
+      "title": "One-Punch Man"
+    }
+  ],
+  "status_changes": []
+}

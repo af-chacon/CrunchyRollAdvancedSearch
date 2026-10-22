@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-22T00:12:46.098692",
+  "summary": {
+    "total_old": 1928,
+    "total_new": 1924,
+    "added_count": 0,
+    "removed_count": 4,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRGG388WR",
+      "title": "Venus Project -Climax-"
+    },
+    {
+      "id": "G63VW2VWY",
+      "title": "Non Non Biyori"
+    },
+    {
+      "id": "G6DQN778R",
+      "title": "makuranodanshi"
+    },
+    {
+      "id": "GKEH2GQJ5",
+      "title": "Corpse Princess: Shikabane Hime"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

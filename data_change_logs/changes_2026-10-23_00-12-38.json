@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-23T00:12:38.849907",
+  "summary": {
+    "total_old": 1924,
+    "total_new": 1923,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 1
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYWE22KGY",
+      "title": "Investor Z (Motion Manga)"
+    }
+  ],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "RELEASING",
+      "new_status": "FINISHED"
+    }
+  ]
+}

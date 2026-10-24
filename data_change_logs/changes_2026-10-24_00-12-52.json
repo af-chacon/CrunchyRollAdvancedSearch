@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-24T00:12:52.518871",
+  "summary": {
+    "total_old": 1923,
+    "total_new": 1921,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "G6X0K0N7Y",
+      "title": "Daily Lives of High School Boys"
+    },
+    {
+      "id": "G9VHN9DXX",
+      "title": "Gravitation"
+    }
+  ],
+  "status_changes": []
+}

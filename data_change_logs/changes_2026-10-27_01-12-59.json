@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-27T01:12:59.075274",
+  "summary": {
+    "total_old": 1918,
+    "total_new": 1917,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GVDHX85QQ",
+      "title": "The Concierge"
+    }
+  ],
+  "status_changes": []
+}

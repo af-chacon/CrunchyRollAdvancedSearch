@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-27T00:10:45.535181",
+  "summary": {
+    "total_old": 1921,
+    "total_new": 1918,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYJQGMNX6",
+      "title": "Good Luck Girl"
+    },
+    {
+      "id": "GR9P90X16",
+      "title": "A Sister's All You Need."
+    },
+    {
+      "id": "G6J0WJ05R",
+      "title": "Isekai Izakaya: Japanese Food From Another World"
+    }
+  ],
+  "status_changes": []
+}

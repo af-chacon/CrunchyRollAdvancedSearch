@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-28T00:15:20.403703",
+  "summary": {
+    "total_old": 1917,
+    "total_new": 1915,
+    "added_count": 0,
+    "removed_count": 2,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYGG9Z2WY",
+      "title": "Noblesse: Awakening"
+    },
+    {
+      "id": "G3KHEVQ95",
+      "title": "Josee, the Tiger and the Fish"
+    }
+  ],
+  "status_changes": []
+}

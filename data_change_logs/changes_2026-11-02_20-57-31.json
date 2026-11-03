@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-02T20:57:31.172939",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1916,
+    "added_count": 1,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GYG5V5Z4Y",
+      "title": "Merc StoriA: The Apathetic Boy and the Girl in a Bottle"
+    }
+  ],
+  "removed": [
+    {
+      "id": "GRQWE1K7R",
+      "title": "Inukami!"
+    }
+  ],
+  "status_changes": []
+}

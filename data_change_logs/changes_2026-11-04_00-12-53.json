@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-11-04T00:12:53.546619",
+  "summary": {
+    "total_old": 1916,
+    "total_new": 1904,
+    "added_count": 0,
+    "removed_count": 12,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GYMGD89VY",
+      "title": "Barakamon"
+    },
+    {
+      "id": "G63VPE1XY",
+      "title": "Super Gals!"
+    },
+    {
+      "id": "GYP81WDMY",
+      "title": "Lost Universe"
+    },
+    {
+      "id": "GRDQVVNGY",
+      "title": "Kimi ni Todoke - From Me To You"
+    },
+    {
+      "id": "GRK5ZZGW6",
+      "title": "Sasami Magical Girls Club"
+    },
+    {
+      "id": "GR79JXM06",
+      "title": "Blue Seed"
+    },
+    {
+      "id": "GR1XQ92VR",
+      "title": "Conception"
+    },
+    {
+      "id": "G63K9Q9X6",
+      "title": "Nagasarete Airanto"
+    },
+    {
+      "id": "G649D0KPY",
+      "title": "Endride"
+    },
+    {
+      "id": "GRP8PGDWR",
+      "title": "Arakawa Under the Bridge"
+    },
+    {
+      "id": "GR19NK216",
+      "title": "Nisekoi"
+    },
+    {
+      "id": "G65VKEXD6",
+      "title": "The Fruit of Grisaia"
+    }
+  ],
+  "status_changes": []
+}

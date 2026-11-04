@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-04T01:12:45.064588",
+  "summary": {
+    "total_old": 1904,
+    "total_new": 1901,
+    "added_count": 0,
+    "removed_count": 3,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMEHME89G",
+      "title": "xxxHOLiC"
+    },
+    {
+      "id": "G1XHJVW55",
+      "title": "Regalia: The Three Sacred Stars"
+    },
+    {
+      "id": "GZJH3DJ4X",
+      "title": "Peach Girl"
+    }
+  ],
+  "status_changes": []
+}

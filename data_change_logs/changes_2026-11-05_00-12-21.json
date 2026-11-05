@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-05T00:12:21.837137",
+  "summary": {
+    "total_old": 1901,
+    "total_new": 1900,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GQWH0MP44",
+      "title": "Tokyo Ghoul (Live-Action)"
+    }
+  ],
+  "status_changes": []
+}

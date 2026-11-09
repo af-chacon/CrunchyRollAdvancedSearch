@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-09T00:12:45.588488",
+  "summary": {
+    "total_old": 1900,
+    "total_new": 1901,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 0
+  },
+  "added": [
+    {
+      "id": "GT00393376",
+      "title": "Puella Magi Madoka Magica Movies"
+    }
+  ],
+  "removed": [],
+  "status_changes": []
+}

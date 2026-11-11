@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-11T00:12:42.447542",
+  "summary": {
+    "total_old": 1901,
+    "total_new": 1902,
+    "added_count": 1,
+    "removed_count": 0,
+    "status_changes_count": 1
+  },
+  "added": [
+    {
+      "id": "GT00393473",
+      "title": "Suikoden"
+    }
+  ],
+  "removed": [],
+  "status_changes": [
+    {
+      "id": "GG5H5XQK4",
+      "title": "CHIBI MARUKO-CHAN",
+      "old_status": "FINISHED",
+      "new_status": "RELEASING"
+    }
+  ]
+}

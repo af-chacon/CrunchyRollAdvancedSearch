@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-12T00:12:38.702117",
+  "summary": {
+    "total_old": 1902,
+    "total_new": 1901,
+    "added_count": 0,
+    "removed_count": 1,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GRMGPJN3R",
+      "title": "Shingu: Secret of the Stellar Wars"
+    }
+  ],
+  "status_changes": []
+}

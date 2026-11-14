@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-11-14T00:10:20.433839",
+  "summary": {
+    "total_old": 1901,
+    "total_new": 1893,
+    "added_count": 0,
+    "removed_count": 8,
+    "status_changes_count": 0
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "GMEHMMMN9",
+      "title": "ANIMETAL USA"
+    },
+    {
+      "id": "GR19MD406",
+      "title": "Anisong Station"
+    },
+    {
+      "id": "GQWH0NQ4M",
+      "title": "Baby Metal"
+    },
+    {
+      "id": "GR79E1Z36",
+      "title": "Anime Say You Radio Ani Raji"
+    },
+    {
+      "id": "G6NQK7Z36",
+      "title": "Banpresto World Figure Colosseum"
+    },
+    {
+      "id": "GXJHMMJEV",
+      "title": "BDUB The Anime Master"
+    },
+    {
+      "id": "GRNQP873R",
+      "title": "Cardcaptor Sakura"
+    },
+    {
+      "id": "GRQWH14QV",
+      "title": "Adventures in Voice Acting"
+    }
+  ],
+  "status_changes": []
+}

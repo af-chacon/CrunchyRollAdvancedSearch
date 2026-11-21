@@ -28,6 +28,7 @@ Crunchyroll's metadata is often incomplete. We enhance it with data from AniList
 - **Studio Filters**: Filter by animation studio
 - **Status Filters**: Filter by release status (Releasing, Finished, Not Yet Released)
 - **Content Descriptors**: Filter by content warnings
+- **Audio & Subtitle Language Filters**: Find titles by dub or sub language; selecting several matches titles offering any of them
 - **Basic Filters**: Mature content, dubbed, subbed, minimum rating
 
 ### User Experience

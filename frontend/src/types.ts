@@ -67,6 +67,8 @@ export interface FilterState {
   dubbed: FilterValue
   subbed: FilterValue
   minRating: number
+  audioLocales: Record<string, FilterValue>
+  subtitleLocales: Record<string, FilterValue>
   maturityRatings: Record<string, FilterValue>
   contentDescriptors: Record<string, FilterValue>
   genres: Record<string, FilterValue>
